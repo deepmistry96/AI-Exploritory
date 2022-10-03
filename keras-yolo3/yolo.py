@@ -7,8 +7,15 @@ import colorsys
 import os
 from timeit import default_timer as timer
 
+import pdb
+pdb.set_trace()
+
 import numpy as np
-from keras import backend as K
+#from keras import backend as K
+import tensorflow.compat.v1.keras.backend as K
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
+
 from keras.models import load_model
 from keras.layers import Input
 from PIL import Image, ImageFont, ImageDraw
@@ -16,7 +23,7 @@ from PIL import Image, ImageFont, ImageDraw
 from yolo3.model import yolo_eval, yolo_body, tiny_yolo_body
 from yolo3.utils import letterbox_image
 import os
-from keras.utils import multi_gpu_model
+#from keras.utils import multi_gpu_model
 
 class YOLO(object):
     _defaults = {
@@ -72,10 +79,11 @@ class YOLO(object):
             self.yolo_model = tiny_yolo_body(Input(shape=(None,None,3)), num_anchors//2, num_classes) \
                 if is_tiny_version else yolo_body(Input(shape=(None,None,3)), num_anchors//3, num_classes)
             self.yolo_model.load_weights(self.model_path) # make sure model, anchors and classes match
-        else:
-            assert self.yolo_model.layers[-1].output_shape[-1] == \
-                num_anchors/len(self.yolo_model.output) * (num_classes + 5), \
-                'Mismatch between model and given anchor and class sizes'
+        
+        #else:
+           #assert self.yolo_model.layers[-1].output_shape[-1] == \
+            #    num_anchors/len(self.yolo_model.output) * (num_classes + 5), \
+            #    'Mismatch between model and given anchor and class sizes'
 
         print('{} model, anchors, and classes loaded.'.format(model_path))
 
@@ -116,13 +124,8 @@ class YOLO(object):
         image_data /= 255.
         image_data = np.expand_dims(image_data, 0)  # Add batch dimension.
 
-        out_boxes, out_scores, out_classes = self.sess.run(
-            [self.boxes, self.scores, self.classes],
-            feed_dict={
-                self.yolo_model.input: image_data,
-                self.input_image_shape: [image.size[1], image.size[0]],
-                K.learning_phase(): 0
-            })
+
+        out_boxes, out_scores, out_classes = self.sess.run( [self.boxes, self.scores, self.classes], feed_dict={ self.yolo_model.input : image_data,self.input_image_shape : [image.size[1], image.size[0]], K.learning_phase(): 0 })
 
         print('Found {} boxes for {}'.format(len(out_boxes), 'img'))
 
