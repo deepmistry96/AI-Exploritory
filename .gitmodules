@@ -1,4 +1,4 @@
-[submodule "Projects"]
-	path = Projects
+[submodule "atlas-submodule"]
+	path = atlas-submodule
 	url = https://github.com/Caleb5Mathew/Atlas.git
 	branch = Atlas2
