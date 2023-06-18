@@ -1,13 +1,16 @@
 
 
 [submodule "anomalib"]
-	path = anomalib
+	path = subrepos/anomalib
 	url = https://github.com/openvinotoolkit/anomalib
 
 
 
 [submodule "atlas-submodule"]
-	path = atlas-submodule
+	path = subrepos/atlas-submodule
 	url = https://github.com/Caleb5Mathew/Atlas.git
 	branch = Atlas2
  
+[submodule "subrepos/yolov5"]
+	path = subrepos/yolov5
+	url = https://github.com/ultralytics/yolov5
