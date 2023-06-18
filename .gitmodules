@@ -1,11 +1,5 @@
 
 
-[submodule "anomalib"]
-	path = subrepos/anomalib
-	url = https://github.com/openvinotoolkit/anomalib
-
-
-
 [submodule "atlas-submodule"]
 	path = subrepos/atlas-submodule
 	url = https://github.com/Caleb5Mathew/Atlas.git
