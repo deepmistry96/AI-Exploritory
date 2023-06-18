@@ -14,3 +14,9 @@
 [submodule "subrepos/yolov5"]
 	path = subrepos/yolov5
 	url = https://github.com/ultralytics/yolov5
+[submodule "subrepos/privateGPT"]
+	path = subrepos/privateGPT
+	url = https://github.com/imartinez/privateGPT
+[submodule "subrepos/localGPT"]
+	path = subrepos/localGPT
+	url = https://github.com/PromtEngineer/localGPT
