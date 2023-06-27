@@ -66,6 +66,7 @@ class YOLO(object):
         return np.array(anchors).reshape(-1, 2)
 
     def generate(self):
+        pdb.set_trace()
         model_path = os.path.expanduser(self.model_path)
         assert model_path.endswith('.h5'), 'Keras model or weights must be a .h5 file.'
 
@@ -74,7 +75,8 @@ class YOLO(object):
         num_classes = len(self.class_names)
         is_tiny_version = num_anchors==6 # default setting
         try:
-            self.yolo_model = load_model(model_path, compile=False)
+            #self.yolo_model = load_model(model_path, compile=False)
+            self.yolo_model = load_model(os.getcwd() + "\model_data\model.h5", compile=False)
         except:
             self.yolo_model = tiny_yolo_body(Input(shape=(None,None,3)), num_anchors//2, num_classes) \
                 if is_tiny_version else yolo_body(Input(shape=(None,None,3)), num_anchors//3, num_classes)
