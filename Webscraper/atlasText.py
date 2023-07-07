@@ -3,7 +3,7 @@ from PIL import Image, ImageTk
 import os
 import requests
 from bs4 import BeautifulSoup
-import wikipedia
+from wikipedia import summary
 
 
 def display_images(image_folder):
@@ -77,9 +77,20 @@ def fetch_and_display_text(query_word):
     print("Fetched Text Content:")
     print(text_content)
 
+def wiki_search(query_word):
+    # Open write file
+    f = open("wikiresults.txt", "a")
+
+    # Input a search queary and save the results
+    wiki = summary(query_word, auto_suggest=False)
+    print(wiki + '\n')
+    f.write(query_word +':\n' + wiki + '\n\n')
+    print("results saved to wikiresults.txt \n")
+    f.close()
+
 
 # Prompt the user to choose between text or images
-user_choice = input("Enter '1' for text or '2' for images: ")
+user_choice = input("Enter '1' for text, '2' for images, '3' for wikipedia ")
 
 # Prompt the user to enter a query word
 query_word = input("Enter a query word: ")
@@ -93,5 +104,10 @@ elif user_choice == "2":
 
     # Fetch and display the images
     fetch_and_display_images(query_word, max_images)
+elif user_choice == "3":
+    # Fetch from Wikipedia
+    wiki_search(query_word)
+    
+
 else:
     print("Invalid choice. Please enter '1' for text or '2")
