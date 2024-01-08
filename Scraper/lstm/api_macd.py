@@ -1,66 +1,42 @@
-# import requests
-# import pandas as pd
-
-# import pdb
-# pdb.set_trace()
-
-
-# IEX_API_KEY = "pk_771e192b82674c9bb33fa6ae7259f22c"  # Replace with your IEX Cloud API key
-# symbol = "AAPL"  # Replace with your desired ticker
-
-# # IEX Cloud URL for historical data
-# url = f"https://cloud.iexapis.com/stable/stock/{symbol}/intraday-prices?token={IEX_API_KEY}"
-
-# response = requests.get(url)
-
-# try: 
-#     # Convert the response to a DataFrame
-#     data = pd.DataFrame(response.json())
-
-#     if data.empty:
-#         print("No data fetched. Please check the ticker symbol or API availability.")
-#     else:
-#         # Process or analyze the data as needed
-#         print(data.head())  # Print the first few rows of data
-# except Exception as e:
-#     print(f"An error occurred: {e}")
-
 import requests
 import pandas as pd
-import datetime
+import numpy as np
+from datetime import datetime, timedelta
 
-# Set your API key and ticker symbol
-IEX_API_KEY = "pk_771e192b82674c9bb33fa6ae7259f22c"  # Replace with your actual IEX Cloud API key
-symbol = "AAPL"  # Replace with your desired ticker
+POLYGON_API_KEY = "UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr"
+symbol = "AAPL"
+output_file = "historical_hourly_prices.csv"
+market_open = 9.5
+market_close = 16
 
-# Function to fetch data for a single day
-def fetch_data(date):
-    url = f"https://cloud.iexapis.com/stable/stock/{symbol}/intraday-prices?token={IEX_API_KEY}&exactDate={date}"
+def fetch_hourly_prices(date):
+    url = f"https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/hour/{date}/{date}?apiKey={POLYGON_API_KEY}"
     response = requests.get(url)
     if response.status_code == 200:
-        return pd.DataFrame(response.json())
+        json_data = response.json()
+        if 'results' in json_data:
+            df = pd.DataFrame(json_data['results'])
+            df['datetime'] = pd.to_datetime(df['t'], unit='ms')
+            df = df.set_index('datetime').between_time(f'{int(market_open)}:30', f'{int(market_close)}:00')
+            return df['c'].values  # Extract only closing prices
+        else:
+            return np.array([])
     else:
-        print(f"Error fetching data for {date}: {response.status_code}")
-        return pd.DataFrame()
+        return np.array([])
 
-# Initialize an empty DataFrame to store all data
-all_data = pd.DataFrame()
+start_date = datetime.now() - timedelta(days=6*30)
+hourly_prices = []
 
-# Calculate the date range for the past year
-end_date = datetime.date.today()
-start_date = end_date - datetime.timedelta(days=1)
+while start_date < datetime.now():
+    if start_date.weekday() < 5:  # Skip weekends
+        date_str = start_date.strftime('%Y-%m-%d')
+        daily_prices = fetch_hourly_prices(date_str)
+        hourly_prices.extend(daily_prices)
+    start_date += timedelta(days=1)
 
-# Generate a list of dates in the range
-date_range = pd.date_range(start=start_date, end=end_date, freq='D')
+# Convert the list to a NumPy array
+hourly_prices_array = np.array(hourly_prices)
 
-# Loop over each date, fetch data, and append it to the DataFrame
-for single_date in date_range:
-    date_str = single_date.strftime("%Y%m%d")
-    daily_data = fetch_data(date_str)
-    all_data = pd.concat([all_data, daily_data], ignore_index=True)
-
-# Export the data to a CSV file
-all_data.to_csv("stock_data.csv", index=False)
-
-print("Data retrieval complete. Check the 'stock_data.csv' file.")
-
+# Save to CSV
+pd.DataFrame({'Hourly Prices': hourly_prices_array}).to_csv(output_file, index=False)
+print(f"Data written to {output_file}")
