@@ -4,6 +4,7 @@ from collections import Counter
 import string
 import random
 
+
 # Load the spaCy model outside of the function to avoid reloading it multiple times
 nlp = spacy.load("en_core_web_sm")
 
@@ -20,15 +21,18 @@ def read_and_process_file_for_word2vec(file_path):
 word2vec_dataset = read_and_process_file_for_word2vec("nflx.txt")
 word2vec = Word2Vec(word2vec_dataset, min_count=1, workers=4)  # Using multiple workers for faster training
 
+
 def calculate_word_weights(paragraph):
     doc = nlp(paragraph.lower())
     weights = Counter()
     for i, token in enumerate(doc):
         if not token.is_stop and token.pos_ in ['NOUN', 'PROPN', 'ADJ', 'VERB'] and token.text in word2vec.wv:
+
             neighbors = [doc[j].text for j in range(max(0, i - 1), min(len(doc), i + 2)) if j != i]
             weights[token.text] += sum(word2vec.wv.similarity(token.text, neighbor) 
                                        for neighbor in neighbors if neighbor in word2vec.wv)
     return weights
+
 
 def generate_questions(paragraph):
     questions = []
@@ -38,6 +42,7 @@ def generate_questions(paragraph):
     if top_word:
         questions.append(f"What is the significance of '{top_word}' in: '{paragraph}'?\n")
     
+
     nouns = extract_nouns(paragraph)
     for noun in nouns:
         questions.append(f"How does {noun} impact the analysis in the context: '{paragraph}'?\n")
@@ -64,6 +69,7 @@ def read_paragraphs(file_path):
 def write_to_file(questions, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         for question in questions:
+
             file.write(question)
 
 def main(input_file, output_file1, output_file2):
@@ -72,6 +78,7 @@ def main(input_file, output_file1, output_file2):
     word2vec_questions = []
 
     for paragraph in paragraphs:
+
         questions = generate_questions(paragraph)
         all_questions.extend(questions)
         
