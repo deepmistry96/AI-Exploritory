@@ -8,27 +8,34 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from sklearn.model_selection import train_test_split
-import pytz
 
-import pdb
-pdb.set_trace()
-
+#CONSTANTS
 # Polygon API for data fetching
 POLYGON_API_KEY = "UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr"
 # symbol = "AAPL"
-symbol = ""
-while symbol == "":
-    symbol = input("Enter the stock ticker that you want to infrence on (APPL)")
-
 market_open = 9.5
 market_close = 16
+hourly_prices = 0
+
+
+
+#VARIABLES
+symbol = "APPL"
+date = 0
+start_date="2024-01-01"
+end_date="2024-01-01"
+
+
+#Helper Functions
 
 # Function to fetch hourly prices
-def fetch_hourly_prices(date):
-    print("Fetching data for the following time" + date)
+def fetch_hourly_prices(symbol, date_start, date_end):
+    print("Fetching data from {} till {}".format(date_start, date_end ))
 
-    url = f"https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/hour/{date}/{date}?apiKey={POLYGON_API_KEY}"
-    response = requests.get(url)
+    #sample: https://api.polygon.io/v2/aggs/ticker/APPL/range/1/hour/2023-07-12/2023-07-12?apiKey=UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr
+    url = f"https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/hour/{date_start}/{date_end}?apiKey={POLYGON_API_KEY}"
+    
+    response = requests.get(url)    
     if response.status_code == 200:
         json_data = response.json()
         if 'results' in json_data:
@@ -40,52 +47,57 @@ def fetch_hourly_prices(date):
             return np.array([])
     else:
         return np.array([])
-
+    
+    
 # Function to create a unique file name
 def create_unique_file_name(base_name, extension, counter):
-    return f"{base_name}{counter}{extension}" if counter > 0 else f"{base_name}{extension}"
+    return f"{base_name}{counter}{extension}" if counter > 0 else f"{base_name}{extension}"   
+
 
 # Fetch and write prices to a CSV file
-start_date = datetime.now() - timedelta(days=6*30)
-hourly_prices = []
+def write_to_file(symbol, date_start, date_end):
+    # Fetch and write prices to a CSV file
+    start_date = datetime.now() - timedelta(days=6*30)
+    hourly_prices = []
 
-while start_date < datetime.now():
-    if start_date.weekday() < 5:  # Skip weekends
-        date_str = start_date.strftime('%Y-%m-%d')
-        daily_prices = fetch_hourly_prices(date_str)
-        hourly_prices.extend(daily_prices)
-    start_date += timedelta(days=1)
+    while start_date < datetime.now():
+        if start_date.weekday() < 5:  # Skip weekends
+            date_str = start_date.strftime('%Y-%m-%d')
+            daily_prices = fetch_hourly_prices(date_str)
+            hourly_prices.extend(daily_prices)
+        start_date += timedelta(days=1)
 
-# Check for unique file name
-base_file_name = f'{symbol}_prices'
-file_extension = '.csv'
-file_counter = 0
+    # Check for unique file name
+    base_file_name = f'{symbol}_prices'
+    file_extension = '.csv'
+    file_counter = 0
 
-while True:
-    csv_file_name = create_unique_file_name(base_file_name, file_extension, file_counter)
-    if not os.path.exists(csv_file_name):
-        break
-    file_counter += 1
+    while True:
+        csv_file_name = create_unique_file_name(base_file_name, file_extension, file_counter)
+        if not os.path.exists(csv_file_name):
+            break
+        file_counter += 1
 
-# Write prices to the CSV file
-with open(csv_file_name, mode='w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(['Price'])  # Writing header
-    for price in hourly_prices:
-        writer.writerow([price])
+    # Write prices to the CSV file
+    with open(csv_file_name, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Price'])  # Writing header
+        for price in hourly_prices:
+            writer.writerow([price])
 
-print(f"Prices written to {csv_file_name}")
-
-
-start_date = datetime.now() - timedelta(days=6*30)
+    print(f"Prices written to {csv_file_name}")
 
 
-while start_date < datetime.now():
-    if start_date.weekday() < 5:  # Skip weekends
-        date_str = start_date.strftime('%Y-%m-%d')
-        daily_prices = fetch_hourly_prices(date_str)
-        hourly_prices.extend(daily_prices)
-    start_date += timedelta(days=1)
+    start_date = datetime.now() - timedelta(days=6*30)
+
+
+    while start_date < datetime.now():
+        if start_date.weekday() < 5:  # Skip weekends
+            date_str = start_date.strftime('%Y-%m-%d')
+            daily_prices = fetch_hourly_prices(date_str)
+            hourly_prices.extend(daily_prices)
+        start_date += timedelta(days=1)
+
 
 # Prepare data for LSTM
 def prepare_data_for_lstm(prices, time_steps=90):
@@ -104,10 +116,9 @@ def prepare_data_for_lstm(prices, time_steps=90):
     
     return np.array(X), np.array(y), scaler
 
-if hourly_prices:
-    print(f"Fetched {len(hourly_prices)} price points.")
-    X, y, scaler = prepare_data_for_lstm(hourly_prices)
 
+def inference_lstm():
+    X, y, scaler = prepare_data_for_lstm(hourly_prices)
     if X.size > 0 and y.size > 0:
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
         #Tweak: Experiment with different ratios like 0.3 or 0.1.
@@ -162,13 +173,12 @@ if hourly_prices:
 
 
 
-
+#Main function
 if __name__ == "__main__":
     print("running main ")
-
-
-
-
-
+    import pdb
+    pdb.set_trace()
+    fetch_hourly_prices(symbol, start_date, end_date)
+    write_to_file(symbol, start_date, end_date)
 
 
