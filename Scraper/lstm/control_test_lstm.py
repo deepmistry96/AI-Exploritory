@@ -9,6 +9,11 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from sklearn.model_selection import train_test_split
 import pytz
+import tensorflow as tf
+
+np.random.seed(42)
+tf.random.set_seed(42)
+
 
 POLYGON_API_KEY = "UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr"
 symbol = "AAPL"
@@ -51,7 +56,7 @@ hourly_prices = df['Price'].to_numpy()
 if hourly_prices.size > 0:
     X, y, scaler = prepare_data_for_lstm(hourly_prices)
     if X.size > 0 and y.size > 0:
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
         X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))
         X_test = X_test.reshape((X_test.shape[0], X_test.shape[1], 1))
 
@@ -66,7 +71,7 @@ if hourly_prices.size > 0:
         model.fit(X_train, y_train, epochs=50, batch_size=32)
 
         # Set the time until 4 PM to be always 2 hours and 30 minutes
-        hours_ahead = 3.5
+        hours_ahead = 2.5
         future_steps = int(hours_ahead * 60 / 60)  # Convert hours to the number of steps
 
         # Predict next price
