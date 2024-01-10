@@ -36,11 +36,11 @@ def fetch_hourly_prices(date):
         return np.array([])
 
 # Read data from a specific file
-csv_file_name = 'AAPL_prices3.csv'
+csv_file_name = '/Users/calebm/AI-Exploritory/Scraper/lstm/datasets/AMZN_2_hours_till_close.csv'
 df = pd.read_csv(csv_file_name)
 
 # Prepare data for LSTM
-def prepare_data_for_lstm(prices, time_steps=30):
+def prepare_data_for_lstm(prices, time_steps=120):
     prices = np.array(prices).reshape(-1, 1)
     scaler = MinMaxScaler(feature_range=(0, 1))
     scaled_prices = scaler.fit_transform(prices)
@@ -71,7 +71,7 @@ if hourly_prices.size > 0:
         model.fit(X_train, y_train, epochs=50, batch_size=32)
 
         # Set the time until 4 PM to be always 2 hours and 30 minutes
-        hours_ahead = 2.5
+        hours_ahead = 2
         future_steps = int(hours_ahead * 60 / 60)  # Convert hours to the number of steps
 
         # Predict next price
