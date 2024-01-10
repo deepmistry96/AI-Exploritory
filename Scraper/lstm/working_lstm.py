@@ -12,7 +12,7 @@ import pytz
 
 # Polygon API for data fetching
 POLYGON_API_KEY = "UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr"
-symbol = "AAPL"
+symbol = input('Enter Stock Ticker Here: ')
 market_open = 9.5
 market_close = 16
 
