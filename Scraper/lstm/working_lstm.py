@@ -79,7 +79,7 @@ while start_date < datetime.now():
     start_date += timedelta(days=1)
 
 # Prepare data for LSTM
-def prepare_data_for_lstm(prices, time_steps=90):
+def prepare_data_for_lstm(prices, time_steps=120):
     #Tweak: Try different time steps like 30, 90, or 120.
     #This defines how many past hours the model looks at to make a prediction. A larger window might 
     #capture more trends but could also introduce noise.
@@ -100,7 +100,7 @@ if hourly_prices:
     X, y, scaler = prepare_data_for_lstm(hourly_prices)
 
     if X.size > 0 and y.size > 0:
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
         #Tweak: Experiment with different ratios like 0.3 or 0.1.
         #A larger test set gives a better idea of how the model performs on unseen data, but reduces the data available for training.
         X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))
