@@ -718,3 +718,723 @@ All predictions:,152.04369,152.26039,152.46643,151.19263,152.14508,151.85426,152
 Average Predicted Price: 151.97
 Standard Deviation: 0.35
 
+Run 1 prediction: 184.43
+Run 2 prediction: 184.09
+Run 3 prediction: 184.35
+Run 4 prediction: 184.50
+Run 5 prediction: 184.44
+Run 6 prediction: 184.30
+Run 7 prediction: 184.39
+Run 8 prediction: 184.42
+Run 9 prediction: 184.49
+Run 10 prediction: 184.30
+time steps = 30 || test size = 0.1 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.42937,184.09082,184.35434,184.50002,184.4368,184.304,184.38542,184.42278,184.48946,184.29639
+Average Predicted Price: 184.37
+Standard Deviation: 0.11
+
+Run 1 prediction: 184.54
+Run 2 prediction: 184.58
+Run 3 prediction: 184.81
+Run 4 prediction: 184.28
+Run 5 prediction: 184.44
+Run 6 prediction: 184.50
+Run 7 prediction: 184.07
+Run 8 prediction: 184.22
+Run 9 prediction: 184.35
+Run 10 prediction: 184.37
+time steps = 30 || test size = 0.1 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.54172,184.58493,184.80544,184.28477,184.43634,184.49625,184.07057,184.21974,184.34987,184.37434
+Average Predicted Price: 184.42
+Standard Deviation: 0.20
+
+Run 1 prediction: 184.30
+Run 2 prediction: 184.25
+Run 3 prediction: 184.53
+Run 4 prediction: 184.39
+Run 5 prediction: 184.62
+Run 6 prediction: 184.35
+Run 7 prediction: 184.44
+Run 8 prediction: 184.47
+Run 9 prediction: 184.51
+Run 10 prediction: 184.68
+time steps = 30 || test size = 0.1 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.30151,184.25159,184.52557,184.38657,184.6165,184.34758,184.44148,184.47134,184.50969,184.67784
+Average Predicted Price: 184.45
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.04
+Run 2 prediction: 183.84
+Run 3 prediction: 184.08
+Run 4 prediction: 184.13
+Run 5 prediction: 184.11
+Run 6 prediction: 184.01
+Run 7 prediction: 184.08
+Run 8 prediction: 184.24
+Run 9 prediction: 184.09
+Run 10 prediction: 184.09
+time steps = 30 || test size = 0.1 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.04378,183.84453,184.07594,184.12936,184.10771,184.0133,184.07805,184.24043,184.08846,184.08975
+Average Predicted Price: 184.07
+Standard Deviation: 0.09
+
+Run 1 prediction: 184.59
+Run 2 prediction: 184.76
+Run 3 prediction: 184.50
+Run 4 prediction: 184.73
+Run 5 prediction: 185.23
+Run 6 prediction: 184.63
+Run 7 prediction: 184.84
+Run 8 prediction: 184.55
+Run 9 prediction: 184.77
+Run 10 prediction: 184.60
+time steps = 30 || test size = 0.2 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.58624,184.76306,184.49698,184.72578,185.22626,184.62991,184.83627,184.55138,184.77478,184.59624
+Average Predicted Price: 184.72
+Standard Deviation: 0.20
+
+Run 1 prediction: 184.25
+Run 2 prediction: 184.38
+Run 3 prediction: 183.96
+Run 4 prediction: 184.05
+Run 5 prediction: 184.29
+Run 6 prediction: 184.60
+Run 7 prediction: 184.24
+Run 8 prediction: 184.12
+Run 9 prediction: 184.37
+Run 10 prediction: 184.00
+time steps = 30 || test size = 0.2 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.25366,184.38321,183.96281,184.05405,184.2928,184.60133,184.23737,184.11671,184.37257,183.9951
+Average Predicted Price: 184.23
+Standard Deviation: 0.19
+
+Run 1 prediction: 184.68
+Run 2 prediction: 184.37
+Run 3 prediction: 184.85
+Run 4 prediction: 184.79
+Run 5 prediction: 184.32
+Run 6 prediction: 184.51
+Run 7 prediction: 184.68
+Run 8 prediction: 184.43
+Run 9 prediction: 184.41
+Run 10 prediction: 184.73
+time steps = 30 || test size = 0.2 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.68121,184.37329,184.84898,184.78946,184.32295,184.50652,184.67778,184.43243,184.41394,184.728
+Average Predicted Price: 184.58
+Standard Deviation: 0.18
+
+Run 1 prediction: 184.28
+Run 2 prediction: 184.54
+Run 3 prediction: 184.45
+Run 4 prediction: 184.52
+Run 5 prediction: 184.70
+Run 6 prediction: 184.66
+Run 7 prediction: 184.82
+Run 8 prediction: 184.49
+Run 9 prediction: 184.59
+Run 10 prediction: 184.45
+time steps = 30 || test size = 0.2 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.28052,184.5357,184.44994,184.52348,184.70047,184.66023,184.81902,184.4925,184.58688,184.45428
+Average Predicted Price: 184.55
+Standard Deviation: 0.14
+
+Run 1 prediction: 184.10
+Run 2 prediction: 184.30
+Run 3 prediction: 184.29
+Run 4 prediction: 184.46
+Run 5 prediction: 184.21
+Run 6 prediction: 184.23
+Run 7 prediction: 184.22
+Run 8 prediction: 184.43
+Run 9 prediction: 184.26
+Run 10 prediction: 184.54
+time steps = 30 || test size = 0.3 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.09578,184.30473,184.28624,184.46196,184.2125,184.22891,184.22424,184.42683,184.25877,184.54178
+Average Predicted Price: 184.30
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.63
+Run 2 prediction: 184.56
+Run 3 prediction: 184.41
+Run 4 prediction: 184.28
+Run 5 prediction: 184.63
+Run 6 prediction: 184.53
+Run 7 prediction: 184.69
+Run 8 prediction: 184.37
+Run 9 prediction: 184.45
+Run 10 prediction: 184.54
+time steps = 30 || test size = 0.3 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.63496,184.55766,184.41267,184.28233,184.62968,184.526,184.68501,184.37198,184.45256,184.53502
+Average Predicted Price: 184.51
+Standard Deviation: 0.12
+
+Run 1 prediction: 185.09
+Run 2 prediction: 184.90
+Run 3 prediction: 184.95
+Run 4 prediction: 184.68
+Run 5 prediction: 184.85
+Run 6 prediction: 184.61
+Run 7 prediction: 184.93
+Run 8 prediction: 184.76
+Run 9 prediction: 184.91
+Run 10 prediction: 184.84
+time steps = 30 || test size = 0.3 || AMZN 2 hour || Dropout = 0.3
+All predictions:,185.08972,184.90314,184.95027,184.67955,184.84665,184.60515,184.92937,184.7594,184.90852,184.84494
+Average Predicted Price: 184.85
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.60
+Run 2 prediction: 184.36
+Run 3 prediction: 184.38
+Run 4 prediction: 184.65
+Run 5 prediction: 184.60
+Run 6 prediction: 184.41
+Run 7 prediction: 184.46
+Run 8 prediction: 184.61
+Run 9 prediction: 184.41
+Run 10 prediction: 184.26
+time steps = 30 || test size = 0.3 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.60098,184.36215,184.37889,184.6483,184.59549,184.40749,184.45807,184.61066,184.40636,184.2632
+Average Predicted Price: 184.47
+Standard Deviation: 0.12
+
+Run 1 prediction: 184.52
+Run 2 prediction: 184.56
+Run 3 prediction: 184.49
+Run 4 prediction: 184.28
+Run 5 prediction: 184.30
+Run 6 prediction: 184.65
+Run 7 prediction: 184.71
+Run 8 prediction: 184.48
+Run 9 prediction: 184.43
+Run 10 prediction: 184.53
+time steps = 60 || test size = 0.1 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.52272,184.55519,184.49178,184.2802,184.29927,184.64769,184.70958,184.4768,184.43176,184.52953
+Average Predicted Price: 184.49
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.24
+Run 2 prediction: 184.45
+Run 3 prediction: 184.49
+Run 4 prediction: 184.55
+Run 5 prediction: 184.54
+Run 6 prediction: 184.29
+Run 7 prediction: 184.72
+Run 8 prediction: 184.20
+Run 9 prediction: 184.07
+Run 10 prediction: 184.54
+time steps = 60 || test size = 0.1 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.23721,184.44507,184.48686,184.55411,184.54056,184.29332,184.71594,184.19814,184.07355,184.536
+Average Predicted Price: 184.41
+Standard Deviation: 0.19
+
+Run 1 prediction: 184.53
+Run 2 prediction: 184.14
+Run 3 prediction: 184.60
+Run 4 prediction: 184.36
+Run 5 prediction: 184.37
+Run 6 prediction: 184.11
+Run 7 prediction: 184.31
+Run 8 prediction: 184.13
+Run 9 prediction: 184.49
+Run 10 prediction: 184.38
+time steps = 60 || test size = 0.1 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.53209,184.14343,184.60054,184.35675,184.37466,184.1082,184.3079,184.12509,184.49074,184.37822
+Average Predicted Price: 184.34
+Standard Deviation: 0.16
+
+Run 1 prediction: 184.34
+Run 2 prediction: 184.30
+Run 3 prediction: 184.32
+Run 4 prediction: 184.47
+Run 5 prediction: 184.67
+Run 6 prediction: 184.35
+Run 7 prediction: 184.46
+Run 8 prediction: 184.39
+Run 9 prediction: 184.49
+Run 10 prediction: 184.44
+time steps = 60 || test size = 0.1 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.34367,184.29971,184.31761,184.46925,184.66751,184.34673,184.4617,184.39499,184.49321,184.43764
+Average Predicted Price: 184.42
+Standard Deviation: 0.10
+
+Run 1 prediction: 184.98
+Run 2 prediction: 184.88
+Run 3 prediction: 184.93
+Run 4 prediction: 184.91
+Run 5 prediction: 184.88
+Run 6 prediction: 184.85
+Run 7 prediction: 185.01
+Run 8 prediction: 184.88
+Run 9 prediction: 184.82
+Run 10 prediction: 184.90
+time steps = 60 || test size = 0.2 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.98451,184.87816,184.92673,184.91212,184.8795,184.849,185.00902,184.87984,184.81575,184.89967
+Average Predicted Price: 184.90
+Standard Deviation: 0.06
+
+Run 1 prediction: 184.81
+Run 2 prediction: 184.51
+Run 3 prediction: 184.51
+Run 4 prediction: 184.60
+Run 5 prediction: 184.39
+Run 6 prediction: 184.45
+Run 7 prediction: 184.69
+Run 8 prediction: 184.70
+Run 9 prediction: 184.61
+Run 10 prediction: 184.53
+time steps = 60 || test size = 0.2 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.81267,184.5122,184.50835,184.59862,184.38705,184.45166,184.69212,184.69931,184.6074,184.52568
+Average Predicted Price: 184.58
+Standard Deviation: 0.12
+
+Run 1 prediction: 184.04
+Run 2 prediction: 184.06
+Run 3 prediction: 184.03
+Run 4 prediction: 183.99
+Run 5 prediction: 184.00
+Run 6 prediction: 184.10
+Run 7 prediction: 183.86
+Run 8 prediction: 184.28
+Run 9 prediction: 184.25
+Run 10 prediction: 184.06
+time steps = 60 || test size = 0.2 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.03806,184.05957,184.03389,183.98795,184.00151,184.099,183.8611,184.28261,184.25122,184.0613
+Average Predicted Price: 184.07
+Standard Deviation: 0.12
+
+Run 1 prediction: 184.20
+Run 2 prediction: 184.11
+Run 3 prediction: 184.11
+Run 4 prediction: 184.18
+Run 5 prediction: 184.26
+Run 6 prediction: 184.32
+Run 7 prediction: 184.06
+Run 8 prediction: 184.43
+Run 9 prediction: 183.98
+Run 10 prediction: 184.27
+time steps = 60 || test size = 0.2 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.20348,184.11105,184.11296,184.18413,184.2576,184.32254,184.06435,184.42746,183.97931,184.26956
+Average Predicted Price: 184.19
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.35
+Run 2 prediction: 184.35
+Run 3 prediction: 184.54
+Run 4 prediction: 184.07
+Run 5 prediction: 184.50
+Run 6 prediction: 184.18
+Run 7 prediction: 184.27
+Run 8 prediction: 184.50
+Run 9 prediction: 184.35
+Run 10 prediction: 184.30
+time steps = 60 || test size = 0.3 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.35464,184.34766,184.54208,184.06694,184.50139,184.18307,184.27417,184.50203,184.35483,184.30362
+Average Predicted Price: 184.34
+Standard Deviation: 0.14
+
+Run 1 prediction: 184.51
+Run 2 prediction: 184.50
+Run 3 prediction: 184.32
+Run 4 prediction: 184.65
+Run 5 prediction: 184.77
+Run 6 prediction: 184.38
+Run 7 prediction: 184.63
+Run 8 prediction: 184.29
+Run 9 prediction: 184.73
+Run 10 prediction: 184.75
+time steps = 60 || test size = 0.3 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.50987,184.49783,184.31621,184.64519,184.76903,184.37692,184.62589,184.28983,184.73111,184.74722
+Average Predicted Price: 184.55
+Standard Deviation: 0.17
+
+Run 1 prediction: 184.41
+Run 2 prediction: 184.53
+Run 3 prediction: 184.46
+Run 4 prediction: 184.24
+Run 5 prediction: 184.48
+Run 6 prediction: 184.36
+Run 7 prediction: 184.34
+Run 8 prediction: 184.15
+Run 9 prediction: 184.29
+Run 10 prediction: 184.32
+time steps = 60 || test size = 0.3 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.41165,184.52588,184.4587,184.2352,184.48093,184.35994,184.34334,184.14638,184.29413,184.3205
+Average Predicted Price: 184.36
+Standard Deviation: 0.11
+
+Run 1 prediction: 184.27
+Run 2 prediction: 184.26
+Run 3 prediction: 184.20
+Run 4 prediction: 184.56
+Run 5 prediction: 184.30
+Run 6 prediction: 184.60
+Run 7 prediction: 184.44
+Run 8 prediction: 184.52
+Run 9 prediction: 184.39
+Run 10 prediction: 184.38
+time steps = 60 || test size = 0.3 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.27492,184.25935,184.20346,184.55627,184.2974,184.60098,184.44151,184.52156,184.39082,184.38295
+Average Predicted Price: 184.39
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.23
+Run 2 prediction: 184.21
+Run 3 prediction: 184.42
+Run 4 prediction: 184.08
+Run 5 prediction: 184.18
+Run 6 prediction: 184.39
+Run 7 prediction: 184.24
+Run 8 prediction: 184.25
+Run 9 prediction: 184.16
+Run 10 prediction: 184.44
+time steps = 90 || test size = 0.1 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.2329,184.21332,184.4161,184.08069,184.18303,184.38884,184.24478,184.24538,184.16231,184.44453
+Average Predicted Price: 184.26
+Standard Deviation: 0.11
+
+Run 1 prediction: 184.43
+Run 2 prediction: 184.10
+Run 3 prediction: 184.22
+Run 4 prediction: 184.22
+Run 5 prediction: 184.36
+Run 6 prediction: 184.34
+Run 7 prediction: 184.18
+Run 8 prediction: 184.34
+Run 9 prediction: 184.05
+Run 10 prediction: 184.05
+time steps = 90 || test size = 0.1 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.42572,184.098,184.22165,184.22389,184.35603,184.33575,184.17624,184.3435,184.04517,184.05266
+Average Predicted Price: 184.23
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.24
+Run 2 prediction: 184.56
+Run 3 prediction: 184.42
+Run 4 prediction: 184.33
+Run 5 prediction: 184.47
+Run 6 prediction: 184.63
+Run 7 prediction: 184.52
+Run 8 prediction: 184.19
+Run 9 prediction: 184.25
+Run 10 prediction: 184.47
+time steps = 90 || test size = 0.1 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.23761,184.55821,184.41754,184.32849,184.4737,184.63478,184.5168,184.1919,184.24707,184.46722
+Average Predicted Price: 184.41
+Standard Deviation: 0.14
+
+Run 1 prediction: 184.00
+Run 2 prediction: 184.15
+Run 3 prediction: 184.10
+Run 4 prediction: 184.18
+Run 5 prediction: 184.19
+Run 6 prediction: 184.24
+Run 7 prediction: 184.23
+Run 8 prediction: 184.23
+Run 9 prediction: 183.99
+Run 10 prediction: 184.01
+time steps = 90 || test size = 0.1 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.00127,184.15392,184.10272,184.1802,184.19049,184.2353,184.23495,184.22878,183.98718,184.01088
+Average Predicted Price: 184.13
+Standard Deviation: 0.10
+
+Run 1 prediction: 183.57
+Run 2 prediction: 183.53
+Run 3 prediction: 183.33
+Run 4 prediction: 183.31
+Run 5 prediction: 183.39
+Run 6 prediction: 183.58
+Run 7 prediction: 183.53
+Run 8 prediction: 183.73
+Run 9 prediction: 183.33
+Run 10 prediction: 183.35
+time steps = 90 || test size = 0.2 || AMZN 2 hour || Dropout = 0.1
+All predictions:,183.57191,183.52972,183.33234,183.30588,183.39316,183.57668,183.52805,183.72623,183.3277,183.35489
+Average Predicted Price: 183.46
+Standard Deviation: 0.13
+
+Run 1 prediction: 183.61
+Run 2 prediction: 183.65
+Run 3 prediction: 183.54
+Run 4 prediction: 183.31
+Run 5 prediction: 183.56
+Run 6 prediction: 183.54
+Run 7 prediction: 183.57
+Run 8 prediction: 183.52
+Run 9 prediction: 183.47
+Run 10 prediction: 183.59
+time steps = 90 || test size = 0.2 || AMZN 2 hour || Dropout = 0.2
+All predictions:,183.61485,183.65224,183.53545,183.31433,183.5592,183.54243,183.56883,183.51915,183.46538,183.58643
+Average Predicted Price: 183.54
+Standard Deviation: 0.09
+
+Run 1 prediction: 183.87
+Run 2 prediction: 183.70
+Run 3 prediction: 183.82
+Run 4 prediction: 184.01
+Run 5 prediction: 184.06
+Run 6 prediction: 183.84
+Run 7 prediction: 183.91
+Run 8 prediction: 183.86
+Run 9 prediction: 183.64
+Run 10 prediction: 184.10
+time steps = 90 || test size = 0.2 || AMZN 2 hour || Dropout = 0.3
+All predictions:,183.87378,183.70457,183.82143,184.01149,184.05844,183.84402,183.90778,183.86327,183.63885,184.09659
+Average Predicted Price: 183.88
+Standard Deviation: 0.14
+
+Run 1 prediction: 184.26
+Run 2 prediction: 184.49
+Run 3 prediction: 184.18
+Run 4 prediction: 184.09
+Run 5 prediction: 184.23
+Run 6 prediction: 184.13
+Run 7 prediction: 184.16
+Run 8 prediction: 184.26
+Run 9 prediction: 184.04
+Run 10 prediction: 184.07
+time steps = 90 || test size = 0.2 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.2634,184.49408,184.18011,184.0928,184.22615,184.12558,184.16364,184.26115,184.03902,184.06717
+Average Predicted Price: 184.19
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.59
+Run 2 prediction: 184.50
+Run 3 prediction: 184.06
+Run 4 prediction: 184.12
+Run 5 prediction: 184.24
+Run 6 prediction: 184.44
+Run 7 prediction: 184.60
+Run 8 prediction: 184.05
+Run 9 prediction: 184.42
+Run 10 prediction: 184.35
+time steps = 90 || test size = 0.3 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.58562,184.50276,184.0636,184.12459,184.24397,184.43564,184.60246,184.05238,184.41733,184.34563
+Average Predicted Price: 184.34
+Standard Deviation: 0.20
+
+Run 1 prediction: 184.32
+Run 2 prediction: 184.52
+Run 3 prediction: 184.31
+Run 4 prediction: 184.47
+Run 5 prediction: 184.51
+Run 6 prediction: 184.29
+Run 7 prediction: 184.41
+Run 8 prediction: 184.51
+Run 9 prediction: 184.63
+Run 10 prediction: 184.71
+time steps = 90 || test size = 0.3 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.31622,184.51892,184.31314,184.47295,184.5104,184.29155,184.41101,184.50897,184.6272,184.7108
+Average Predicted Price: 184.47
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.03
+Run 2 prediction: 183.93
+Run 3 prediction: 184.15
+Run 4 prediction: 184.22
+Run 5 prediction: 184.12
+Run 6 prediction: 184.27
+Run 7 prediction: 184.31
+Run 8 prediction: 184.26
+Run 9 prediction: 184.06
+Run 10 prediction: 184.33
+time steps = 90 || test size = 0.3 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.03014,183.93314,184.14795,184.21846,184.11829,184.26971,184.31383,184.25932,184.06108,184.33096
+Average Predicted Price: 184.17
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.82
+Run 2 prediction: 184.84
+Run 3 prediction: 184.76
+Run 4 prediction: 185.05
+Run 5 prediction: 184.84
+Run 6 prediction: 184.71
+Run 7 prediction: 184.67
+Run 8 prediction: 185.05
+Run 9 prediction: 184.67
+Run 10 prediction: 184.86
+time steps = 90 || test size = 0.3 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.81944,184.83894,184.7579,185.0488,184.84346,184.70517,184.6706,185.05438,184.67264,184.8645
+Average Predicted Price: 184.83
+Standard Deviation: 0.13
+
+Run 1 prediction: 184.99
+Run 2 prediction: 185.20
+Run 3 prediction: 185.04
+Run 4 prediction: 185.05
+Run 5 prediction: 185.17
+Run 6 prediction: 185.07
+Run 7 prediction: 184.98
+Run 8 prediction: 185.07
+Run 9 prediction: 184.85
+Run 10 prediction: 185.03
+time steps = 120 || test size = 0.1 || AMZN 2 hour || Dropout = 0.1
+All predictions:,184.99283,185.20456,185.04153,185.04578,185.17374,185.0715,184.98326,185.07368,184.85487,185.0301
+Average Predicted Price: 185.05
+Standard Deviation: 0.09
+
+Run 1 prediction: 184.38
+Run 2 prediction: 184.45
+Run 3 prediction: 184.75
+Run 4 prediction: 184.73
+Run 5 prediction: 184.58
+Run 6 prediction: 184.76
+Run 7 prediction: 184.28
+Run 8 prediction: 184.73
+Run 9 prediction: 184.67
+Run 10 prediction: 184.26
+time steps = 120 || test size = 0.1 || AMZN 2 hour || Dropout = 0.2
+All predictions:,184.3797,184.44856,184.75378,184.73415,184.57832,184.75757,184.2826,184.73315,184.66592,184.25604
+Average Predicted Price: 184.56
+Standard Deviation: 0.19
+
+Run 1 prediction: 184.56
+Run 2 prediction: 184.60
+Run 3 prediction: 184.30
+Run 4 prediction: 184.89
+Run 5 prediction: 184.60
+Run 6 prediction: 184.31
+Run 7 prediction: 184.84
+Run 8 prediction: 184.69
+Run 9 prediction: 184.33
+Run 10 prediction: 184.69
+time steps = 120 || test size = 0.1 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.55937,184.60307,184.29897,184.89432,184.59782,184.31322,184.84024,184.69066,184.3295,184.6924
+Average Predicted Price: 184.58
+Standard Deviation: 0.20
+
+Run 1 prediction: 184.32
+Run 2 prediction: 184.14
+Run 3 prediction: 184.29
+Run 4 prediction: 184.30
+Run 5 prediction: 184.23
+Run 6 prediction: 184.34
+Run 7 prediction: 184.18
+Run 8 prediction: 184.17
+Run 9 prediction: 184.18
+Run 10 prediction: 184.24
+time steps = 120 || test size = 0.1 || AMZN 2 hour || Dropout = 0.5
+All predictions:,184.3191,184.14467,184.29475,184.29898,184.22546,184.34009,184.17763,184.16914,184.18489,184.23572
+Average Predicted Price: 184.24
+Standard Deviation: 0.07
+
+Run 1 prediction: 185.05
+Run 2 prediction: 185.20
+Run 3 prediction: 184.78
+Run 4 prediction: 185.36
+Run 5 prediction: 184.68
+Run 6 prediction: 184.83
+Run 7 prediction: 184.46
+Run 8 prediction: 185.12
+Run 9 prediction: 185.02
+Run 10 prediction: 184.73
+time steps = 120 || test size = 0.2 || AMZN 2 hour || Dropout = 0.1
+All predictions:,185.04959,185.20073,184.77823,185.35823,184.67557,184.82787,184.46,185.11615,185.02174,184.73479
+Average Predicted Price: 184.92
+Standard Deviation: 0.26
+
+Run 1 prediction: 185.23
+Run 2 prediction: 184.68
+Run 3 prediction: 184.93
+Run 4 prediction: 184.73
+Run 5 prediction: 184.82
+Run 6 prediction: 184.57
+Run 7 prediction: 184.80
+Run 8 prediction: 185.09
+Run 9 prediction: 184.84
+Run 10 prediction: 184.47
+time steps = 120 || test size = 0.2 || AMZN 2 hour || Dropout = 0.2
+All predictions:,185.23198,184.67917,184.93164,184.72668,184.82153,184.56761,184.80078,185.08691,184.84305,184.47147
+Average Predicted Price: 184.82
+Standard Deviation: 0.22
+
+Run 1 prediction: 184.49
+Run 2 prediction: 184.25
+Run 3 prediction: 184.44
+Run 4 prediction: 184.62
+Run 5 prediction: 184.57
+Run 6 prediction: 184.14
+Run 7 prediction: 184.32
+Run 8 prediction: 184.13
+Run 9 prediction: 184.52
+Run 10 prediction: 184.30
+time steps = 120 || test size = 0.2 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.48787,184.24873,184.43517,184.61536,184.57144,184.13977,184.31851,184.12894,184.52339,184.29524
+Average Predicted Price: 184.38
+Standard Deviation: 0.17
+
+Run 1 prediction: 183.96
+Run 2 prediction: 183.93
+Run 3 prediction: 184.13
+Run 4 prediction: 184.21
+Run 5 prediction: 184.07
+Run 6 prediction: 184.15
+Run 7 prediction: 183.87
+Run 8 prediction: 184.16
+Run 9 prediction: 183.98
+Run 10 prediction: 184.03
+time steps = 120 || test size = 0.2 || AMZN 2 hour || Dropout = 0.5
+All predictions:,183.95784,183.93063,184.1325,184.21417,184.06555,184.14581,183.87167,184.16371,183.98424,184.0298
+Average Predicted Price: 184.05
+Standard Deviation: 0.11
+
+Run 1 prediction: 185.31
+Run 2 prediction: 185.22
+Run 3 prediction: 184.72
+Run 4 prediction: 184.80
+Run 5 prediction: 185.24
+Run 6 prediction: 185.53
+Run 7 prediction: 184.85
+Run 8 prediction: 185.15
+Run 9 prediction: 185.16
+Run 10 prediction: 185.02
+time steps = 120 || test size = 0.3 || AMZN 2 hour || Dropout = 0.1
+All predictions:,185.3074,185.2215,184.71855,184.80446,185.23657,185.53375,184.84856,185.14761,185.16122,185.01581
+Average Predicted Price: 185.10
+Standard Deviation: 0.24
+
+Run 1 prediction: 185.14
+Run 2 prediction: 185.05
+Run 3 prediction: 184.65
+Run 4 prediction: 185.04
+Run 5 prediction: 185.10
+Run 6 prediction: 184.91
+Run 7 prediction: 184.65
+Run 8 prediction: 184.83
+Run 9 prediction: 184.98
+Run 10 prediction: 184.55
+time steps = 120 || test size = 0.3 || AMZN 2 hour || Dropout = 0.2
+All predictions:,185.13634,185.05054,184.6523,185.04204,185.0998,184.90718,184.64949,184.83269,184.9763,184.54512
+Average Predicted Price: 184.89
+Standard Deviation: 0.20
+
+Run 1 prediction: 184.71
+Run 2 prediction: 184.55
+Run 3 prediction: 185.05
+Run 4 prediction: 184.62
+Run 5 prediction: 184.44
+Run 6 prediction: 184.89
+Run 7 prediction: 184.41
+Run 8 prediction: 184.50
+Run 9 prediction: 184.73
+Run 10 prediction: 184.51
+time steps = 120 || test size = 0.3 || AMZN 2 hour || Dropout = 0.3
+All predictions:,184.70891,184.55144,185.05473,184.62262,184.4409,184.8873,184.41182,184.4959,184.7336,184.51096
+Average Predicted Price: 184.64
+Standard Deviation: 0.20
+
+Run 1 prediction: 185.15
+Run 2 prediction: 184.90
+Run 3 prediction: 185.29
+Run 4 prediction: 185.07
+Run 5 prediction: 185.27
+Run 6 prediction: 185.00
+Run 7 prediction: 185.18
+Run 8 prediction: 184.96
+Run 9 prediction: 184.64
+Run 10 prediction: 185.26
+time steps = 120 || test size = 0.3 || AMZN 2 hour || Dropout = 0.5
+All predictions:,185.1512,184.89597,185.29057,185.0682,185.2742,184.99838,185.1799,184.96214,184.64372,185.26399
+Average Predicted Price: 185.07
+Standard Deviation: 0.19
+
