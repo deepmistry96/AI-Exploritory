@@ -1,21 +1,27 @@
-import io
+import os
 import requests
 import numpy as np
 import pandas as pd
+import csv
+from datetime import datetime, timedelta
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from sklearn.model_selection import train_test_split
+import pytz
 import tensorflow as tf
 
+# Set seeds for reproducibility
 np.random.seed(42)
 tf.random.set_seed(42)
 
+# Polygon API Key and Stock Symbol
 POLYGON_API_KEY = "UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr"
 symbol = "AAPL"
 market_open = 9.5
 market_close = 16
 
+# Function to fetch hourly prices
 def fetch_hourly_prices(date):
     url = f"https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/hour/{date}/{date}?apiKey={POLYGON_API_KEY}"
     response = requests.get(url)
@@ -31,18 +37,9 @@ def fetch_hourly_prices(date):
     else:
         return np.array([])
 
-# Read data from a specific file
-csv_file_name = './datasets/AMZN_2_hours_till_close.csv'
-
-with open(csv_file_name, 'r') as file:
-    lines = file.readlines()
-    last_line = lines[-1]
-    if not last_line[0].isdigit():
-        lines = lines[:-1]  # Remove the last line if it's not starting with a number
-
-# Convert the lines back to a CSV format and read it into a DataFrame
-csv_data = ''.join(lines)
-df = pd.read_csv(io.StringIO(csv_data))
+# Read data from CSV file
+csv_file_name = './datasets/play.csv'
+df = pd.read_csv(csv_file_name)
 
 # Prepare data for LSTM
 def prepare_data_for_lstm(prices, time_steps=120):
@@ -54,50 +51,51 @@ def prepare_data_for_lstm(prices, time_steps=120):
     for i in range(time_steps, len(scaled_prices)):
         X.append(scaled_prices[i-time_steps:i, 0])
         y.append(scaled_prices[i, 0])
-    
     return np.array(X), np.array(y), scaler
 
-# Function to create and compile the LSTM model
-def create_lstm_model(input_shape):
-    model = Sequential([
-        LSTM(50, return_sequences=True, input_shape=input_shape),
-        Dropout(0.2),
-        LSTM(50, return_sequences=False),
-        Dropout(0.2),
-        Dense(1)
-    ])
-    model.compile(optimizer='adam', loss='mean_squared_error')
-    return model
-
 hourly_prices = df['Price'].to_numpy()
-predictions = []
-
 if hourly_prices.size > 0:
     X, y, scaler = prepare_data_for_lstm(hourly_prices)
     if X.size > 0 and y.size > 0:
-        for run in range(10):
-            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
-            X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))
-            X_test = X_test.reshape((X_test.shape[0], X_test.shape[1], 1))
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
+        X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))
+        X_test = X_test.reshape((X_test.shape[0], X_test.shape[1], 1))
 
-            model = create_lstm_model(X_train.shape[1:])
+        # LSTM Model
+        model = Sequential([
+            LSTM(50, return_sequences=True, input_shape=(X_train.shape[1], 1)),
+            Dropout(0.1),
+            LSTM(50, return_sequences=False),
+            Dropout(0.1),
+            Dense(1)
+        ])
+        model.compile(optimizer='adam', loss='mean_squared_error')
+
+        # Run LSTM multiple times
+        num_runs = 10
+        predictions = []
+        for run in range(num_runs):
             model.fit(X_train, y_train, epochs=50, batch_size=32, verbose=0)
+            
+            # Set the time until 4 PM to be always 2 hours
+            hours_ahead = 5
+            future_steps = int(hours_ahead * 60 / 60)  # Convert hours to the number of steps
 
-            future_steps = int(2 * 60 / 60)  # Convert hours to the number of steps
-            last_sequence = np.expand_dims(X[-1], axis=0)
+            # Predict next price
+            if future_steps < len(X):
+                last_sequence = np.expand_dims(X[-future_steps], axis=0)
+            else:
+                last_sequence = np.expand_dims(X[-1], axis=0)
             next_price_scaled = model.predict(last_sequence)
             next_price = scaler.inverse_transform(next_price_scaled.reshape(-1, 1))
-            predictions.append(next_price[0][0])
 
+            predictions.append(next_price[0][0])
             print(f"Run {run + 1}, Predicted price at 4 PM:", round(next_price[0][0], 2))
 
-        predictions = np.array(predictions)
+        # Calculate and print the average and standard deviation of predictions
         average_prediction = np.mean(predictions)
         std_deviation = np.std(predictions)
-
         print("\nAverage Prediction:", round(average_prediction, 2))
-        print("Standard Deviation of Predictions:", round(std_deviation, 2))
+        print("Standard Deviation:", round(std_deviation, 2))
     else:
         print("Not enough data")
-else:
-    print("Error: Could not extract hourly prices.")

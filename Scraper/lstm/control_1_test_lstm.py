@@ -70,16 +70,16 @@ if hourly_prices.size > 0:
 
         model = Sequential([
             LSTM(50, return_sequences=True, input_shape=(X_train.shape[1], 1)),
-            Dropout(0.2),
+            Dropout(0.1),
             LSTM(50, return_sequences=False),
-            Dropout(0.2),
+            Dropout(0.1),
             Dense(1)
         ])
         model.compile(optimizer='adam', loss='mean_squared_error')
         model.fit(X_train, y_train, epochs=50, batch_size=32)
 
         # Set the time until 4 PM to be always 2 hours and 30 minutes
-        hours_ahead = 2
+        hours_ahead = 5
         future_steps = int(hours_ahead * 60 / 60)  # Convert hours to the number of steps
 
         # Predict next price
