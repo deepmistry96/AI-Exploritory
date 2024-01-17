@@ -34,20 +34,17 @@ def fetch_hourly_prices(date):
     else:
         return np.array([])
 
-# Read data from a specific file
 csv_file_name = './datasets/AMZN_2_hours_till_close.csv'
 
 with open(csv_file_name, 'r') as file:
     lines = file.readlines()
     last_line = lines[-1]
     if not last_line[0].isdigit():
-        lines = lines[:-1]  # Remove the last line if it's not starting with a number
+        lines = lines[:-1] 
 
-# Convert the lines back to a CSV format and read it into a DataFrame
 csv_data = ''.join(lines)
 df = pd.read_csv(io.StringIO(csv_data))
 
-# Prepare data for LSTM
 def prepare_data_for_lstm(prices, time_steps=120):
     prices = np.array(prices).reshape(-1, 1)
     scaler = MinMaxScaler(feature_range=(0, 1))
@@ -78,11 +75,10 @@ if hourly_prices.size > 0:
         model.compile(optimizer='adam', loss='mean_squared_error')
         model.fit(X_train, y_train, epochs=50, batch_size=32)
 
-        # Set the time until 4 PM to be always 2 hours and 30 minutes
-        hours_ahead = 5
-        future_steps = int(hours_ahead * 60 / 60)  # Convert hours to the number of steps
 
-        # Predict next price
+        hours_ahead = 5
+        future_steps = int(hours_ahead * 60 / 60)  
+        
         if future_steps < len(X):
             last_sequence = np.expand_dims(X[-future_steps], axis=0)
         else:
