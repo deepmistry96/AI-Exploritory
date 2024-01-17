@@ -11,17 +11,14 @@ from sklearn.model_selection import train_test_split
 import pytz
 import tensorflow as tf
 
-# Set seeds for reproducibility
 np.random.seed(42)
 tf.random.set_seed(42)
 
-# Polygon API Key and Stock Symbol
 POLYGON_API_KEY = "UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr"
 symbol = "AAPL"
 market_open = 9.5
 market_close = 16
 
-# Function to fetch hourly prices
 def fetch_hourly_prices(date):
     url = f"https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/hour/{date}/{date}?apiKey={POLYGON_API_KEY}"
     response = requests.get(url)
@@ -37,11 +34,9 @@ def fetch_hourly_prices(date):
     else:
         return np.array([])
 
-# Read data from CSV file
-csv_file_name = './datasets/play.csv'
+csv_file_name = './new_datasets/1_16_24/PTON_5_hours_till_close.csv'
 df = pd.read_csv(csv_file_name)
 
-# Prepare data for LSTM
 def prepare_data_for_lstm(prices, time_steps=120):
     prices = np.array(prices).reshape(-1, 1)
     scaler = MinMaxScaler(feature_range=(0, 1))
@@ -61,7 +56,6 @@ if hourly_prices.size > 0:
         X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))
         X_test = X_test.reshape((X_test.shape[0], X_test.shape[1], 1))
 
-        # LSTM Model
         model = Sequential([
             LSTM(50, return_sequences=True, input_shape=(X_train.shape[1], 1)),
             Dropout(0.1),
@@ -71,17 +65,14 @@ if hourly_prices.size > 0:
         ])
         model.compile(optimizer='adam', loss='mean_squared_error')
 
-        # Run LSTM multiple times
         num_runs = 10
         predictions = []
         for run in range(num_runs):
             model.fit(X_train, y_train, epochs=50, batch_size=32, verbose=0)
             
-            # Set the time until 4 PM to be always 2 hours
             hours_ahead = 5
-            future_steps = int(hours_ahead * 60 / 60)  # Convert hours to the number of steps
+            future_steps = int(hours_ahead * 60 / 60)  
 
-            # Predict next price
             if future_steps < len(X):
                 last_sequence = np.expand_dims(X[-future_steps], axis=0)
             else:
@@ -92,7 +83,6 @@ if hourly_prices.size > 0:
             predictions.append(next_price[0][0])
             print(f"Run {run + 1}, Predicted price at 4 PM:", round(next_price[0][0], 2))
 
-        # Calculate and print the average and standard deviation of predictions
         average_prediction = np.mean(predictions)
         std_deviation = np.std(predictions)
         print("\nAverage Prediction:", round(average_prediction, 2))
