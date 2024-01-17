@@ -1,0 +1,720 @@
+Run 1 prediction: 231.82
+Run 2 prediction: 231.44
+Run 3 prediction: 232.69
+Run 4 prediction: 231.71
+Run 5 prediction: 232.26
+Run 6 prediction: 231.93
+Run 7 prediction: 231.37
+Run 8 prediction: 232.18
+Run 9 prediction: 232.39
+Run 10 prediction: 231.99
+time steps = 30 || test size = 0.1 || AAPL 5 hour || Dropout = 0.1
+All predictions:,231.81609,231.44366,232.68825,231.71083,232.25691,231.93481,231.36748,232.18399,232.39415,231.9949
+Average Predicted Price: 231.98
+Standard Deviation: 0.39
+
+Run 1 prediction: 232.06
+Run 2 prediction: 232.72
+Run 3 prediction: 232.36
+Run 4 prediction: 232.61
+Run 5 prediction: 232.53
+Run 6 prediction: 232.50
+Run 7 prediction: 231.89
+Run 8 prediction: 232.14
+Run 9 prediction: 233.00
+Run 10 prediction: 232.68
+time steps = 30 || test size = 0.1 || AAPL 5 hour || Dropout = 0.2
+All predictions:,232.06015,232.72092,232.36368,232.61142,232.52968,232.50034,231.88892,232.13637,233.00053,232.68454
+Average Predicted Price: 232.45
+Standard Deviation: 0.32
+
+Run 1 prediction: 231.90
+Run 2 prediction: 231.69
+Run 3 prediction: 232.03
+Run 4 prediction: 231.69
+Run 5 prediction: 231.80
+Run 6 prediction: 231.85
+Run 7 prediction: 231.94
+Run 8 prediction: 231.38
+Run 9 prediction: 231.56
+Run 10 prediction: 231.63
+time steps = 30 || test size = 0.1 || AAPL 5 hour || Dropout = 0.3
+All predictions:,231.90242,231.69131,232.03134,231.69374,231.79807,231.85239,231.9351,231.38034,231.55962,231.62672
+Average Predicted Price: 231.75
+Standard Deviation: 0.19
+
+Run 1 prediction: 232.04
+Run 2 prediction: 231.96
+Run 3 prediction: 231.78
+Run 4 prediction: 231.94
+Run 5 prediction: 232.30
+Run 6 prediction: 231.94
+Run 7 prediction: 232.58
+Run 8 prediction: 232.42
+Run 9 prediction: 232.21
+Run 10 prediction: 231.86
+time steps = 30 || test size = 0.1 || AAPL 5 hour || Dropout = 0.5
+All predictions:,232.04367,231.96481,231.7769,231.93706,232.30498,231.9415,232.57903,232.42422,232.21239,231.8643
+Average Predicted Price: 232.10
+Standard Deviation: 0.25
+
+Run 1 prediction: 232.29
+Run 2 prediction: 233.07
+Run 3 prediction: 233.24
+Run 4 prediction: 232.85
+Run 5 prediction: 232.66
+Run 6 prediction: 232.51
+Run 7 prediction: 232.66
+Run 8 prediction: 232.58
+Run 9 prediction: 232.76
+Run 10 prediction: 233.04
+time steps = 30 || test size = 0.2 || AAPL 5 hour || Dropout = 0.1
+All predictions:,232.2921,233.07468,233.24081,232.84787,232.6579,232.50864,232.65819,232.58177,232.76068,233.04216
+Average Predicted Price: 232.77
+Standard Deviation: 0.27
+
+Run 1 prediction: 233.10
+Run 2 prediction: 233.38
+Run 3 prediction: 233.14
+Run 4 prediction: 233.29
+Run 5 prediction: 233.46
+Run 6 prediction: 233.18
+Run 7 prediction: 233.25
+Run 8 prediction: 233.85
+Run 9 prediction: 233.70
+Run 10 prediction: 233.32
+time steps = 30 || test size = 0.2 || AAPL 5 hour || Dropout = 0.2
+All predictions:,233.09653,233.37714,233.14397,233.2888,233.4629,233.18001,233.2488,233.85373,233.69681,233.31628
+Average Predicted Price: 233.37
+Standard Deviation: 0.23
+
+Run 1 prediction: 234.56
+Run 2 prediction: 234.40
+Run 3 prediction: 234.38
+Run 4 prediction: 234.50
+Run 5 prediction: 234.17
+Run 6 prediction: 234.56
+Run 7 prediction: 234.33
+Run 8 prediction: 234.15
+Run 9 prediction: 234.26
+Run 10 prediction: 234.28
+time steps = 30 || test size = 0.2 || AAPL 5 hour || Dropout = 0.3
+All predictions:,234.56299,234.39534,234.38301,234.4958,234.17169,234.55563,234.32675,234.15385,234.25548,234.2838
+Average Predicted Price: 234.36
+Standard Deviation: 0.14
+
+Run 1 prediction: 233.23
+Run 2 prediction: 232.81
+Run 3 prediction: 233.22
+Run 4 prediction: 233.04
+Run 5 prediction: 233.06
+Run 6 prediction: 233.05
+Run 7 prediction: 233.09
+Run 8 prediction: 233.24
+Run 9 prediction: 233.19
+Run 10 prediction: 232.97
+time steps = 30 || test size = 0.2 || AAPL 5 hour || Dropout = 0.5
+All predictions:,233.23174,232.8108,233.22437,233.04073,233.06407,233.04845,233.08711,233.24084,233.19151,232.9689
+Average Predicted Price: 233.09
+Standard Deviation: 0.13
+
+Run 1 prediction: 233.46
+Run 2 prediction: 233.09
+Run 3 prediction: 233.21
+Run 4 prediction: 233.22
+Run 5 prediction: 233.55
+Run 6 prediction: 234.17
+Run 7 prediction: 233.69
+Run 8 prediction: 234.72
+Run 9 prediction: 234.03
+Run 10 prediction: 233.45
+time steps = 30 || test size = 0.3 || AAPL 5 hour || Dropout = 0.1
+All predictions:,233.46461,233.09326,233.21019,233.22157,233.55498,234.17223,233.6902,234.7227,234.0296,233.45241
+Average Predicted Price: 233.66
+Standard Deviation: 0.48
+
+Run 1 prediction: 233.36
+Run 2 prediction: 233.77
+Run 3 prediction: 233.89
+Run 4 prediction: 233.96
+Run 5 prediction: 234.10
+Run 6 prediction: 233.48
+Run 7 prediction: 233.78
+Run 8 prediction: 234.04
+Run 9 prediction: 233.53
+Run 10 prediction: 233.74
+time steps = 30 || test size = 0.3 || AAPL 5 hour || Dropout = 0.2
+All predictions:,233.36073,233.76584,233.89453,233.96338,234.10045,233.47795,233.77554,234.04326,233.53139,233.7369
+Average Predicted Price: 233.76
+Standard Deviation: 0.23
+
+Run 1 prediction: 233.65
+Run 2 prediction: 233.40
+Run 3 prediction: 233.74
+Run 4 prediction: 233.62
+Run 5 prediction: 233.89
+Run 6 prediction: 233.74
+Run 7 prediction: 233.76
+Run 8 prediction: 233.93
+Run 9 prediction: 234.19
+Run 10 prediction: 234.03
+time steps = 30 || test size = 0.3 || AAPL 5 hour || Dropout = 0.3
+All predictions:,233.65193,233.40184,233.73897,233.61522,233.88559,233.74155,233.75664,233.93321,234.18736,234.02681
+Average Predicted Price: 233.79
+Standard Deviation: 0.21
+
+Run 1 prediction: 234.65
+Run 2 prediction: 234.27
+Run 3 prediction: 234.48
+Run 4 prediction: 234.65
+Run 5 prediction: 234.57
+Run 6 prediction: 234.74
+Run 7 prediction: 234.62
+Run 8 prediction: 234.95
+Run 9 prediction: 234.60
+Run 10 prediction: 234.56
+time steps = 30 || test size = 0.3 || AAPL 5 hour || Dropout = 0.5
+All predictions:,234.648,234.27475,234.4778,234.6461,234.5677,234.74403,234.62213,234.94806,234.59653,234.56348
+Average Predicted Price: 234.61
+Standard Deviation: 0.16
+
+Run 1 prediction: 232.47
+Run 2 prediction: 232.42
+Run 3 prediction: 232.12
+Run 4 prediction: 232.74
+Run 5 prediction: 232.79
+Run 6 prediction: 232.29
+Run 7 prediction: 232.60
+Run 8 prediction: 231.99
+Run 9 prediction: 232.35
+Run 10 prediction: 231.63
+time steps = 60 || test size = 0.1 || AAPL 5 hour || Dropout = 0.1
+All predictions:,232.46608,232.41551,232.12013,232.74153,232.7918,232.29443,232.60359,231.98764,232.35162,231.63322
+Average Predicted Price: 232.34
+Standard Deviation: 0.34
+
+Run 1 prediction: 232.63
+Run 2 prediction: 233.29
+Run 3 prediction: 233.32
+Run 4 prediction: 232.72
+Run 5 prediction: 232.87
+Run 6 prediction: 233.32
+Run 7 prediction: 233.14
+Run 8 prediction: 233.52
+Run 9 prediction: 233.00
+Run 10 prediction: 233.66
+time steps = 60 || test size = 0.1 || AAPL 5 hour || Dropout = 0.2
+All predictions:,232.63405,233.28673,233.32101,232.72229,232.8656,233.32297,233.13779,233.52083,233.00023,233.66147
+Average Predicted Price: 233.15
+Standard Deviation: 0.32
+
+Run 1 prediction: 233.74
+Run 2 prediction: 233.82
+Run 3 prediction: 233.62
+Run 4 prediction: 233.53
+Run 5 prediction: 233.30
+Run 6 prediction: 233.77
+Run 7 prediction: 233.47
+Run 8 prediction: 233.84
+Run 9 prediction: 233.68
+Run 10 prediction: 233.49
+time steps = 60 || test size = 0.1 || AAPL 5 hour || Dropout = 0.3
+All predictions:,233.73929,233.82082,233.62328,233.52658,233.29796,233.76761,233.47485,233.83507,233.6803,233.4883
+Average Predicted Price: 233.63
+Standard Deviation: 0.17
+
+Run 1 prediction: 233.92
+Run 2 prediction: 233.88
+Run 3 prediction: 234.00
+Run 4 prediction: 234.14
+Run 5 prediction: 233.53
+Run 6 prediction: 233.92
+Run 7 prediction: 234.02
+Run 8 prediction: 233.78
+Run 9 prediction: 234.30
+Run 10 prediction: 233.55
+time steps = 60 || test size = 0.1 || AAPL 5 hour || Dropout = 0.5
+All predictions:,233.92326,233.88107,234.00046,234.14357,233.52748,233.91675,234.01674,233.78462,234.30202,233.5491
+Average Predicted Price: 233.90
+Standard Deviation: 0.23
+
+Run 1 prediction: 231.64
+Run 2 prediction: 230.93
+Run 3 prediction: 231.06
+Run 4 prediction: 231.38
+Run 5 prediction: 231.72
+Run 6 prediction: 231.45
+Run 7 prediction: 231.02
+Run 8 prediction: 231.36
+Run 9 prediction: 231.45
+Run 10 prediction: 231.01
+time steps = 60 || test size = 0.2 || AAPL 5 hour || Dropout = 0.1
+All predictions:,231.63852,230.93034,231.06029,231.3817,231.71806,231.45409,231.02127,231.36336,231.45036,231.01022
+Average Predicted Price: 231.30
+Standard Deviation: 0.26
+
+Run 1 prediction: 231.62
+Run 2 prediction: 231.75
+Run 3 prediction: 231.56
+Run 4 prediction: 231.99
+Run 5 prediction: 231.82
+Run 6 prediction: 231.77
+Run 7 prediction: 231.69
+Run 8 prediction: 232.03
+Run 9 prediction: 231.61
+Run 10 prediction: 231.94
+time steps = 60 || test size = 0.2 || AAPL 5 hour || Dropout = 0.2
+All predictions:,231.62498,231.74727,231.55806,231.99323,231.82315,231.76535,231.69331,232.03285,231.61201,231.93637
+Average Predicted Price: 231.78
+Standard Deviation: 0.16
+
+Run 1 prediction: 231.58
+Run 2 prediction: 231.49
+Run 3 prediction: 231.62
+Run 4 prediction: 231.12
+Run 5 prediction: 231.34
+Run 6 prediction: 230.97
+Run 7 prediction: 231.87
+Run 8 prediction: 231.70
+Run 9 prediction: 231.35
+Run 10 prediction: 231.75
+time steps = 60 || test size = 0.2 || AAPL 5 hour || Dropout = 0.3
+All predictions:,231.57903,231.49081,231.61652,231.1206,231.33948,230.97113,231.87457,231.7019,231.35387,231.75273
+Average Predicted Price: 231.48
+Standard Deviation: 0.27
+
+Run 1 prediction: 232.81
+Run 2 prediction: 232.14
+Run 3 prediction: 232.33
+Run 4 prediction: 232.56
+Run 5 prediction: 232.74
+Run 6 prediction: 232.66
+Run 7 prediction: 232.77
+Run 8 prediction: 232.35
+Run 9 prediction: 232.42
+Run 10 prediction: 232.62
+time steps = 60 || test size = 0.2 || AAPL 5 hour || Dropout = 0.5
+All predictions:,232.8105,232.13782,232.33363,232.55911,232.73828,232.66425,232.76633,232.34695,232.42377,232.61627
+Average Predicted Price: 232.54
+Standard Deviation: 0.21
+
+Run 1 prediction: 233.65
+Run 2 prediction: 233.43
+Run 3 prediction: 233.22
+Run 4 prediction: 233.58
+Run 5 prediction: 233.68
+Run 6 prediction: 233.57
+Run 7 prediction: 233.06
+Run 8 prediction: 233.34
+Run 9 prediction: 233.35
+Run 10 prediction: 233.97
+time steps = 60 || test size = 0.3 || AAPL 5 hour || Dropout = 0.1
+All predictions:,233.64731,233.42816,233.21936,233.58463,233.68445,233.57228,233.0578,233.34244,233.35051,233.97493
+Average Predicted Price: 233.49
+Standard Deviation: 0.25
+
+Run 1 prediction: 233.61
+Run 2 prediction: 232.79
+Run 3 prediction: 232.78
+Run 4 prediction: 233.20
+Run 5 prediction: 232.99
+Run 6 prediction: 233.16
+Run 7 prediction: 232.89
+Run 8 prediction: 232.66
+Run 9 prediction: 232.56
+Run 10 prediction: 232.71
+time steps = 60 || test size = 0.3 || AAPL 5 hour || Dropout = 0.2
+All predictions:,233.61319,232.78873,232.78493,233.19621,232.98918,233.15764,232.89001,232.66008,232.55627,232.71077
+Average Predicted Price: 232.93
+Standard Deviation: 0.30
+
+Run 1 prediction: 232.05
+Run 2 prediction: 231.45
+Run 3 prediction: 231.68
+Run 4 prediction: 231.75
+Run 5 prediction: 232.04
+Run 6 prediction: 231.57
+Run 7 prediction: 231.65
+Run 8 prediction: 231.28
+Run 9 prediction: 231.71
+Run 10 prediction: 231.58
+time steps = 60 || test size = 0.3 || AAPL 5 hour || Dropout = 0.3
+All predictions:,232.05467,231.45486,231.68137,231.7465,232.03938,231.57465,231.65196,231.27515,231.71074,231.58163
+Average Predicted Price: 231.68
+Standard Deviation: 0.23
+
+Run 1 prediction: 233.03
+Run 2 prediction: 232.87
+Run 3 prediction: 233.42
+Run 4 prediction: 232.98
+Run 5 prediction: 233.73
+Run 6 prediction: 233.19
+Run 7 prediction: 233.28
+Run 8 prediction: 232.84
+Run 9 prediction: 233.17
+Run 10 prediction: 233.60
+time steps = 60 || test size = 0.3 || AAPL 5 hour || Dropout = 0.5
+All predictions:,233.02802,232.8695,233.41559,232.98306,233.73228,233.18996,233.27855,232.84319,233.1715,233.60391
+Average Predicted Price: 233.21
+Standard Deviation: 0.28
+
+Run 1 prediction: 233.29
+Run 2 prediction: 233.07
+Run 3 prediction: 233.50
+Run 4 prediction: 233.41
+Run 5 prediction: 233.16
+Run 6 prediction: 233.56
+Run 7 prediction: 233.55
+Run 8 prediction: 233.22
+Run 9 prediction: 233.58
+Run 10 prediction: 233.90
+time steps = 90 || test size = 0.1 || AAPL 5 hour || Dropout = 0.1
+All predictions:,233.28838,233.0653,233.50183,233.40868,233.16084,233.56017,233.54507,233.2187,233.5833,233.89653
+Average Predicted Price: 233.42
+Standard Deviation: 0.23
+
+Run 1 prediction: 233.55
+Run 2 prediction: 233.95
+Run 3 prediction: 233.25
+Run 4 prediction: 233.06
+Run 5 prediction: 233.19
+Run 6 prediction: 233.80
+Run 7 prediction: 233.66
+Run 8 prediction: 232.97
+Run 9 prediction: 233.75
+Run 10 prediction: 233.72
+time steps = 90 || test size = 0.1 || AAPL 5 hour || Dropout = 0.2
+All predictions:,233.54623,233.9534,233.25394,233.05528,233.18733,233.80156,233.66435,232.97499,233.75146,233.71877
+Average Predicted Price: 233.49
+Standard Deviation: 0.33
+
+Run 1 prediction: 232.63
+Run 2 prediction: 232.89
+Run 3 prediction: 233.39
+Run 4 prediction: 232.93
+Run 5 prediction: 232.79
+Run 6 prediction: 232.80
+Run 7 prediction: 232.78
+Run 8 prediction: 232.81
+Run 9 prediction: 232.81
+Run 10 prediction: 232.79
+time steps = 90 || test size = 0.1 || AAPL 5 hour || Dropout = 0.3
+All predictions:,232.63373,232.88756,233.38959,232.93129,232.79164,232.79945,232.78017,232.81282,232.81375,232.78741
+Average Predicted Price: 232.86
+Standard Deviation: 0.19
+
+Run 1 prediction: 232.82
+Run 2 prediction: 233.02
+Run 3 prediction: 233.04
+Run 4 prediction: 233.25
+Run 5 prediction: 233.19
+Run 6 prediction: 233.49
+Run 7 prediction: 233.15
+Run 8 prediction: 233.49
+Run 9 prediction: 233.12
+Run 10 prediction: 233.51
+time steps = 90 || test size = 0.1 || AAPL 5 hour || Dropout = 0.5
+All predictions:,232.82448,233.02005,233.0416,233.24843,233.18564,233.48677,233.1542,233.49062,233.11696,233.51248
+Average Predicted Price: 233.21
+Standard Deviation: 0.22
+
+Run 1 prediction: 231.83
+Run 2 prediction: 233.72
+Run 3 prediction: 232.36
+Run 4 prediction: 232.72
+Run 5 prediction: 230.94
+Run 6 prediction: 232.18
+Run 7 prediction: 231.50
+Run 8 prediction: 231.85
+Run 9 prediction: 232.32
+Run 10 prediction: 233.31
+time steps = 90 || test size = 0.2 || AAPL 5 hour || Dropout = 0.1
+All predictions:,231.83075,233.71889,232.35886,232.72281,230.93816,232.18228,231.49744,231.84753,232.32362,233.31235
+Average Predicted Price: 232.27
+Standard Deviation: 0.78
+
+Run 1 prediction: 233.31
+Run 2 prediction: 233.22
+Run 3 prediction: 231.55
+Run 4 prediction: 233.09
+Run 5 prediction: 233.30
+Run 6 prediction: 232.41
+Run 7 prediction: 233.40
+Run 8 prediction: 233.73
+Run 9 prediction: 233.08
+Run 10 prediction: 233.77
+time steps = 90 || test size = 0.2 || AAPL 5 hour || Dropout = 0.2
+All predictions:,233.31235,233.22261,231.54619,233.08551,233.29614,232.4073,233.39842,233.73405,233.08118,233.76569
+Average Predicted Price: 233.08
+Standard Deviation: 0.63
+
+Run 1 prediction: 233.96
+Run 2 prediction: 233.72
+Run 3 prediction: 233.38
+Run 4 prediction: 233.59
+Run 5 prediction: 233.73
+Run 6 prediction: 233.38
+Run 7 prediction: 233.93
+Run 8 prediction: 233.43
+Run 9 prediction: 233.60
+Run 10 prediction: 233.26
+time steps = 90 || test size = 0.2 || AAPL 5 hour || Dropout = 0.3
+All predictions:,233.95709,233.71786,233.38118,233.58755,233.72827,233.37512,233.93309,233.42708,233.60013,233.25618
+Average Predicted Price: 233.60
+Standard Deviation: 0.23
+
+Run 1 prediction: 232.64
+Run 2 prediction: 232.84
+Run 3 prediction: 232.68
+Run 4 prediction: 232.86
+Run 5 prediction: 233.07
+Run 6 prediction: 232.74
+Run 7 prediction: 233.14
+Run 8 prediction: 232.92
+Run 9 prediction: 232.75
+Run 10 prediction: 232.71
+time steps = 90 || test size = 0.2 || AAPL 5 hour || Dropout = 0.5
+All predictions:,232.64256,232.84207,232.67734,232.85898,233.0665,232.73962,233.14293,232.91609,232.74852,232.70563
+Average Predicted Price: 232.83
+Standard Deviation: 0.16
+
+Run 1 prediction: 234.03
+Run 2 prediction: 233.27
+Run 3 prediction: 234.26
+Run 4 prediction: 233.74
+Run 5 prediction: 234.63
+Run 6 prediction: 233.73
+Run 7 prediction: 233.68
+Run 8 prediction: 233.86
+Run 9 prediction: 234.34
+Run 10 prediction: 233.87
+time steps = 90 || test size = 0.3 || AAPL 5 hour || Dropout = 0.1
+All predictions:,234.03052,233.26796,234.26398,233.73723,234.62538,233.73245,233.68266,233.85567,234.33694,233.86818
+Average Predicted Price: 233.94
+Standard Deviation: 0.37
+
+Run 1 prediction: 233.88
+Run 2 prediction: 234.69
+Run 3 prediction: 234.61
+Run 4 prediction: 234.08
+Run 5 prediction: 233.85
+Run 6 prediction: 233.83
+Run 7 prediction: 234.26
+Run 8 prediction: 234.53
+Run 9 prediction: 233.77
+Run 10 prediction: 234.35
+time steps = 90 || test size = 0.3 || AAPL 5 hour || Dropout = 0.2
+All predictions:,233.88033,234.69344,234.6113,234.07745,233.84557,233.82857,234.25824,234.52689,233.76782,234.34938
+Average Predicted Price: 234.18
+Standard Deviation: 0.33
+
+Run 1 prediction: 234.24
+Run 2 prediction: 234.51
+Run 3 prediction: 234.60
+Run 4 prediction: 234.31
+Run 5 prediction: 234.18
+Run 6 prediction: 234.32
+Run 7 prediction: 234.19
+Run 8 prediction: 234.11
+Run 9 prediction: 234.59
+Run 10 prediction: 235.09
+time steps = 90 || test size = 0.3 || AAPL 5 hour || Dropout = 0.3
+All predictions:,234.2383,234.51167,234.6036,234.31027,234.18085,234.31781,234.19305,234.11105,234.59476,235.08894
+Average Predicted Price: 234.42
+Standard Deviation: 0.28
+
+Run 1 prediction: 234.20
+Run 2 prediction: 234.70
+Run 3 prediction: 234.07
+Run 4 prediction: 234.64
+Run 5 prediction: 233.98
+Run 6 prediction: 234.66
+Run 7 prediction: 234.61
+Run 8 prediction: 234.40
+Run 9 prediction: 233.54
+Run 10 prediction: 234.64
+time steps = 90 || test size = 0.3 || AAPL 5 hour || Dropout = 0.5
+All predictions:,234.20459,234.70346,234.0717,234.63863,233.98418,234.66476,234.61203,234.3973,233.54462,234.64273
+Average Predicted Price: 234.35
+Standard Deviation: 0.37
+
+Run 1 prediction: 232.69
+Run 2 prediction: 232.25
+Run 3 prediction: 232.85
+Run 4 prediction: 232.18
+Run 5 prediction: 232.66
+Run 6 prediction: 232.82
+Run 7 prediction: 232.40
+Run 8 prediction: 232.60
+Run 9 prediction: 231.95
+Run 10 prediction: 232.46
+time steps = 120 || test size = 0.1 || AAPL 5 hour || Dropout = 0.1
+All predictions:,232.69148,232.25267,232.84952,232.18402,232.65634,232.81673,232.39981,232.60129,231.95393,232.45692
+Average Predicted Price: 232.49
+Standard Deviation: 0.28
+
+Run 1 prediction: 232.84
+Run 2 prediction: 233.15
+Run 3 prediction: 233.18
+Run 4 prediction: 233.37
+Run 5 prediction: 232.59
+Run 6 prediction: 232.43
+Run 7 prediction: 232.49
+Run 8 prediction: 233.25
+Run 9 prediction: 232.37
+Run 10 prediction: 232.56
+time steps = 120 || test size = 0.1 || AAPL 5 hour || Dropout = 0.2
+All predictions:,232.8362,233.1477,233.17554,233.37216,232.59315,232.43028,232.48997,233.24567,232.3652,232.55574
+Average Predicted Price: 232.82
+Standard Deviation: 0.36
+
+Run 1 prediction: 233.17
+Run 2 prediction: 232.83
+Run 3 prediction: 233.41
+Run 4 prediction: 233.49
+Run 5 prediction: 232.70
+Run 6 prediction: 233.59
+Run 7 prediction: 232.72
+Run 8 prediction: 233.09
+Run 9 prediction: 232.97
+Run 10 prediction: 233.36
+time steps = 120 || test size = 0.1 || AAPL 5 hour || Dropout = 0.3
+All predictions:,233.17143,232.83492,233.41447,233.48582,232.7044,233.58861,232.72392,233.08853,232.9724,233.36107
+Average Predicted Price: 233.13
+Standard Deviation: 0.31
+
+Run 1 prediction: 232.45
+Run 2 prediction: 232.56
+Run 3 prediction: 232.52
+Run 4 prediction: 232.55
+Run 5 prediction: 232.21
+Run 6 prediction: 232.80
+Run 7 prediction: 232.54
+Run 8 prediction: 232.62
+Run 9 prediction: 232.34
+Run 10 prediction: 232.40
+time steps = 120 || test size = 0.1 || AAPL 5 hour || Dropout = 0.5
+All predictions:,232.45041,232.561,232.51608,232.54604,232.2109,232.80447,232.53992,232.6166,232.34323,232.39629
+Average Predicted Price: 232.50
+Standard Deviation: 0.15
+
+Run 1 prediction: 233.76
+Run 2 prediction: 232.97
+Run 3 prediction: 233.35
+Run 4 prediction: 233.28
+Run 5 prediction: 232.64
+Run 6 prediction: 232.61
+Run 7 prediction: 233.55
+Run 8 prediction: 232.79
+Run 9 prediction: 232.85
+Run 10 prediction: 233.80
+time steps = 120 || test size = 0.2 || AAPL 5 hour || Dropout = 0.1
+All predictions:,233.76189,232.96541,233.3498,233.27692,232.63625,232.60791,233.5525,232.78526,232.85182,233.80211
+Average Predicted Price: 233.16
+Standard Deviation: 0.43
+
+Run 1 prediction: 232.65
+Run 2 prediction: 233.01
+Run 3 prediction: 233.21
+Run 4 prediction: 233.10
+Run 5 prediction: 233.25
+Run 6 prediction: 233.36
+Run 7 prediction: 232.87
+Run 8 prediction: 233.50
+Run 9 prediction: 233.02
+Run 10 prediction: 233.24
+time steps = 120 || test size = 0.2 || AAPL 5 hour || Dropout = 0.2
+All predictions:,232.6462,233.00668,233.20757,233.105,233.25352,233.36044,232.86987,233.50359,233.02486,233.24358
+Average Predicted Price: 233.12
+Standard Deviation: 0.24
+
+Run 1 prediction: 233.36
+Run 2 prediction: 232.93
+Run 3 prediction: 233.59
+Run 4 prediction: 232.81
+Run 5 prediction: 232.93
+Run 6 prediction: 233.37
+Run 7 prediction: 233.79
+Run 8 prediction: 233.53
+Run 9 prediction: 233.06
+Run 10 prediction: 232.40
+time steps = 120 || test size = 0.2 || AAPL 5 hour || Dropout = 0.3
+All predictions:,233.35818,232.931,233.58696,232.81093,232.93126,233.36983,233.79457,233.5274,233.06467,232.40486
+Average Predicted Price: 233.18
+Standard Deviation: 0.40
+
+Run 1 prediction: 234.01
+Run 2 prediction: 234.79
+Run 3 prediction: 234.80
+Run 4 prediction: 234.50
+Run 5 prediction: 234.71
+Run 6 prediction: 234.57
+Run 7 prediction: 234.95
+Run 8 prediction: 234.91
+Run 9 prediction: 234.28
+Run 10 prediction: 234.78
+time steps = 120 || test size = 0.2 || AAPL 5 hour || Dropout = 0.5
+All predictions:,234.01414,234.78633,234.8038,234.50238,234.7065,234.56956,234.95256,234.91383,234.27779,234.77696
+Average Predicted Price: 234.63
+Standard Deviation: 0.28
+
+Run 1 prediction: 232.86
+Run 2 prediction: 232.81
+Run 3 prediction: 233.04
+Run 4 prediction: 232.51
+Run 5 prediction: 233.22
+Run 6 prediction: 233.90
+Run 7 prediction: 232.42
+Run 8 prediction: 233.05
+Run 9 prediction: 232.56
+Run 10 prediction: 232.94
+time steps = 120 || test size = 0.3 || AAPL 5 hour || Dropout = 0.1
+All predictions:,232.86058,232.80861,233.03847,232.51271,233.21574,233.90193,232.41573,233.04678,232.5631,232.93733
+Average Predicted Price: 232.93
+Standard Deviation: 0.41
+
+Run 1 prediction: 233.85
+Run 2 prediction: 234.45
+Run 3 prediction: 234.39
+Run 4 prediction: 234.80
+Run 5 prediction: 234.52
+Run 6 prediction: 234.29
+Run 7 prediction: 234.43
+Run 8 prediction: 234.19
+Run 9 prediction: 234.33
+Run 10 prediction: 234.21
+time steps = 120 || test size = 0.3 || AAPL 5 hour || Dropout = 0.2
+All predictions:,233.84785,234.44586,234.39265,234.79802,234.52014,234.28935,234.4258,234.18642,234.33075,234.20763
+Average Predicted Price: 234.34
+Standard Deviation: 0.23
+
+Run 1 prediction: 233.57
+Run 2 prediction: 233.39
+Run 3 prediction: 234.08
+Run 4 prediction: 233.47
+Run 5 prediction: 233.23
+Run 6 prediction: 233.88
+Run 7 prediction: 233.51
+Run 8 prediction: 233.72
+Run 9 prediction: 233.52
+Run 10 prediction: 233.50
+time steps = 120 || test size = 0.3 || AAPL 5 hour || Dropout = 0.3
+All predictions:,233.57074,233.38898,234.0759,233.46622,233.22508,233.88055,233.51411,233.72221,233.52496,233.49776
+Average Predicted Price: 233.59
+Standard Deviation: 0.23
+
+Run 1 prediction: 234.31
+Run 2 prediction: 234.23
+Run 3 prediction: 234.44
+Run 4 prediction: 234.49
+Run 5 prediction: 234.19
+Run 6 prediction: 234.61
+Run 7 prediction: 234.31
+Run 8 prediction: 234.25
+Run 9 prediction: 234.54
+Run 10 prediction: 234.61
+time steps = 120 || test size = 0.3 || AAPL 5 hour || Dropout = 0.5
+All predictions:,234.30876,234.22798,234.44322,234.48717,234.18506,234.61232,234.31444,234.2541,234.53857,234.60579
+Average Predicted Price: 234.40
+Standard Deviation: 0.15
+
