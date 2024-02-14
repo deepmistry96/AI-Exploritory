@@ -34,7 +34,7 @@ def fetch_hourly_prices(date):
     else:
         return np.array([])
 
-csv_file_name = './new_datasets/1_16_24/PTON_5_hours_till_close.csv'
+csv_file_name = './new_datasets/2_12_24/WMT_5_hours_till_close.csv'
 df = pd.read_csv(csv_file_name)
 
 def prepare_data_for_lstm(prices, time_steps=120):
@@ -65,9 +65,10 @@ if hourly_prices.size > 0:
         ])
         model.compile(optimizer='adam', loss='mean_squared_error')
 
-        num_runs = 10
+        total_runs = 12
+        valid_runs = 10  # Only consider the last 10 runs
         predictions = []
-        for run in range(num_runs):
+        for run in range(total_runs):
             model.fit(X_train, y_train, epochs=50, batch_size=32, verbose=0)
             
             hours_ahead = 5
@@ -79,13 +80,16 @@ if hourly_prices.size > 0:
                 last_sequence = np.expand_dims(X[-1], axis=0)
             next_price_scaled = model.predict(last_sequence)
             next_price = scaler.inverse_transform(next_price_scaled.reshape(-1, 1))
-
-            predictions.append(next_price[0][0])
+            
+            # Start recording predictions after the first 2 runs
+            if run >= 2:
+                predictions.append(next_price[0][0])
             print(f"Run {run + 1}, Predicted price at 4 PM:", round(next_price[0][0], 2))
 
-        average_prediction = np.mean(predictions)
-        std_deviation = np.std(predictions)
-        print("\nAverage Prediction:", round(average_prediction, 2))
-        print("Standard Deviation:", round(std_deviation, 2))
-    else:
-        print("Not enough data")
+        if predictions:
+            average_prediction = np.mean(predictions)
+            std_deviation = np.std(predictions)
+            print("\nAverage Prediction:", round(average_prediction, 2))
+            print("Standard Deviation:", round(std_deviation, 2))
+        else:
+            print("Not enough data")

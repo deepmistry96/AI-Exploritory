@@ -671,7 +671,7 @@ Run 10 prediction: 185.16
 time steps = 120 || test size = 0.3 || AMZN 2 hour || Dropout = 0.1
 All predictions:,185.05911,185.17216,184.95485,184.80522,185.08766,185.5288,185.2423,185.29799,185.12555,185.15738
 Average Predicted Price: 185.14
-Standard Deviation: 0.19
+Standard Deviation: 0.19time steps = 120 || test size = 0.3 || AMZN 2 hour || Dropout = 0.1
 
 Run 1 prediction: 184.97
 Run 2 prediction: 185.01
