@@ -12,7 +12,7 @@ np.random.seed(42)
 tf.random.set_seed(42)
 
 # Load your dataset
-csv_file_name = './datasets/AAPL_2_hours_till_close.csv'
+csv_file_name = './datasets/play.csv'
 df = pd.read_csv(csv_file_name)
 
 # Prepare data for LSTM
@@ -36,7 +36,7 @@ test_size_options = [0.1, 0.2, 0.3]
 dropout_options = [0.1, 0.2, 0.3, 0.5]
 
 # Open a file to write the results
-with open('lstm_predictions2.csv', 'a', newline='') as file:
+with open('lstm_predictions5_AAPL_5hrs.csv', 'a', newline='') as file:
     writer = csv.writer(file)
 
     for time_steps in time_steps_options:
@@ -81,7 +81,7 @@ with open('lstm_predictions2.csv', 'a', newline='') as file:
                         std_dev = np.std(predicted_prices)
 
                         # Write the specifications and aggregated results
-                        writer.writerow([f"time steps = {time_steps} || test size = {test_size} || AMZN 2 hour || Dropout = {dropout_rate}"])
+                        writer.writerow([f"time steps = {time_steps} || test size = {test_size} || AAPL 5 hour || Dropout = {dropout_rate}"])
                         writer.writerow(["All predictions:"] + [str(price) for price in predicted_prices])
                         writer.writerow([f"Average Predicted Price: {average_price:.2f}"])
                         writer.writerow([f"Standard Deviation: {std_dev:.2f}"])

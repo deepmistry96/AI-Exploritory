@@ -1,0 +1,720 @@
+Run 1 prediction: 473.70
+Run 2 prediction: 473.95
+Run 3 prediction: 474.13
+Run 4 prediction: 474.01
+Run 5 prediction: 474.12
+Run 6 prediction: 474.24
+Run 7 prediction: 474.23
+Run 8 prediction: 474.52
+Run 9 prediction: 473.77
+Run 10 prediction: 473.36
+time steps = 30 || test size = 0.1 || SPY 2 hour || Dropout = 0.1
+All predictions:,473.69913,473.95163,474.12967,474.00632,474.11795,474.23767,474.23102,474.51624,473.7687,473.36362
+Average Predicted Price: 474.00
+Standard Deviation: 0.31
+
+Run 1 prediction: 473.99
+Run 2 prediction: 473.20
+Run 3 prediction: 473.31
+Run 4 prediction: 473.61
+Run 5 prediction: 473.23
+Run 6 prediction: 473.35
+Run 7 prediction: 473.43
+Run 8 prediction: 473.42
+Run 9 prediction: 473.23
+Run 10 prediction: 473.38
+time steps = 30 || test size = 0.1 || SPY 2 hour || Dropout = 0.2
+All predictions:,473.98816,473.19943,473.30804,473.60834,473.23483,473.35077,473.43124,473.42337,473.2294,473.38406
+Average Predicted Price: 473.42
+Standard Deviation: 0.22
+
+Run 1 prediction: 472.89
+Run 2 prediction: 472.57
+Run 3 prediction: 473.07
+Run 4 prediction: 472.98
+Run 5 prediction: 472.33
+Run 6 prediction: 472.28
+Run 7 prediction: 473.05
+Run 8 prediction: 472.76
+Run 9 prediction: 472.80
+Run 10 prediction: 472.75
+time steps = 30 || test size = 0.1 || SPY 2 hour || Dropout = 0.3
+All predictions:,472.8859,472.57373,473.07446,472.97955,472.32953,472.2797,473.0484,472.76358,472.80386,472.75272
+Average Predicted Price: 472.75
+Standard Deviation: 0.26
+
+Run 1 prediction: 473.29
+Run 2 prediction: 473.25
+Run 3 prediction: 472.12
+Run 4 prediction: 473.23
+Run 5 prediction: 472.90
+Run 6 prediction: 472.84
+Run 7 prediction: 473.09
+Run 8 prediction: 473.00
+Run 9 prediction: 472.38
+Run 10 prediction: 473.22
+time steps = 30 || test size = 0.1 || SPY 2 hour || Dropout = 0.5
+All predictions:,473.29486,473.25488,472.12143,473.2315,472.89972,472.84033,473.09268,472.9976,472.38202,473.2239
+Average Predicted Price: 472.93
+Standard Deviation: 0.38
+
+Run 1 prediction: 476.30
+Run 2 prediction: 477.21
+Run 3 prediction: 477.17
+Run 4 prediction: 477.18
+Run 5 prediction: 476.72
+Run 6 prediction: 476.38
+Run 7 prediction: 476.67
+Run 8 prediction: 477.15
+Run 9 prediction: 477.36
+Run 10 prediction: 476.90
+time steps = 30 || test size = 0.2 || SPY 2 hour || Dropout = 0.1
+All predictions:,476.30466,477.21304,477.16647,477.1802,476.71982,476.3755,476.66882,477.14542,477.3634,476.8979
+Average Predicted Price: 476.90
+Standard Deviation: 0.35
+
+Run 1 prediction: 476.78
+Run 2 prediction: 476.15
+Run 3 prediction: 476.74
+Run 4 prediction: 476.62
+Run 5 prediction: 476.43
+Run 6 prediction: 476.80
+Run 7 prediction: 476.30
+Run 8 prediction: 476.18
+Run 9 prediction: 476.64
+Run 10 prediction: 476.85
+time steps = 30 || test size = 0.2 || SPY 2 hour || Dropout = 0.2
+All predictions:,476.77753,476.1502,476.73578,476.61603,476.4276,476.80298,476.30157,476.17645,476.64285,476.84976
+Average Predicted Price: 476.55
+Standard Deviation: 0.25
+
+Run 1 prediction: 475.86
+Run 2 prediction: 475.27
+Run 3 prediction: 475.28
+Run 4 prediction: 475.68
+Run 5 prediction: 475.99
+Run 6 prediction: 475.66
+Run 7 prediction: 475.62
+Run 8 prediction: 476.68
+Run 9 prediction: 476.11
+Run 10 prediction: 475.24
+time steps = 30 || test size = 0.2 || SPY 2 hour || Dropout = 0.3
+All predictions:,475.8558,475.27322,475.27795,475.68436,475.98917,475.6573,475.61642,476.67545,476.10666,475.2389
+Average Predicted Price: 475.74
+Standard Deviation: 0.42
+
+Run 1 prediction: 473.42
+Run 2 prediction: 474.75
+Run 3 prediction: 473.40
+Run 4 prediction: 473.60
+Run 5 prediction: 473.92
+Run 6 prediction: 474.38
+Run 7 prediction: 473.96
+Run 8 prediction: 473.82
+Run 9 prediction: 473.23
+Run 10 prediction: 473.84
+time steps = 30 || test size = 0.2 || SPY 2 hour || Dropout = 0.5
+All predictions:,473.41696,474.74942,473.39734,473.60474,473.91867,474.3761,473.9635,473.81607,473.23383,473.83575
+Average Predicted Price: 473.83
+Standard Deviation: 0.44
+
+Run 1 prediction: 476.93
+Run 2 prediction: 476.99
+Run 3 prediction: 477.10
+Run 4 prediction: 477.46
+Run 5 prediction: 477.75
+Run 6 prediction: 477.62
+Run 7 prediction: 477.91
+Run 8 prediction: 477.14
+Run 9 prediction: 477.67
+Run 10 prediction: 477.49
+time steps = 30 || test size = 0.3 || SPY 2 hour || Dropout = 0.1
+All predictions:,476.9334,476.98904,477.0978,477.45767,477.75287,477.61612,477.91455,477.1375,477.67426,477.48645
+Average Predicted Price: 477.41
+Standard Deviation: 0.33
+
+Run 1 prediction: 476.47
+Run 2 prediction: 476.07
+Run 3 prediction: 475.84
+Run 4 prediction: 476.09
+Run 5 prediction: 477.34
+Run 6 prediction: 475.96
+Run 7 prediction: 476.95
+Run 8 prediction: 476.29
+Run 9 prediction: 477.36
+Run 10 prediction: 477.16
+time steps = 30 || test size = 0.3 || SPY 2 hour || Dropout = 0.2
+All predictions:,476.47043,476.07025,475.83673,476.09164,477.3411,475.95547,476.94696,476.2867,477.36465,477.15503
+Average Predicted Price: 476.55
+Standard Deviation: 0.56
+
+Run 1 prediction: 475.67
+Run 2 prediction: 475.17
+Run 3 prediction: 475.27
+Run 4 prediction: 475.28
+Run 5 prediction: 474.79
+Run 6 prediction: 475.59
+Run 7 prediction: 475.83
+Run 8 prediction: 474.87
+Run 9 prediction: 474.88
+Run 10 prediction: 474.28
+time steps = 30 || test size = 0.3 || SPY 2 hour || Dropout = 0.3
+All predictions:,475.6674,475.1677,475.26767,475.27545,474.79092,475.59378,475.8289,474.87363,474.88156,474.28192
+Average Predicted Price: 475.16
+Standard Deviation: 0.45
+
+Run 1 prediction: 473.87
+Run 2 prediction: 474.19
+Run 3 prediction: 474.39
+Run 4 prediction: 474.63
+Run 5 prediction: 474.30
+Run 6 prediction: 475.07
+Run 7 prediction: 474.37
+Run 8 prediction: 474.02
+Run 9 prediction: 474.65
+Run 10 prediction: 474.38
+time steps = 30 || test size = 0.3 || SPY 2 hour || Dropout = 0.5
+All predictions:,473.86893,474.1904,474.389,474.62515,474.29968,475.0739,474.36676,474.02332,474.64557,474.38107
+Average Predicted Price: 474.39
+Standard Deviation: 0.32
+
+Run 1 prediction: 474.44
+Run 2 prediction: 473.53
+Run 3 prediction: 474.57
+Run 4 prediction: 474.18
+Run 5 prediction: 474.43
+Run 6 prediction: 474.10
+Run 7 prediction: 474.67
+Run 8 prediction: 474.17
+Run 9 prediction: 474.20
+Run 10 prediction: 473.68
+time steps = 60 || test size = 0.1 || SPY 2 hour || Dropout = 0.1
+All predictions:,474.44034,473.53046,474.566,474.17883,474.42606,474.0993,474.67166,474.17365,474.20282,473.68054
+Average Predicted Price: 474.20
+Standard Deviation: 0.35
+
+Run 1 prediction: 474.88
+Run 2 prediction: 475.43
+Run 3 prediction: 474.86
+Run 4 prediction: 474.98
+Run 5 prediction: 475.29
+Run 6 prediction: 474.70
+Run 7 prediction: 475.36
+Run 8 prediction: 475.31
+Run 9 prediction: 475.39
+Run 10 prediction: 474.84
+time steps = 60 || test size = 0.1 || SPY 2 hour || Dropout = 0.2
+All predictions:,474.88004,475.42807,474.8631,474.9791,475.29285,474.70297,475.3554,475.31006,475.39188,474.83627
+Average Predicted Price: 475.10
+Standard Deviation: 0.26
+
+Run 1 prediction: 474.34
+Run 2 prediction: 474.14
+Run 3 prediction: 474.59
+Run 4 prediction: 474.36
+Run 5 prediction: 474.79
+Run 6 prediction: 474.36
+Run 7 prediction: 474.59
+Run 8 prediction: 474.28
+Run 9 prediction: 475.18
+Run 10 prediction: 474.37
+time steps = 60 || test size = 0.1 || SPY 2 hour || Dropout = 0.3
+All predictions:,474.3408,474.1358,474.58627,474.3572,474.7891,474.3576,474.5883,474.28076,475.17563,474.3681
+Average Predicted Price: 474.50
+Standard Deviation: 0.29
+
+Run 1 prediction: 473.94
+Run 2 prediction: 474.73
+Run 3 prediction: 474.00
+Run 4 prediction: 474.45
+Run 5 prediction: 473.68
+Run 6 prediction: 474.47
+Run 7 prediction: 474.40
+Run 8 prediction: 474.57
+Run 9 prediction: 474.92
+Run 10 prediction: 474.94
+time steps = 60 || test size = 0.1 || SPY 2 hour || Dropout = 0.5
+All predictions:,473.9401,474.7264,473.9982,474.45343,473.68008,474.46844,474.3958,474.56766,474.92316,474.93616
+Average Predicted Price: 474.41
+Standard Deviation: 0.40
+
+Run 1 prediction: 475.06
+Run 2 prediction: 475.68
+Run 3 prediction: 474.57
+Run 4 prediction: 474.86
+Run 5 prediction: 475.79
+Run 6 prediction: 475.16
+Run 7 prediction: 475.72
+Run 8 prediction: 475.88
+Run 9 prediction: 475.64
+Run 10 prediction: 474.95
+time steps = 60 || test size = 0.2 || SPY 2 hour || Dropout = 0.1
+All predictions:,475.06393,475.68185,474.57074,474.85843,475.7907,475.15994,475.7202,475.87732,475.63602,474.95493
+Average Predicted Price: 475.33
+Standard Deviation: 0.44
+
+Run 1 prediction: 473.65
+Run 2 prediction: 474.77
+Run 3 prediction: 474.65
+Run 4 prediction: 474.42
+Run 5 prediction: 474.35
+Run 6 prediction: 473.35
+Run 7 prediction: 474.27
+Run 8 prediction: 474.64
+Run 9 prediction: 474.78
+Run 10 prediction: 474.48
+time steps = 60 || test size = 0.2 || SPY 2 hour || Dropout = 0.2
+All predictions:,473.6515,474.77277,474.6487,474.4185,474.34885,473.35413,474.26822,474.6441,474.7798,474.48465
+Average Predicted Price: 474.34
+Standard Deviation: 0.45
+
+Run 1 prediction: 472.97
+Run 2 prediction: 473.01
+Run 3 prediction: 473.84
+Run 4 prediction: 472.34
+Run 5 prediction: 473.20
+Run 6 prediction: 472.90
+Run 7 prediction: 473.30
+Run 8 prediction: 473.42
+Run 9 prediction: 472.32
+Run 10 prediction: 473.28
+time steps = 60 || test size = 0.2 || SPY 2 hour || Dropout = 0.3
+All predictions:,472.9733,473.00925,473.84055,472.33997,473.19763,472.8978,473.30408,473.4199,472.3237,473.28378
+Average Predicted Price: 473.06
+Standard Deviation: 0.44
+
+Run 1 prediction: 473.22
+Run 2 prediction: 472.94
+Run 3 prediction: 472.51
+Run 4 prediction: 473.94
+Run 5 prediction: 473.36
+Run 6 prediction: 473.38
+Run 7 prediction: 473.44
+Run 8 prediction: 473.82
+Run 9 prediction: 472.96
+Run 10 prediction: 472.85
+time steps = 60 || test size = 0.2 || SPY 2 hour || Dropout = 0.5
+All predictions:,473.2208,472.9441,472.51282,473.94247,473.35944,473.3804,473.43637,473.81927,472.96432,472.8453
+Average Predicted Price: 473.24
+Standard Deviation: 0.42
+
+Run 1 prediction: 477.21
+Run 2 prediction: 476.17
+Run 3 prediction: 477.39
+Run 4 prediction: 477.47
+Run 5 prediction: 477.60
+Run 6 prediction: 476.85
+Run 7 prediction: 477.74
+Run 8 prediction: 477.02
+Run 9 prediction: 476.81
+Run 10 prediction: 476.99
+time steps = 60 || test size = 0.3 || SPY 2 hour || Dropout = 0.1
+All predictions:,477.2136,476.17258,477.38962,477.4693,477.60028,476.8453,477.7444,477.0231,476.80966,476.9868
+Average Predicted Price: 477.13
+Standard Deviation: 0.44
+
+Run 1 prediction: 477.14
+Run 2 prediction: 477.13
+Run 3 prediction: 476.32
+Run 4 prediction: 476.88
+Run 5 prediction: 477.29
+Run 6 prediction: 476.13
+Run 7 prediction: 477.12
+Run 8 prediction: 477.55
+Run 9 prediction: 476.43
+Run 10 prediction: 477.70
+time steps = 60 || test size = 0.3 || SPY 2 hour || Dropout = 0.2
+All predictions:,477.14288,477.13245,476.3219,476.87717,477.28964,476.12772,477.12204,477.54932,476.4258,477.70267
+Average Predicted Price: 476.97
+Standard Deviation: 0.50
+
+Run 1 prediction: 472.94
+Run 2 prediction: 473.21
+Run 3 prediction: 473.37
+Run 4 prediction: 473.41
+Run 5 prediction: 473.72
+Run 6 prediction: 473.56
+Run 7 prediction: 473.58
+Run 8 prediction: 473.42
+Run 9 prediction: 474.47
+Run 10 prediction: 473.52
+time steps = 60 || test size = 0.3 || SPY 2 hour || Dropout = 0.3
+All predictions:,472.94162,473.21335,473.3657,473.40573,473.7203,473.5588,473.57916,473.41934,474.47043,473.52298
+Average Predicted Price: 473.52
+Standard Deviation: 0.38
+
+Run 1 prediction: 473.47
+Run 2 prediction: 473.65
+Run 3 prediction: 473.54
+Run 4 prediction: 474.11
+Run 5 prediction: 473.37
+Run 6 prediction: 474.02
+Run 7 prediction: 473.88
+Run 8 prediction: 473.98
+Run 9 prediction: 473.59
+Run 10 prediction: 473.47
+time steps = 60 || test size = 0.3 || SPY 2 hour || Dropout = 0.5
+All predictions:,473.47104,473.6544,473.53827,474.10907,473.3749,474.01932,473.87582,473.98032,473.5861,473.46512
+Average Predicted Price: 473.71
+Standard Deviation: 0.25
+
+Run 1 prediction: 478.04
+Run 2 prediction: 477.76
+Run 3 prediction: 478.13
+Run 4 prediction: 477.96
+Run 5 prediction: 478.85
+Run 6 prediction: 478.09
+Run 7 prediction: 477.12
+Run 8 prediction: 477.06
+Run 9 prediction: 478.19
+Run 10 prediction: 478.03
+time steps = 90 || test size = 0.1 || SPY 2 hour || Dropout = 0.1
+All predictions:,478.04376,477.76175,478.13333,477.957,478.85498,478.0884,477.1179,477.05508,478.18533,478.0251
+Average Predicted Price: 477.92
+Standard Deviation: 0.50
+
+Run 1 prediction: 475.66
+Run 2 prediction: 475.95
+Run 3 prediction: 475.79
+Run 4 prediction: 475.40
+Run 5 prediction: 475.43
+Run 6 prediction: 476.16
+Run 7 prediction: 475.45
+Run 8 prediction: 477.18
+Run 9 prediction: 475.73
+Run 10 prediction: 475.75
+time steps = 90 || test size = 0.1 || SPY 2 hour || Dropout = 0.2
+All predictions:,475.66428,475.95068,475.7873,475.4003,475.42657,476.1648,475.4504,477.18332,475.73386,475.7502
+Average Predicted Price: 475.85
+Standard Deviation: 0.50
+
+Run 1 prediction: 473.09
+Run 2 prediction: 473.06
+Run 3 prediction: 472.90
+Run 4 prediction: 473.42
+Run 5 prediction: 473.86
+Run 6 prediction: 473.32
+Run 7 prediction: 473.92
+Run 8 prediction: 473.26
+Run 9 prediction: 472.37
+Run 10 prediction: 473.58
+time steps = 90 || test size = 0.1 || SPY 2 hour || Dropout = 0.3
+All predictions:,473.09308,473.0605,472.89526,473.42157,473.85938,473.3182,473.92307,473.25974,472.368,473.57578
+Average Predicted Price: 473.28
+Standard Deviation: 0.44
+
+Run 1 prediction: 470.99
+Run 2 prediction: 471.31
+Run 3 prediction: 471.21
+Run 4 prediction: 471.85
+Run 5 prediction: 471.49
+Run 6 prediction: 471.10
+Run 7 prediction: 471.36
+Run 8 prediction: 471.17
+Run 9 prediction: 471.21
+Run 10 prediction: 471.50
+time steps = 90 || test size = 0.1 || SPY 2 hour || Dropout = 0.5
+All predictions:,470.98645,471.30835,471.21365,471.85202,471.49066,471.10452,471.35913,471.16898,471.21225,471.50217
+Average Predicted Price: 471.32
+Standard Deviation: 0.23
+
+Run 1 prediction: 475.25
+Run 2 prediction: 475.20
+Run 3 prediction: 475.41
+Run 4 prediction: 474.67
+Run 5 prediction: 474.85
+Run 6 prediction: 474.67
+Run 7 prediction: 475.33
+Run 8 prediction: 474.72
+Run 9 prediction: 474.56
+Run 10 prediction: 474.96
+time steps = 90 || test size = 0.2 || SPY 2 hour || Dropout = 0.1
+All predictions:,475.2528,475.20187,475.41202,474.6668,474.8461,474.66516,475.32623,474.71835,474.56143,474.96017
+Average Predicted Price: 474.96
+Standard Deviation: 0.30
+
+Run 1 prediction: 473.27
+Run 2 prediction: 473.47
+Run 3 prediction: 473.78
+Run 4 prediction: 473.86
+Run 5 prediction: 473.03
+Run 6 prediction: 473.14
+Run 7 prediction: 473.39
+Run 8 prediction: 472.90
+Run 9 prediction: 474.83
+Run 10 prediction: 474.25
+time steps = 90 || test size = 0.2 || SPY 2 hour || Dropout = 0.2
+All predictions:,473.26675,473.47192,473.77798,473.86328,473.02823,473.139,473.38956,472.89612,474.83426,474.2541
+Average Predicted Price: 473.59
+Standard Deviation: 0.57
+
+Run 1 prediction: 474.89
+Run 2 prediction: 475.31
+Run 3 prediction: 475.87
+Run 4 prediction: 475.39
+Run 5 prediction: 476.33
+Run 6 prediction: 475.71
+Run 7 prediction: 474.83
+Run 8 prediction: 475.22
+Run 9 prediction: 475.74
+Run 10 prediction: 475.65
+time steps = 90 || test size = 0.2 || SPY 2 hour || Dropout = 0.3
+All predictions:,474.8903,475.31497,475.87143,475.38983,476.3284,475.7131,474.82864,475.22412,475.73972,475.64532
+Average Predicted Price: 475.49
+Standard Deviation: 0.44
+
+Run 1 prediction: 475.17
+Run 2 prediction: 475.37
+Run 3 prediction: 474.48
+Run 4 prediction: 475.39
+Run 5 prediction: 474.87
+Run 6 prediction: 474.69
+Run 7 prediction: 475.41
+Run 8 prediction: 474.75
+Run 9 prediction: 475.56
+Run 10 prediction: 474.35
+time steps = 90 || test size = 0.2 || SPY 2 hour || Dropout = 0.5
+All predictions:,475.17242,475.36755,474.47864,475.39035,474.86627,474.6906,475.4138,474.7463,475.55557,474.35153
+Average Predicted Price: 475.00
+Standard Deviation: 0.41
+
+Run 1 prediction: 475.79
+Run 2 prediction: 474.40
+Run 3 prediction: 474.12
+Run 4 prediction: 475.32
+Run 5 prediction: 474.83
+Run 6 prediction: 474.84
+Run 7 prediction: 476.84
+Run 8 prediction: 474.46
+Run 9 prediction: 474.94
+Run 10 prediction: 475.78
+time steps = 90 || test size = 0.3 || SPY 2 hour || Dropout = 0.1
+All predictions:,475.78632,474.3996,474.11682,475.31647,474.82626,474.83932,476.8435,474.46417,474.94037,475.77722
+Average Predicted Price: 475.13
+Standard Deviation: 0.78
+
+Run 1 prediction: 476.50
+Run 2 prediction: 476.10
+Run 3 prediction: 477.16
+Run 4 prediction: 476.43
+Run 5 prediction: 474.66
+Run 6 prediction: 476.38
+Run 7 prediction: 475.93
+Run 8 prediction: 475.45
+Run 9 prediction: 475.95
+Run 10 prediction: 475.44
+time steps = 90 || test size = 0.3 || SPY 2 hour || Dropout = 0.2
+All predictions:,476.50467,476.10257,477.161,476.43134,474.66486,476.38364,475.92944,475.45276,475.9515,475.44016
+Average Predicted Price: 476.00
+Standard Deviation: 0.66
+
+Run 1 prediction: 477.19
+Run 2 prediction: 476.63
+Run 3 prediction: 477.25
+Run 4 prediction: 478.28
+Run 5 prediction: 477.50
+Run 6 prediction: 476.35
+Run 7 prediction: 476.62
+Run 8 prediction: 476.11
+Run 9 prediction: 478.14
+Run 10 prediction: 476.35
+time steps = 90 || test size = 0.3 || SPY 2 hour || Dropout = 0.3
+All predictions:,477.18808,476.63312,477.25055,478.27896,477.50467,476.34665,476.6154,476.1146,478.1431,476.34808
+Average Predicted Price: 477.04
+Standard Deviation: 0.72
+
+Run 1 prediction: 475.92
+Run 2 prediction: 474.79
+Run 3 prediction: 476.43
+Run 4 prediction: 476.64
+Run 5 prediction: 474.94
+Run 6 prediction: 477.23
+Run 7 prediction: 476.32
+Run 8 prediction: 475.98
+Run 9 prediction: 476.14
+Run 10 prediction: 475.20
+time steps = 90 || test size = 0.3 || SPY 2 hour || Dropout = 0.5
+All predictions:,475.9193,474.78976,476.4277,476.64423,474.94122,477.2328,476.31665,475.9758,476.13605,475.19962
+Average Predicted Price: 475.96
+Standard Deviation: 0.74
+
+Run 1 prediction: 475.57
+Run 2 prediction: 474.89
+Run 3 prediction: 474.26
+Run 4 prediction: 475.73
+Run 5 prediction: 475.03
+Run 6 prediction: 474.94
+Run 7 prediction: 474.99
+Run 8 prediction: 474.79
+Run 9 prediction: 474.14
+Run 10 prediction: 474.75
+time steps = 120 || test size = 0.1 || SPY 2 hour || Dropout = 0.1
+All predictions:,475.57166,474.88998,474.25873,475.7337,475.03214,474.9414,474.988,474.78796,474.1409,474.74847
+Average Predicted Price: 474.91
+Standard Deviation: 0.47
+
+Run 1 prediction: 473.79
+Run 2 prediction: 473.78
+Run 3 prediction: 474.17
+Run 4 prediction: 473.68
+Run 5 prediction: 474.11
+Run 6 prediction: 474.32
+Run 7 prediction: 474.07
+Run 8 prediction: 473.77
+Run 9 prediction: 474.09
+Run 10 prediction: 473.69
+time steps = 120 || test size = 0.1 || SPY 2 hour || Dropout = 0.2
+All predictions:,473.79276,473.7823,474.16577,473.6766,474.11163,474.3212,474.06854,473.77243,474.0869,473.69092
+Average Predicted Price: 473.95
+Standard Deviation: 0.22
+
+Run 1 prediction: 475.10
+Run 2 prediction: 475.90
+Run 3 prediction: 475.35
+Run 4 prediction: 475.66
+Run 5 prediction: 474.56
+Run 6 prediction: 476.17
+Run 7 prediction: 475.57
+Run 8 prediction: 474.72
+Run 9 prediction: 476.00
+Run 10 prediction: 475.19
+time steps = 120 || test size = 0.1 || SPY 2 hour || Dropout = 0.3
+All predictions:,475.10208,475.90326,475.34982,475.66492,474.55792,476.16962,475.57446,474.72208,475.9962,475.18707
+Average Predicted Price: 475.42
+Standard Deviation: 0.51
+
+Run 1 prediction: 475.20
+Run 2 prediction: 474.68
+Run 3 prediction: 475.45
+Run 4 prediction: 475.78
+Run 5 prediction: 475.20
+Run 6 prediction: 475.11
+Run 7 prediction: 475.62
+Run 8 prediction: 474.75
+Run 9 prediction: 474.81
+Run 10 prediction: 475.62
+time steps = 120 || test size = 0.1 || SPY 2 hour || Dropout = 0.5
+All predictions:,475.19635,474.68127,475.4459,475.77637,475.20444,475.10696,475.6224,474.75348,474.8126,475.62424
+Average Predicted Price: 475.22
+Standard Deviation: 0.37
+
+Run 1 prediction: 475.23
+Run 2 prediction: 474.52
+Run 3 prediction: 475.51
+Run 4 prediction: 475.04
+Run 5 prediction: 475.27
+Run 6 prediction: 474.28
+Run 7 prediction: 475.72
+Run 8 prediction: 475.86
+Run 9 prediction: 474.46
+Run 10 prediction: 475.22
+time steps = 120 || test size = 0.2 || SPY 2 hour || Dropout = 0.1
+All predictions:,475.2286,474.52063,475.50577,475.03833,475.2689,474.27637,475.723,475.86133,474.4646,475.218
+Average Predicted Price: 475.11
+Standard Deviation: 0.51
+
+Run 1 prediction: 474.72
+Run 2 prediction: 474.96
+Run 3 prediction: 474.07
+Run 4 prediction: 474.90
+Run 5 prediction: 474.70
+Run 6 prediction: 474.69
+Run 7 prediction: 473.81
+Run 8 prediction: 475.47
+Run 9 prediction: 474.91
+Run 10 prediction: 475.14
+time steps = 120 || test size = 0.2 || SPY 2 hour || Dropout = 0.2
+All predictions:,474.7243,474.9585,474.07178,474.90408,474.6989,474.68997,473.81226,475.47476,474.9111,475.13913
+Average Predicted Price: 474.74
+Standard Deviation: 0.46
+
+Run 1 prediction: 473.75
+Run 2 prediction: 473.87
+Run 3 prediction: 474.64
+Run 4 prediction: 473.99
+Run 5 prediction: 474.34
+Run 6 prediction: 474.78
+Run 7 prediction: 474.61
+Run 8 prediction: 474.79
+Run 9 prediction: 474.39
+Run 10 prediction: 474.27
+time steps = 120 || test size = 0.2 || SPY 2 hour || Dropout = 0.3
+All predictions:,473.75497,473.87207,474.63715,473.9936,474.33698,474.78067,474.61432,474.78806,474.39243,474.26974
+Average Predicted Price: 474.34
+Standard Deviation: 0.35
+
+Run 1 prediction: 474.45
+Run 2 prediction: 474.16
+Run 3 prediction: 474.33
+Run 4 prediction: 474.69
+Run 5 prediction: 473.60
+Run 6 prediction: 473.33
+Run 7 prediction: 474.65
+Run 8 prediction: 473.82
+Run 9 prediction: 474.33
+Run 10 prediction: 474.77
+time steps = 120 || test size = 0.2 || SPY 2 hour || Dropout = 0.5
+All predictions:,474.4479,474.1641,474.33466,474.69464,473.5986,473.33014,474.65152,473.82272,474.32672,474.77298
+Average Predicted Price: 474.21
+Standard Deviation: 0.46
+
+Run 1 prediction: 475.56
+Run 2 prediction: 475.28
+Run 3 prediction: 475.67
+Run 4 prediction: 474.97
+Run 5 prediction: 474.88
+Run 6 prediction: 475.65
+Run 7 prediction: 475.12
+Run 8 prediction: 475.59
+Run 9 prediction: 474.53
+Run 10 prediction: 475.06
+time steps = 120 || test size = 0.3 || SPY 2 hour || Dropout = 0.1
+All predictions:,475.5606,475.28018,475.67496,474.9664,474.87952,475.652,475.11874,475.59332,474.52527,475.05618
+Average Predicted Price: 475.23
+Standard Deviation: 0.37
+
+Run 1 prediction: 476.95
+Run 2 prediction: 478.92
+Run 3 prediction: 476.98
+Run 4 prediction: 477.84
+Run 5 prediction: 477.99
+Run 6 prediction: 478.21
+Run 7 prediction: 477.55
+Run 8 prediction: 477.37
+Run 9 prediction: 477.78
+Run 10 prediction: 477.62
+time steps = 120 || test size = 0.3 || SPY 2 hour || Dropout = 0.2
+All predictions:,476.9486,478.91858,476.97733,477.83643,477.99338,478.2122,477.54642,477.3654,477.78122,477.62418
+Average Predicted Price: 477.72
+Standard Deviation: 0.56
+
+Run 1 prediction: 477.90
+Run 2 prediction: 477.84
+Run 3 prediction: 476.82
+Run 4 prediction: 477.14
+Run 5 prediction: 477.22
+Run 6 prediction: 477.39
+Run 7 prediction: 477.24
+Run 8 prediction: 477.12
+Run 9 prediction: 477.34
+Run 10 prediction: 477.83
+time steps = 120 || test size = 0.3 || SPY 2 hour || Dropout = 0.3
+All predictions:,477.90112,477.83914,476.8238,477.1401,477.2161,477.3939,477.24057,477.1249,477.3407,477.83267
+Average Predicted Price: 477.39
+Standard Deviation: 0.34
+
+Run 1 prediction: 475.29
+Run 2 prediction: 476.53
+Run 3 prediction: 474.89
+Run 4 prediction: 476.00
+Run 5 prediction: 476.02
+Run 6 prediction: 476.37
+Run 7 prediction: 476.14
+Run 8 prediction: 474.97
+Run 9 prediction: 477.12
+Run 10 prediction: 476.03
+time steps = 120 || test size = 0.3 || SPY 2 hour || Dropout = 0.5
+All predictions:,475.29,476.5274,474.88553,476.0043,476.01544,476.3714,476.14194,474.9739,477.12448,476.03137
+Average Predicted Price: 475.94
+Standard Deviation: 0.67
+
