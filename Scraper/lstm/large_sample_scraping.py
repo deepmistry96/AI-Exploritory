@@ -8,11 +8,22 @@ from pytz import timezone
 import pytz
 from sklearn.preprocessing import MinMaxScaler
 
-tickers = [ "AAPL", "BA", "SPY", "WMT", "SCHW", "KO", "AMD", "AMZN", "QQQ", "QLD", "TSLA","MSFT", "GOOGL", "V", "JNJ", "PG", "UNH", "MA", "INTC", "VZ",
-    "T", "MRK", "PFE", "CSCO", "NKE", "XOM", "CVX", "PEP", "KO", "ORCL", "ABBV", "ABT", "ACN", "ADBE", "CRM", "BAC", "WFC", "GS", "C", "MCD", "DHR", "GE", "MMM", "HON", "UNP", "UPS", "CAT", "BA", "RTX", "LMT",
-    "NVS", "JPM", "TM", "PTR", "RDS.A", "BP", "TOT", "CVS", "WBA", "HD", "LOW", "IBM", "TXN", "QCOM", "F", "GM", "HMC", "TSLA", "VWAGY", "NSANY", "SNE", "LG", "SAP", "SNE", "PDD", "BABA", "TSM", "SAP", "ASML", "ADSK",
-    "SYK", "MDT", "ISRG", "BMY", "AMGN", "GILD", "CELG", "BIIB", "VRTX", "REGN", "LNG", "E", "ENB", "EPD", "KMI", "WMB", "PSX", "VLO", "MPC", "ET"
-]
+tickers = [
+    "TSLA",
+    "AMD", 
+    "AMZN", 
+    "QQQ", 
+    "BABA",
+    "TSM", 
+    "NVDA", 
+    "PDD", 
+    "AAPL",
+    "KO",
+    "SPY",
+    "TSLA",
+    "WMT",
+    "ORCL",
+    "CRM"]
 
 POLYGON_API_KEY = "UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr"
 market_open = 9.5
