@@ -141,14 +141,17 @@ for filename in os.listdir(directory_path):
         csv_file_path = os.path.join(directory_path, filename)
         df = pd.read_csv(csv_file_path)
 
+        pdb.set_trace()
+        # df.drop()
         # Extract stock ticker from filename
         stock_ticker = filename.split('_')[0]
 
         # Get the last price from the CSV file
-        current_price = df['Price'].iloc[-1]
+        current_price = df['c'].iloc[-1]
 
         # Prepare data for LSTM model
-        hourly_prices = df['Price'].to_numpy()
+        # hourly_prices = df['Price'].to_numpy()
+        hourly_prices = df['c'].to_numpy()
         X, y, scaler = prepare_data_for_lstm(hourly_prices)
         X = X.reshape((X.shape[0], X.shape[1], 1))
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
