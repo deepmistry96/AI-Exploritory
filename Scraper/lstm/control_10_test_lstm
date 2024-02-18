@@ -15,7 +15,7 @@ np.random.seed(42)
 tf.random.set_seed(42)
 
 POLYGON_API_KEY = "UEj08qcyC_Wy7BrWupey9WGN3vQ83JXr"
-symbol = "AAPL"
+symbol = "QQQ"
 market_open = 9.5
 market_close = 16
 
@@ -36,6 +36,8 @@ def fetch_hourly_prices(date):
 
 csv_file_name = './new_datasets/2_12_24/WMT_5_hours_till_close.csv'
 df = pd.read_csv(csv_file_name)
+# df = fetch_hourly_prices
+
 
 def prepare_data_for_lstm(prices, time_steps=120):
     prices = np.array(prices).reshape(-1, 1)
