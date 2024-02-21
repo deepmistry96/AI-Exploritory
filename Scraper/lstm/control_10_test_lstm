@@ -34,7 +34,7 @@ def fetch_hourly_prices(date):
     else:
         return np.array([])
 
-csv_file_name = './new_datasets/02_16_24/QQQ_5_hours_till_close.csv'
+csv_file_name = './new_datasets/02_20_24/QQQ_5_hours_till_close.csv'
 df = pd.read_csv(csv_file_name)
 
 def prepare_data_for_lstm(prices, time_steps=120):
