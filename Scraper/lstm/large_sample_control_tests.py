@@ -25,7 +25,7 @@ def prepare_data_for_lstm(prices, time_steps=120):
     return np.array(X), np.array(y), scaler
 
 # Directory containing the datasets
-directory_path = './new_datasets/02_13_24'
+directory_path = './new_datasets/02_23_24'
 
 # Output file path
 output_file_path = './prediction_summary.csv'
