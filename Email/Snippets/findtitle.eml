@@ -1,0 +1,532 @@
+Delivered-To: mistryman41@gmail.com
+Received: by 2002:a05:6358:e91b:b0:17b:6abe:9b66 with SMTP id gk27csp1111143rwb;
+        Sat, 24 Feb 2024 11:22:09 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IG4Bb36+F4ilccEQnJEGaxbkUAFCxo5o32YDiczRBoXGTkCtd5gehfUXrMXvf3LLZrbU0p1
+X-Received: by 2002:a05:6a20:af87:b0:1a0:7e2f:ad44 with SMTP id ds7-20020a056a20af8700b001a07e2fad44mr3197374pzb.31.1708802529689;
+        Sat, 24 Feb 2024 11:22:09 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1708802529; cv=none;
+        d=google.com; s=arc-20160816;
+        b=JkNVcY3Z3rwT9mKhLhAdN/8oyfNMcqRWsX49bEKv9ANz+jOw1y8WbvTZYwu5ZY07gw
+         GoPV62Zvux8tjgxJdPT6C10rOC++CbRSDt79/Jhm+DjAi7rhc84Uq9diWgMalGDzDHdn
+         oMOu3qGsP7JJ6/9nETpk4/BEnnDidIYkMvafltWJJnE1Z6Zv7TOLEePPm7xfPgX8wGHY
+         xapa2gU24OoiHsiJ9WQ20N2QiLByB7lnZiLr/z1D3g9yoMAI95aylx5c8sl/nMFCoYlm
+         7LwBml/dS6w8yI+XGGxhxmiT8iMgyb3qKMHIJ88//xopXAQhTpgGICxlJOq4vrtcJON/
+         Sb5w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:subject:in-reply-to:from:message-id:reply-to:precedence
+         :atl-sent-via:references:mime-version:date:to:dkim-signature;
+        bh=XJ8DnHEOoH1Z3+2pz/9swyAGlIASgUjWkKV7iwDin7k=;
+        fh=erx1wPoU7Q6xalqaUzW/6hzd8qNMtLCN6BduGDKHfbk=;
+        b=iBHbL5OT9S2ulaJhlmRXj+FqhPqR84Ub1hw31MotKRqJPbhATbd/0tObex89/KiSkU
+         QckUB6QKRU47fC5TR20fCjBPfn3u2Ck1354ocSqrt8zyrZuu7/al28FCcLctsSAkxjZr
+         26aNiPyHyHRorf2lSUj95/EDPnpozRqIBg7tGN++iEYaDYY/O+/iy59bWLLDB53Jfmti
+         VUmw31a8rcerp34raVGYgEpKcxJ3jUTSGVynoYnWC8BNTMj3ElvMcVpjBfXekFq4DxD/
+         VZMeQxOVhBYThfnG8JHkJHyKXTTgFZHawnvMeU2WCdPLagHda3lxqXt6T5KEelFyIfGC
+         7hpA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail-us.atlassian.net header.s=sparkpost0223 header.b="aETmo/aa";
+       spf=pass (google.com: domain of jira@mail-us.atlassian.net designates 156.70.150.15 as permitted sender) smtp.mailfrom=jira@mail-us.atlassian.net;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=atlassian.net
+Return-Path: <jira@mail-us.atlassian.net>
+Received: from mta-70-150-15.atlassian.net.sparkpostmail.com (mta-70-150-15.atlassian.net.sparkpostmail.com. [156.70.150.15])
+        by mx.google.com with ESMTPS id d10-20020a63bd4a000000b005cf94b8d9ddsi1237436pgp.869.2024.02.24.11.22.09
+        for <mistryman41@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 24 Feb 2024 11:22:09 -0800 (PST)
+Received-SPF: pass (google.com: domain of jira@mail-us.atlassian.net designates 156.70.150.15 as permitted sender) client-ip=156.70.150.15;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail-us.atlassian.net header.s=sparkpost0223 header.b="aETmo/aa";
+       spf=pass (google.com: domain of jira@mail-us.atlassian.net designates 156.70.150.15 as permitted sender) smtp.mailfrom=jira@mail-us.atlassian.net;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=atlassian.net
+X-MSFBL: dQkU//oL3r55YTcseUxTYTtm9amvMBtoFlRCu/JHtl0=|eyJjdXN0b21lcl9pZCI
+	6IjEiLCJtZXNzYWdlX2lkIjoiNjVkNGUxNDFkYTY1YzdmNTJiNmYiLCJ0ZW5hbnR
+	faWQiOiJhdGxhc3NpYW51cyIsInIiOiJtaXN0cnltYW40MUBnbWFpbC5jb20iLCJ
+	zdWJhY2NvdW50X2lkIjoiMCJ9
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=mail-us.atlassian.net; s=sparkpost0223; t=1708802529;
+	i=@mail-us.atlassian.net;
+	bh=XJ8DnHEOoH1Z3+2pz/9swyAGlIASgUjWkKV7iwDin7k=;
+	h=To:Date:Content-Type:Message-ID:From:Subject:From:To:Cc:Subject;
+	b=aETmo/aaTzVYh61Z3Yst4S0RThArPKnOix41XfskazhK52/1FrswHGRwPCVhH9SZ+
+	 c2cR4ULcwy6jDoRAHfZTDP3KcrFIzWGq9StZwMv8IXQgEm3rlYB+De1oXbGFwFz6J8
+	 ugMW2B6Yh0987ZxDQMU+2nNUIbvCkgDpuMickRwLooDo9w7RQfJiPKWIalF/74ApxY
+	 dxFMzomx5ZQvQKdwsKdrlk3znJ254Q1t+n5Hd0iVP7xbcCYxfdZ83fpWXbTXfA00E1
+	 w8PUYaHLKa3lr4fy5NTdl0C6FEqIkk0fga10gy0ArgnR/7Gm7eq58TRqYT8mk3cCNY
+	 jKxnxUQQoh8Mw==
+To: mistryman41@gmail.com
+Date: Sat, 24 Feb 2024 19:22:09 +0000
+Content-Type: multipart/related; boundary="_----esHi5QRvJhZ/kkOVtVNidw===_92/F6-19905-1E14AD56"
+MIME-Version: 1.0
+X-Atlassian-Mail-Message-Id: <2faade40-8c39-486f-9537-ed369a7d862c@deepmistry.atlassian.net>
+X-Atlassian-Mail-Transaction-Id: 2faade40-8c39-486f-9537-ed369a7d862c
+References: <v12Jwz7IdMLNx9cvj5DJxgj5XZ7TsePLGGWEDZXl7zw=@deepmistry.atlassian.net>
+Atl-Sent-Via: jira-np-distributor
+Precedence: bulk
+Reply-To: "Malav Chauhan (Jira)" <jira@deepmistry.atlassian.net>
+X-JIRA-FingerPrint: ba1324533f420681bc071dfa290197de8a9b8b170ce64f376dcc3e319eeb7b98
+Message-ID: <2faade40-8c39-486f-9537-ed369a7d862c@deepmistry.atlassian.net>
+From: "Malav Chauhan (Jira)" <jira@deepmistry.atlassian.net>
+In-Reply-To: <v12Jwz7IdMLNx9cvj5DJxgj5XZ7TsePLGGWEDZXl7zw=@deepmistry.atlassian.net>
+Subject: [JIRA] (MAL-7) Find title for the cart
+Feedback-ID: ip.5a17627f:pr.jira:la.jira/jira_issue_batched_jnd:atl-mail-out
+
+--_----esHi5QRvJhZ/kkOVtVNidw===_92/F6-19905-1E14AD56
+Content-Type: multipart/alternative; boundary="_----wrpDML8MzwtFQguRLYm75g===_92/F6-19905-1E14AD56"
+
+--_----wrpDML8MzwtFQguRLYm75g===_92/F6-19905-1E14AD56
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+Malav Chauhan *made 1 update*. Malav/MAL-7 Find title for the cart =E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=0A=0AMalav =
+Chauhan *made 1 update*.=0A=0AMalav ( https://deepmistry.atlassian.net/brow=
+se/MAL=3FatlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhODIiLC=
+JwIjoiaiJ9 )=0A=0A/=0A=0AMAL-7 ( https://deepmistry.atlassian.net/browse/MA=
+L-7=3FatlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhODIiLCJwI=
+joiaiJ9 )=0A=0AFind title for the cart ( https://deepmistry.atlassian.net/b=
+rowse/MAL-7=3FatlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhO=
+DIiLCJwIjoiaiJ9 )=0AMalav Chauhan 1:19=C2=A0PM=C2=A0CST Summary: Find title=
+ Find title for the cart=0A=0AView issue ( https://deepmistry.atlassian.net=
+/browse/MAL-7=3FatlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJ=
+hODIiLCJwIjoiaiJ9 )=0A=0AGet Jira notifications on your phone! Download the=
+ Jira Cloud app for Android ( https://play.google.com/store/apps/details=3F=
+id=3Dcom.atlassian.android.jira.core&referrer=3Dutm_source%3DNotificationLi=
+nk%26utm_medium%3DEmail ) or iOS ( https://itunes.apple.com/app/apple-store=
+/id1006972087=3Fpt=3D696495&ct=3DEmailNotificationLink&mt=3D8 ).=0A=0AManag=
+e notifications ( https://deepmistry.atlassian.net/jira/settings/personal/n=
+otifications=3FemailPreferences=3Dtrue&atlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdj=
+NGM1NGIzNjU4ZWY2MjhhNTJhODIiLCJwIjoiaiJ9#emailpreferences ) =E2=80=A2 Give =
+feedback ( https://surveys.atlassian.com/jfe/form/SV_9X3zi1X4q1gKsqF ) =E2=
+=80=A2 Privacy policy ( https://www.atlassian.com/legal/privacy-policy )
+--_----wrpDML8MzwtFQguRLYm75g===_92/F6-19905-1E14AD56
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A<html lang=3D"en" xml:lang=
+=3D"en" style=3D"font-family: Arial, sans-serif">=0A <head>=0A  <title></ti=
+tle>=0A  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+utf-8"><!--[if !mso]><!-->=0A  <meta http-equiv=3D"X-UA-Compatible" content=
+=3D"IE=3Dedge"><!--<![endif]-->=0A  <meta name=3D"viewport" content=3D"widt=
+h=3Ddevice-width, initial-scale=3D1.0"><!--[if (gte mso 9)|(IE)]>=0A       =
+ <style type=3D"text/css">=0A            table {border-collapse: collapse;}=
+=0A        </style>=0A        <![endif]--> <!--[if mso]>=0A        <style t=
+ype=3D"text/css">=0A            body, table, td {=0A                font-fa=
+mily: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'U=
+buntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;=
+=0A                color: #172b4d !important;=0A            }=0A        </s=
+tyle>=0A        <![endif]-->=0A  <style type=3D"text/css">=0A            @m=
+edia only screen and (max-width: 700px) {=0A                span.summary-te=
+xt-part {=0A                    display: block !important;=0A              =
+  }=0A=0A                .message-part-verb {=0A                    display=
+: none !important;=0A                }=0A=0A                .desktop-only {=
+=0A                    display: none !important;=0A                }=0A    =
+            .mobile-only {=0A                    display: block !important;=
+=0A                }=0A=0A=0A            }=0A=0A            @media only scr=
+een and (min-width: 700px) {=0A                span.ak-lozenge {=0A        =
+            margin-left: 5px;=0A                }=0A=0A                .des=
+ktop-only {=0A                    display: block !important;=0A            =
+    }=0A                .mobile-only {=0A                    display: none =
+!important;=0A                }=0A            }=0A=0A            @media pri=
+nt {=0A                div.media-print-hidden {=0A                    displ=
+ay: none;=0A                }=0A            }=0A=0A            .ak-button__=
+appearance-primary:hover {=0A                background: #0065FF !important=
+;=0A            }=0A=0A            .ak-button__appearance-subtle-link:hover=
+ {=0A                color: #8993a4 !important;=0A                text-deco=
+ration: underline !important;=0A            }=0A=0A            div.issue-su=
+mmary a:hover {=0A                color: #0065FF !important;=0A            =
+}=0A=0A            .footer a:hover {=0A                color: #0065FF !impo=
+rtant;=0A                text-decoration: underline !important;=0A         =
+   }=0A=0A            .layout-simple-header a:hover {=0A                col=
+or: #0065FF !important;=0A            }=0A=0A            .layout-simple-hea=
+der-with-breadcrumbs a:hover {=0A                color: #0065FF !important;=
+=0A            }=0A=0A            .confluence-content-section a:hover {=0A =
+               color: #0065FF !important;=0A                text-decoration=
+: underline !important;=0A            }=0A=0A            .confluence-header=
+ a:hover {=0A                color: #0065FF !important;=0A                t=
+ext-decoration: underline !important;=0A            }=0A        </style>=0A=
+ </head>=0A <body style=3D"background-color: #ffffff; font-family: -apple-s=
+ystem, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira =
+Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; font-size: 14px; font-st=
+yle: normal; font-weight: 400; color: #172b4d; letter-spacing: -0.15px; col=
+or: #333333; font-family: Arial, sans-serif; font-size: 14px; line-height: =
+1.4285715; background-color: #ffffff; font-family: -apple-system, BlinkMacS=
+ystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sa=
+ns', 'Helvetica Neue', sans-serif; color: #172b4d; letter-spacing: -0.15px"=
+ bgcolor=3D"#ffffff">=0A  <div class=3D"hidden" style=3D"display: none">=0A=
+   <span class=3D"summary-text-part">Malav Chauhan <b>made 1 update</b>.</s=
+pan> <span>Malav/MAL-7</span> <span>Find title for the cart </span> <span>&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C<=
+/span>=0A  </div>=0A  <div class=3D"outer-container" style=3D"width: 100.0%=
+; table-layout: fixed; max-width: 1040px; margin: 0 auto; -webkit-text-size=
+-adjust: 100.0%; -ms-text-size-adjust: 100.0%">=0A   <!--[if (gte mso 9)|(I=
+E)]>=0A            <table align=3D"center" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0">=0A                <tr>=0A                    <td width=3D=
+"1040">=0A            <![endif]-->=0A   <table style=3D"border-spacing: 0; =
+margin: 0; border-collapse: collapse; width: 100.0%; border-spacing: 0; mar=
+gin: 0">=0A    <tbody style=3D"border-bottom: 0">=0A     <tr>=0A      <td s=
+tyle=3D"padding: 0; padding: 0">=0A       <div class=3D"overview-headline" =
+style=3D"font-size: 14px; margin-bottom: 7px">=0A        <span class=3D"sum=
+mary-text-part" style=3D"display: inline">Malav Chauhan <b style=3D"font-we=
+ight: 600">made 1 update</b>.</span>=0A       </div>=0A       <table class=
+=3D"email-container" style=3D"border-spacing: 0; margin: 0; border-collapse=
+: collapse; width: 100.0%; border-spacing: 0; margin: 0; max-width: 1040px;=
+ margin: 0; border-collapse: separate">=0A        <tbody style=3D"border-bo=
+ttom: 0">=0A         <tr>=0A          <td class=3D"email-container" style=
+=3D"padding: 0; padding: 0; padding-top: 12px; padding-bottom: 12px; border=
+-top: 2px solid #dfe1e6">=0A           <table class=3D"event-group" style=
+=3D"border-spacing: 0; margin: 0; border-collapse: collapse; width: 100.0%;=
+ border-spacing: 0; margin: 0; margin: 0 0 0 0">=0A            <thead style=
+=3D"border-bottom: 0">=0A             <tr>=0A              <td colspan=3D"3=
+" style=3D"padding: 0; padding: 0">=0A               <div>=0A              =
+  <div>=0A                 <div class=3D"np-breadcrumbs" style=3D"color: #6=
+b778c; font-weight: 500; font-size: 14px; line-height: 20px; margin-bottom:=
+ 6px">=0A                  <table class=3D"breadcrumbs-table" style=3D"bord=
+er-spacing: 0; margin: 0; border-collapse: collapse; width: 100.0%; border-=
+spacing: 0; margin: 0; width: auto; border-spacing: 0; height: 20px" height=
+=3D"20">=0A                   <tbody style=3D"border-bottom: 0">=0A        =
+            <tr>=0A                     <td style=3D"padding: 0; padding: 0=
+; white-space: nowrap; color: #6b778c">=0A                      <table styl=
+e=3D"border-spacing: 0; margin: 0; border-collapse: collapse; width: 100.0%=
+; border-spacing: 0; margin: 0">=0A                       <tbody style=3D"b=
+order-bottom: 0">=0A                        <tr>=0A                        =
+ <td style=3D"padding: 0; padding: 0; white-space: nowrap; color: #6b778c">=
+<a class=3D"ak-button ak-button__appearance-subtle-link subtle-link-height-=
+override zero-padding" href=3D"https://deepmistry.atlassian.net/browse/MAL=
+=3FatlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhODIiLCJwIjoi=
+aiJ9" style=3D"color: #0052cc; text-decoration: none; align-items: baseline=
+; box-sizing: border-box; border-radius: 3px; border-width: 0; display: inl=
+ine-flex; font-style: normal; font-size: inherit; height: 2.2857144em; line=
+-height: 2.2857144em; margin: 0; outline: none; padding: 0 12px; text-align=
+: center; transition: background 0.1s ease-out, box-shadow 0.15s cubic-bezi=
+er(0.47, 0.03, 0.49, 1.38); user-select: none; vertical-align: middle; whit=
+e-space: nowrap; background: none; color: #42526e; text-decoration: none; p=
+adding: 0px; color: #6b778c; height: auto; line-height: normal">Malav</a></=
+td>=0A                        </tr>=0A                       </tbody>=0A   =
+                   </table></td>=0A                     <td style=3D"paddin=
+g: 0; padding: 0; white-space: nowrap; color: #6b778c"><span class=3D"np-br=
+eadcrumb-separator" style=3D"color: #6b778c">&nbsp;&nbsp;/&nbsp;&nbsp;</spa=
+n></td>=0A                     <td style=3D"padding: 0; padding: 0; white-s=
+pace: nowrap; color: #6b778c">=0A                      <table style=3D"bord=
+er-spacing: 0; margin: 0; border-collapse: collapse; width: 100.0%; border-=
+spacing: 0; margin: 0">=0A                       <tbody style=3D"border-bot=
+tom: 0">=0A                        <tr>=0A                         <td styl=
+e=3D"padding: 0; padding: 0; white-space: nowrap; color: #6b778c"><a class=
+=3D"ak-button ak-button__appearance-subtle-link subtle-link-height-override=
+ zero-padding" href=3D"https://deepmistry.atlassian.net/browse/MAL-7=3FatlO=
+rigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhODIiLCJwIjoiaiJ9" s=
+tyle=3D"color: #0052cc; text-decoration: none; align-items: baseline; box-s=
+izing: border-box; border-radius: 3px; border-width: 0; display: inline-fle=
+x; font-style: normal; font-size: inherit; height: 2.2857144em; line-height=
+: 2.2857144em; margin: 0; outline: none; padding: 0 12px; text-align: cente=
+r; transition: background 0.1s ease-out, box-shadow 0.15s cubic-bezier(0.47=
+, 0.03, 0.49, 1.38); user-select: none; vertical-align: middle; white-space=
+: nowrap; background: none; color: #42526e; text-decoration: none; padding:=
+ 0px; color: #6b778c; height: auto; line-height: normal">MAL-7</a></td>=0A =
+                       </tr>=0A                       </tbody>=0A          =
+            </table></td>=0A                    </tr>=0A                   =
+</tbody>=0A                  </table>=0A                 </div>=0A         =
+       </div>=0A                <div class=3D"issue-summary" style=3D"font-=
+size: 20px; font-weight: normal; line-height: 24px; margin: 6px 0 0 0">=0A =
+                <a href=3D"https://deepmistry.atlassian.net/browse/MAL-7=3F=
+atlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhODIiLCJwIjoiaiJ=
+9" style=3D"color: #0052cc; text-decoration: none; color: #0052cc"> <span>F=
+ind title for the cart </span> </a>=0A                </div>=0A            =
+   </div></td>=0A             </tr>=0A            </thead>=0A            <t=
+body style=3D"border-bottom: 0">=0A            </tbody>=0A            <tbod=
+y style=3D"border-bottom: 0">=0A             <tr class=3D"message-part-head=
+er">=0A              <td rowspan=3D"2" class=3D"user-avatar" style=3D"paddi=
+ng: 0; padding: 0; padding-top: 14px; vertical-align: top; width: 40px" wid=
+th=3D"40"><img class=3D"user-avatar" src=3D"https://avatar-management--avat=
+ars.us-west-2.prod.public.atl-paas.net/712020:4b9f7923-72c8-4e73-8845-2d23a=
+35e663e/4dbf8fdf-1be6-4bc6-9fd0-0be8282863f2/128" style=3D"border: 0; borde=
+r: 0; border-radius: 50.0%; width: 32px; height: 32px" width=3D"32" height=
+=3D"32"></td>=0A              <td colspan=3D"2" class=3D"header" style=3D"p=
+adding: 0; padding: 0; padding-top: 14px; padding-bottom: 6px; line-height:=
+ 20px; vertical-align: middle"><span class=3D"user-avatar-name" style=3D"co=
+lor: #42526e; font-weight: 500; display: inline-block; vertical-align: midd=
+le">Malav Chauhan</span> <span style=3D"color: #42526e; display: inline-blo=
+ck; vertical-align: middle"> 1:19&nbsp;PM&nbsp;CST</span></td>=0A          =
+   </tr>=0A             <tr class=3D"message-part-content">=0A             =
+ <td class=3D"label" style=3D"padding: 0; padding: 0; white-space: nowrap; =
+width: 1.0%; vertical-align: top; padding-right: 5px; line-height: 24px">Su=
+mmary:</td>=0A              <td class=3D"user-content-narrow" style=3D"padd=
+ing: 0; padding: 0; line-height: 24px"><span class=3D"diff-old" style=3D"ma=
+x-width: 700px; height: auto; display: inline-block; padding: 0 4px; backgr=
+ound-color: #ffebe6; text-decoration: line-through" bgcolor=3D"#ffebe6">Fin=
+d title</span> <img class=3D"ak-icon inline" alt=3D"=E2=86=92" id=3D"logo" =
+src=3D"cid:atl-generated-efbffb99-b4d9-495b-bec8-5e170843b175" style=3D"bor=
+der: 0; fill: #ffffff; height: 24px; width: 24px; border: 0; max-width: 700=
+px; height: auto; fill: #ffffff; height: 16px; width: 16px; vertical-align:=
+ middle" height=3D"16" width=3D"16"> <span class=3D"diff-new" style=3D"max-=
+width: 700px; height: auto; display: inline-block; padding: 0 4px; backgrou=
+nd-color: #e3fcef" bgcolor=3D"#e3fcef">Find title for the cart </span></td>=
+=0A             </tr>=0A            </tbody>=0A            <tbody style=3D"=
+border-bottom: 0">=0A             <tr>=0A              <td colspan=3D"3" he=
+ight=3D"12px" style=3D"padding: 0; padding: 0">&nbsp;</td>=0A             <=
+/tr>=0A             <tr>=0A              <td colspan=3D"3" style=3D"padding=
+: 0; padding: 0">=0A               <div class=3D"layout-action-button media=
+-print-hidden" style=3D"margin: 0 0 6px 0">=0A                <table style=
+=3D"border-spacing: 0; margin: 0; border-collapse: collapse; width: 100.0%;=
+ border-spacing: 0; margin: 0">=0A                 <tbody style=3D"border-b=
+ottom: 0">=0A                  <tr>=0A                   <td style=3D"paddi=
+ng: 0; padding: 0"><!--[if mso]>=0A                        <v:roundrect xml=
+ns:v=3D"urn:schemas-microsoft-com:vml"=0A                                  =
+   xmlns:w=3D"urn:schemas-microsoft-com:office:word"=0A                    =
+                 style=3D"width:130px;mso-wrap-style:none;mso-position-hori=
+zontal:center;"=0A                                     arcsize=3D"10%" stro=
+ke=3D"f" fillcolor=3D"#0052CC" href=3D"https://deepmistry.atlassian.net/bro=
+wse/MAL-7=3FatlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhODI=
+iLCJwIjoiaiJ9">=0A                            <w:anchorlock/>=0A           =
+                 <v:textbox inset=3D"38px,6px,38px,6px" style=3D"mso-fit-sh=
+ape-to-text:t">=0A                                <center>=0A              =
+          <![endif]--> <a class=3D"ak-button ak-button__appearance-primary"=
+ href=3D"https://deepmistry.atlassian.net/browse/MAL-7=3FatlOrigin=3DeyJpIj=
+oiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhODIiLCJwIjoiaiJ9" style=3D"color:=
+ #0052cc; text-decoration: none; align-items: baseline; box-sizing: border-=
+box; border-radius: 3px; border-width: 0; display: inline-flex; font-style:=
+ normal; font-size: inherit; height: 2.2857144em; line-height: 2.2857144em;=
+ margin: 0; outline: none; padding: 0 12px; text-align: center; transition:=
+ background 0.1s ease-out, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, =
+1.38); user-select: none; vertical-align: middle; white-space: nowrap; back=
+ground: #0052cc; color: #ffffff; text-decoration: none; font-family: -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fir=
+a Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; font-size: 14px; paddi=
+ng: 0 38px">View issue</a> <!--[if mso]>=0A                                =
+</center>=0A                            </v:textbox>=0A                    =
+    </v:roundrect>=0A                        <![endif]--></td>=0A          =
+        </tr>=0A                 </tbody>=0A                </table>=0A    =
+           </div></td>=0A             </tr>=0A            </tbody>=0A      =
+     </table></td>=0A         </tr>=0A         <tr>=0A          <td class=
+=3D"engagement-container" style=3D"padding: 0; padding: 0; padding-bottom: =
+12px; border-bottom: 2px solid #dfe1e6"></td>=0A         </tr>=0A         <=
+tr>=0A          <td class=3D"footer-container" style=3D"padding: 0; padding=
+: 0; padding-top: 12px">=0A           <table class=3D"footer" width=3D"100%=
+" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:=
+ 0; margin: 0; border-collapse: collapse; width: 100.0%; border-spacing: 0;=
+ margin: 0">=0A            <tbody style=3D"border-bottom: 0">=0A           =
+  <tr>=0A              <td style=3D"padding: 0; padding: 0">=0A            =
+   <table style=3D"border-spacing: 0; margin: 0; border-collapse: collapse;=
+ width: 100.0%; border-spacing: 0; margin: 0">=0A                <tbody sty=
+le=3D"border-bottom: 0">=0A                 <tr>=0A                  <td st=
+yle=3D"padding: 0; padding: 0"><small style=3D"color: #707070; font-size: 1=
+2px; line-height: 1.3333334; color: #707070; font-size: 12px; font-weight: =
+normal; line-height: 17px">Get Jira notifications on your phone! Download t=
+he Jira Cloud app for <a href=3D"https://play.google.com/store/apps/details=
+=3Fid=3Dcom.atlassian.android.jira.core&referrer=3Dutm_source%3DNotificatio=
+nLink%26utm_medium%3DEmail" style=3D"color: #0052cc; text-decoration: none"=
+>Android</a> or <a href=3D"https://itunes.apple.com/app/apple-store/id10069=
+72087=3Fpt=3D696495&ct=3DEmailNotificationLink&mt=3D8" style=3D"color: #005=
+2cc; text-decoration: none">iOS</a>.</small></td>=0A                 </tr>=
+=0A                 <tr>=0A                  <td style=3D"padding: 0; paddi=
+ng: 0">=0A                   <div class=3D"footer-content-actions-spacing" =
+style=3D"mso-line-height-rule: exactly; line-height: 4px; height: 4px; font=
+-size: 1px" height=3D"4">=0A                    &nbsp;=0A                  =
+ </div></td>=0A                 </tr>=0A                 <tr>=0A           =
+       <td class=3D"footer-actions-line-height" style=3D"padding: 0; paddin=
+g: 0; mso-line-height-rule: exactly; line-height: 15px"><small style=3D"col=
+or: #707070; font-size: 12px; line-height: 1.3333334; color: #707070; font-=
+size: 12px; font-weight: normal; line-height: 17px"> <a href=3D"https://dee=
+pmistry.atlassian.net/jira/settings/personal/notifications=3FemailPreferenc=
+es=3Dtrue&atlOrigin=3DeyJpIjoiNjY4ZjA0MzFkNjdjNGM1NGIzNjU4ZWY2MjhhNTJhODIiL=
+CJwIjoiaiJ9#emailpreferences" style=3D"color: #0052cc; text-decoration: non=
+e">Manage notifications</a> </small> <small style=3D"color: #707070; font-s=
+ize: 12px; line-height: 1.3333334; color: #707070; font-size: 12px; font-we=
+ight: normal; line-height: 17px"> &nbsp;=E2=80=A2&nbsp; </small> <small sty=
+le=3D"color: #707070; font-size: 12px; line-height: 1.3333334; color: #7070=
+70; font-size: 12px; font-weight: normal; line-height: 17px"> <a href=3D"ht=
+tps://surveys.atlassian.com/jfe/form/SV_9X3zi1X4q1gKsqF" style=3D"color: #0=
+052cc; text-decoration: none">Give feedback</a> </small> <small style=3D"co=
+lor: #707070; font-size: 12px; line-height: 1.3333334; color: #707070; font=
+-size: 12px; font-weight: normal; line-height: 17px"> &nbsp;=E2=80=A2&nbsp;=
+ </small> <small style=3D"color: #707070; font-size: 12px; line-height: 1.3=
+333334; color: #707070; font-size: 12px; font-weight: normal; line-height: =
+17px"> <a href=3D"https://www.atlassian.com/legal/privacy-policy" style=3D"=
+color: #0052cc; text-decoration: none">Privacy policy</a> </small></td>=0A =
+                </tr>=0A                </tbody>=0A               </table><=
+/td>=0A              <td width=3D"20" class=3D"desktop-only" style=3D"paddi=
+ng: 0; padding: 0; display: block">&nbsp;</td>=0A              <td class=3D=
+"right-align" style=3D"padding: 0; padding: 0; text-align: right">=0A      =
+         <div class=3D"desktop-only" style=3D"display: block">=0A          =
+      <img class=3D"jira-logo" src=3D"cid:atl-generated-757f2e47-10ed-44d4-=
+83b0-02f457d763c4" style=3D"border: 0; border: 0; height: 32px" height=3D"3=
+2">=0A               </div></td>=0A             </tr>=0A             <tr>=
+=0A              <td style=3D"padding: 0; padding: 0">=0A               <di=
+v class=3D"mobile-vertical-spacing mobile-only" style=3D"display: none; lin=
+e-height: 8px; height: 8px" height=3D"8">=0A                &nbsp;=0A      =
+         </div></td>=0A             </tr>=0A             <tr>=0A           =
+   <td style=3D"padding: 0; padding: 0">=0A               <div class=3D"mob=
+ile-only" style=3D"display: none">=0A                <img class=3D"jira-log=
+o" src=3D"cid:atl-generated-757f2e47-10ed-44d4-83b0-02f457d763c4" style=3D"=
+border: 0; border: 0; height: 32px" height=3D"32">=0A               </div><=
+/td>=0A             </tr>=0A            </tbody>=0A           </table></td>=
+=0A         </tr>=0A        </tbody>=0A       </table></td>=0A     </tr>=0A=
+    </tbody>=0A   </table><!--[if (gte mso 9)|(IE)]>=0A                    =
+</td>=0A                </tr>=0A            </table>=0A            <![endif=
+]-->=0A  </div>=0A =0D=0A<img border=3D"0" width=3D"1" height=3D"1" alt=3D"=
+" src=3D"https://atlas-trk.prd.msg.ss-inf.net/q/jYv4mVpSw5eZfM6VquUvuw~~/AA=
+AAAQA~/RgRnvMbhPlcLYXRsYXNzaWFudXNCCmXU4UHaZcf1K29SFW1pc3RyeW1hbjQxQGdtYWls=
+LmNvbVgEAAAAAA~~">=0D=0A</body>=0A</html>
+--_----wrpDML8MzwtFQguRLYm75g===_92/F6-19905-1E14AD56--
+--_----esHi5QRvJhZ/kkOVtVNidw===_92/F6-19905-1E14AD56
+Content-Type: image/png
+Content-Disposition: inline; filename="atl-generated-757f2e47-10ed-44d4-83b0-02f457d763c4"
+Content-Transfer-Encoding: base64
+Content-ID: <atl-generated-757f2e47-10ed-44d4-83b0-02f457d763c4>
+
+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
+RU5ErkJggg==
+--_----esHi5QRvJhZ/kkOVtVNidw===_92/F6-19905-1E14AD56
+Content-Type: image/png
+Content-Disposition: inline; filename="atl-generated-efbffb99-b4d9-495b-bec8-5e170843b175"
+Content-Transfer-Encoding: base64
+Content-ID: <atl-generated-efbffb99-b4d9-495b-bec8-5e170843b175>
+
+iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAG3RF
+WHRqaXJhLXN5c3RlbS1pbWFnZS10eXBlAGljb266KjlFAAAAoUlEQVRo3u2YQQ7CIBBFe7UOK+OG
+DhoXeoQCPXPpLTDRjSuDO0mc+l4ya/4jEGYYBgAAAIDfRPx8EE1l1Li6sHh7ApqKaHq8qjrNF8sC
+9iRcWLxoqrYlNJ4aEncX8g0JJJBA4o8kRo1H0bS9Ldijape2o/Gq9qyCwKfO0uwR+vqGTPncvMRT
+vBKe8IQnPOH3MVKaH+rtf6tY/9gCAACAvfMERv7d99auua0AAAAASUVORK5CYII=
+--_----esHi5QRvJhZ/kkOVtVNidw===_92/F6-19905-1E14AD56--
+
