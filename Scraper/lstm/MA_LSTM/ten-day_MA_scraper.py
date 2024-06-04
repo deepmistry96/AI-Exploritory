@@ -25,11 +25,9 @@ def calculate_moving_average(df):
     
     return clean_df[['10_day_MA']]
 
-# Taking input from user for the specific date to perform analysis
 specific_date = input("Enter the specific date (YYYY-MM-DD): ")
 specific_date = datetime.strptime(specific_date, '%Y-%m-%d')
 
-# Calculating start and end date for data fetch
 start_date = (specific_date - timedelta(days=365)).strftime('%Y-%m-%d')
 end_date = specific_date.strftime('%Y-%m-%d')
 
