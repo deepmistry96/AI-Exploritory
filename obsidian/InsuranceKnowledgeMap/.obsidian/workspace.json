@@ -4,36 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "df602c4812a4704a",
+        "id": "5eb1d8317759cd53",
         "type": "tabs",
         "children": [
           {
-            "id": "0308d48e20a34357",
+            "id": "0448e416ca6025f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Health/HMO.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9b75c10d148cecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Life/Life Insurance.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08c702cadad4123c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PandC/Accident Insurance.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "87cf35ec2162c6df",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8718da943e6d3f39",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -62,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "insurance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,12 +113,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "PandC/Accident Insurance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
+                "showSearch": true,
+                "searchQuery": "Insurance",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "PandC/Accident Insurance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "PandC/Accident Insurance.md"
               }
             }
           }
@@ -147,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,8 +173,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0308d48e20a34357",
+  "active": "08c702cadad4123c",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Insurance.md",
+    "PandC/Causalty Insurance.md",
+    "PandC/Accident Insurance.md",
+    "Life/Life Insurance.md",
+    "Life/Premium Finance.md",
+    "Health/HMO vs PPO.md",
+    "Health/HMO.md",
+    "Life/Annuities.md",
+    "Health/Health Insurance.md",
+    "Health",
+    "Life",
+    "PandC",
+    "Critical Illness Insurance.md",
+    "PandC/Auto Insurance.md",
+    "create a link.md",
+    "Umbrella Insurance.md",
+    "Vision Insurance.md",
+    "Short Term Health Insurance.md",
+    "Untitled.md",
+    "Health Insurance Subsidies.md",
+    "Travel Insurance.md",
+    "Life/Tax on Life Insurance.md",
+    "Required Insurances in the United States.md",
+    "Renters Insurance.md",
+    "Property Insurance.md",
+    "Property and Casualty.md",
+    "Private vs Public plans.md",
+    "Health/PPO.md",
+    "Pet Insurance.md"
   ]
 }
