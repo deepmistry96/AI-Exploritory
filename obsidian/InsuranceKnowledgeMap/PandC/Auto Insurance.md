@@ -3,30 +3,30 @@ Certainly! Auto [[insurance]] (also known as car insurance) is essential in the 
 ### Importance of Auto Insurance
 
 1. **Legal Requirement**: 
-   - Every state in the U.S. requires drivers to have a minimum amount of liability insurance. This ensures that if you cause an accident, you can cover the costs of the damage or injury you inflict on others.
+   - Every state in the U.S. requires drivers to have a minimum amount of [[liability insurance]]. This ensures that if you cause an accident, you can cover the costs of the damage or injury you inflict on others.
    
 2. **Financial Protection**:
-   - Auto insurance protects you from financial loss in case of accidents, theft, natural disasters, and other incidents that can damage your vehicle or injure you and others.
+   - Auto insurance protects you from financial loss in case of accidents, theft, [[natural disasters]], and other incidents that can damage your vehicle or injure you and others.
 
 3. **Medical Coverage**:
    - It can cover medical expenses for you, your passengers, and others involved in an accident.
 
 ### Components of Auto Insurance
 
-1. **Liability Coverage**:
-   - **Bodily Injury Liability (BIL)**: Covers medical expenses, lost wages, and legal fees if you're responsible for an accident that injures others.
-   - **Property Damage Liability (PDL)**: Covers the cost of damage you cause to another person's property (e.g., their car, fence, or building).
+1. **[[Liability Coverage]]**:
+   - **[[Bodily Injury Liability (BIL)]]**: Covers medical expenses, lost wages, and legal fees if you're responsible for an accident that injures others.
+   - **[[Property Damage Liability (PDL)]]**: Covers the cost of damage you cause to another person's property (e.g., their car, fence, or building).
 
-2. **Personal Injury Protection (PIP) or Medical Payments (MedPay)**:
+2. **[[Personal Injury Protection (PIP)]] or [[Medical Payments (MedPay)]]**:
    - Covers medical expenses for you and your passengers, regardless of who is at fault in an accident.
 
-3. **Uninsured/Underinsured Motorist Coverage**:
+3. **[[Uninsured/Underinsured Motorist Coverage]]**:
    - Protects you if you're involved in an accident with a driver who has no insurance or insufficient insurance.
 
-4. **Collision Coverage**:
+4. **[[Collision Coverage]]**:
    - Pays for damage to your vehicle resulting from a collision with another car or object, regardless of who is at fault.
 
-5. **Comprehensive Coverage**:
+5. **[[Comprehensive Coverage]]**:
    - Covers non-collision-related damage to your vehicle, such as theft, vandalism, fire, natural disasters, and hitting an animal.
 
 6. **Optional Coverages**:

@@ -1,4 +1,4 @@
-Health insurance subsidies are financial assistance programs designed to make health insurance more affordable for individuals and families. These subsidies are primarily available through the health insurance marketplaces established by the Affordable Care Act (ACA). They help reduce the cost of health insurance premiums and out-of-pocket expenses for eligible individuals. Here’s an in-depth look at health insurance subsidies:
+[[Health insurance subsidies]] are financial assistance programs designed to make health insurance more affordable for individuals and families. These [[subsidies]] are primarily available through the health insurance marketplaces established by the [[Affordable Care Act (ACA)]]. They help reduce the cost of health insurance premiums and out-of-pocket expenses for eligible individuals. Here’s an in-depth look at health insurance subsidies:
 
 ### Key Components of Health Insurance Subsidies
 

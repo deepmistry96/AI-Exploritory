@@ -1,4 +1,4 @@
-Long-term care insurance (LTCI) is a type of insurance designed to cover the costs of long-term care services, which are not typically covered by regular health insurance, Medicare, or Medicaid. These services include assistance with activities of daily living (ADLs) such as bathing, dressing, eating, and mobility, as well as care in various settings such as at home, in an assisted living facility, or in a nursing home. Here’s an in-depth look at long-term care insurance:
+Long-term care insurance (LTCI) is a type of insurance designed to cover the costs of long-term care services, which are not typically covered by regular health insurance, [[Medicare]], or [[Medicaid]]. These services include assistance with activities of daily living (ADLs) such as bathing, dressing, eating, and mobility, as well as care in various settings such as at home, in an assisted living facility, or in a nursing home. Here’s an in-depth look at long-term care insurance:
 
 ### Key Components of Long-Term Care Insurance
 

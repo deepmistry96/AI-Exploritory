@@ -1,0 +1,65 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"The Olympians\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 20992
+      }
+    },
+    {
+      "query": "path:\"The Titans\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path: \"Greek Mythical Creatures\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1989739
+      }
+    },
+    {
+      "query": "path:Cyclopes  ",
+      "color": {
+        "a": 1,
+        "rgb": 2238547
+      }
+    },
+    {
+      "query": "path:\"Greek Heros\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 1972521
+      }
+    },
+    {
+      "query": "path:Hecatoncheires  ",
+      "color": {
+        "a": 1,
+        "rgb": 7353139
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.9252288693772989,
+  "close": false
+}

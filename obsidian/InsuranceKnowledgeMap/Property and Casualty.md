@@ -1,23 +1,23 @@
-Property and casualty (P&C) insurance is a broad category of insurance coverage that helps protect individuals and businesses from financial losses related to property damage and liability. This type of insurance covers a wide range of policies, including homeowners, auto, and business insurance. Here’s an in-depth look at property and casualty insurance:
+Property and casualty (P&C) insurance is a broad category of insurance coverage that helps protect individuals and businesses from financial losses related to property damage and liability. This type of insurance covers a wide range of policies, including homeowners, auto, and business [[insurance]]. Here’s an in-depth look at property and casualty insurance:
 
 ### Key Components of Property and Casualty Insurance
 
 #### Property Insurance
-1. **Homeowners Insurance**:
+1. **[[Homeowners Insurance]]**:
    - **Dwelling Coverage**: Protects the physical structure of your home against damage from covered perils such as fire, wind, hail, and vandalism.
    - **Personal Property Coverage**: Covers your personal belongings, such as furniture, electronics, and clothing, against theft or damage.
    - **Liability Coverage**: Provides protection if someone is injured on your property and you are found legally responsible. It also covers damage you cause to someone else's property.
    - **Additional Living Expenses (ALE)**: Pays for additional costs if you need to live elsewhere while your home is being repaired.
 
-2. **Renters Insurance**:
+2. **[[Renters Insurance]]**:
    - Similar to homeowners insurance but tailored for renters.
    - Covers personal property, liability, and additional living expenses but does not cover the physical structure of the rental property.
 
-3. **Condo Insurance**:
+3. **[[Condo Insurance]]**:
    - Provides coverage for personal property, liability, and the interior of the condo unit.
    - Complements the condo association's master policy, which covers the building’s exterior and common areas.
 
-4. **Auto Insurance**:
+4. **[[Auto Insurance]]**:
    - **Liability Coverage**: Pays for bodily injury and property damage that you cause to others in an accident.
    - **Collision Coverage**: Covers damage to your vehicle from a collision with another vehicle or object.
    - **Comprehensive Coverage**: Covers damage to your vehicle from non-collision events such as theft, fire, vandalism, and natural disasters.

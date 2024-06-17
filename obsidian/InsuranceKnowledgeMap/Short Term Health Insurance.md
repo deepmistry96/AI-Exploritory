@@ -3,21 +3,21 @@ Short-term health insurance, also known as temporary health insurance, provides 
 ### Key Components of Short-Term Health Insurance
 
 #### Coverage Types
-1. **Basic Medical Care**:
+1. **[[Basic Medical Care]]**:
    - Doctor visits for illnesses or minor injuries.
    - Emergency room visits and hospital stays.
    - Surgeries and certain medical procedures.
 
-2. **Prescription Drugs**:
+2. **[[Prescription Drugs]]**:
    - Limited coverage for prescription medications, though specifics can vary significantly between policies.
 
-3. **Preventive Care**:
+3. **[[Preventive Care]]**:
    - Some plans may include basic preventive care, but this is often limited compared to standard health insurance plans.
 
-4. **Urgent Care**:
+4. **[[Urgent Care]]**:
    - Visits to urgent care facilities are usually covered, though co-pays or deductibles may apply.
 
-5. **Diagnostic Services**:
+5. **[[Diagnostic Services]]**:
    - Coverage for X-rays, lab tests, and other diagnostic procedures.
 
 ### Coverage Features
@@ -30,7 +30,7 @@ Short-term health insurance, also known as temporary health insurance, provides 
 - **Pre-existing Conditions**: Generally, pre-existing conditions are not covered.
 - **Limited Benefits**: Does not offer comprehensive coverage; benefits for maternity care, mental health services, and substance abuse treatment are typically excluded.
 - **No Guaranteed Renewability**: Unlike standard health insurance, short-term plans can deny renewal based on health status or other factors.
-- **Limited Protections**: Short-term health plans do not have to comply with Affordable Care Act (ACA) requirements, such as essential health benefits and protections for pre-existing conditions.
+- **Limited Protections**: Short-term health plans do not have to comply with [[Affordable Care Act (ACA)]] requirements, such as essential health benefits and protections for pre-existing conditions.
 
 ### How it Works
 1. **Purchase a Policy**: Individuals select and purchase a short-term health insurance plan based on their needs and the available options.

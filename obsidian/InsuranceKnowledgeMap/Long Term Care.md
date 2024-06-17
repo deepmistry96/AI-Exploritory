@@ -56,10 +56,10 @@ Long-term care (LTC) refers to a variety of services designed to meet the medica
 2. **Long-Term Care Insurance**:
    - Insurance specifically designed to cover the costs of long-term care services. Policies vary in terms of coverage, benefit amounts, and eligibility requirements.
    
-3. **Medicaid**:
+3. **[[Medicaid]]**:
    - A joint federal and state program that provides long-term care coverage for low-income individuals. Eligibility and benefits vary by state.
    
-4. **Medicare**:
+4. **[[Medicare]]**:
    - Primarily covers short-term skilled care and rehabilitation services. Does not cover long-term custodial care.
    
 5. **Veterans Benefits**:

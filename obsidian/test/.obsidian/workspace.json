@@ -11,8 +11,13 @@
             "id": "a42163a92ba6203c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "business/LLC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/cmake dependency managment.md",
+                "file": "business/LLC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/cmake dependency managment.md",
+                "file": "business/LLC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/cmake dependency managment.md"
+                "file": "business/LLC.md"
               }
             }
           }
@@ -141,14 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3377d816b3f51925",
+  "active": "a42163a92ba6203c",
   "lastOpenFiles": [
+    "Greek Mythology/Overview of Greek Mythology.md",
+    "religious practices of the ancient Greeks.md",
+    "myths.md",
+    "business/LLC.md",
+    "Greek Mythology",
     "LLM/LLM.md",
     "LLM/GLUs.md",
     "Development/cmake dependency managment.md",
     "LLM/Law datasets for RAG LLM demo.md",
     "LLM/gemma LLM model.md",
-    "business/LLC.md",
     "Development/c++.md",
     "Thermal Imaging.md",
     "business/LLC vs S-corp.md",
@@ -167,9 +176,6 @@
     "LLM/Attention.md",
     "LLM/FFN.md",
     "LLM/RAG.md",
-    "Normalization.md",
-    "LSTM.md",
-    "LLM/large language model.md",
     "Untitled.canvas",
     "LLM",
     "Untitled 8.canvas",

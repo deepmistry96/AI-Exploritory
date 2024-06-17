@@ -6,36 +6,36 @@ Understanding the differences between private and public health insurance plans 
 Private health insurance is coverage provided by private entities, such as insurance companies, employers, or other organizations. It includes a wide range of plans, each with different coverage options, provider networks, and costs.
 
 #### Types of Private Health Insurance
-1. **Employer-Sponsored Insurance (ESI)**:
+1. **[[Employer-Sponsored Insurance (ESI)]]**:
    - Provided by employers as part of employee benefits.
    - Premiums are typically shared between the employer and the employee.
 
 2. **Individual and Family Plans**:
    - Purchased directly by individuals or families through private insurance companies or health insurance marketplaces.
 
-3. **Health Maintenance Organization (HMO)**:
+3. **[[Health Maintenance Organization (HMO)]]**:
    - Requires members to use a network of doctors and hospitals.
    - Requires a primary care physician (PCP) and referrals for specialists.
    - Emphasizes preventive care and coordination.
 
-4. **Preferred Provider Organization (PPO)**:
+4. **[[Preferred Provider Organization (PPO)]]**:
    - Offers a network of preferred providers but allows out-of-network care at a higher cost.
    - No requirement for a PCP or referrals.
    - Greater flexibility in choosing healthcare providers.
 
-5. **Exclusive Provider Organization (EPO)**:
+5. **[[Exclusive Provider Organization (EPO)]]**:
    - Similar to HMOs but without the requirement for referrals.
    - Limited to a network of providers except in emergencies.
 
-6. **Point of Service (POS)**:
+6. **[[Point of Service (POS)*]]*:
    - Combines features of HMOs and PPOs.
    - Requires a PCP and referrals for specialists, but allows out-of-network care at a higher cost.
 
-7. **High-Deductible Health Plans (HDHP)**:
+7. **[[High-Deductible Health Plans (HDHP)]]**:
    - Lower premiums with higher deductibles.
-   - Often paired with Health Savings Accounts (HSAs) for tax-advantaged savings.
+   - Often paired with [[Health Savings Accounts (HSAs)]] for tax-advantaged savings.
 
-#### Advantages of Private Health Insurance
+#### Advantages of [[Private Health Insurance]]
 1. **Choice and Flexibility**:
    - Wide range of plans and provider networks.
    - Greater flexibility in choosing doctors, hospitals, and specialists.
@@ -56,26 +56,26 @@ Private health insurance is coverage provided by private entities, such as insur
 3. **Variability**:
    - Coverage and costs can vary widely between plans and insurers.
 
-### Public Health Insurance Plans
+### [[Public Health Insurance]] Plans
 
 #### Overview
 Public health insurance is provided by government programs and is designed to offer affordable healthcare coverage to specific groups, such as low-income individuals, elderly people, and those with disabilities.
 
 #### Types of Public Health Insurance
-1. **Medicare**:
+1. **[[Medicare]]**:
    - Federal program primarily for individuals aged 65 and older, but also covers some younger people with disabilities and those with End-Stage Renal Disease (ESRD).
    - Divided into Part A (hospital insurance), Part B (medical insurance), Part C (Medicare Advantage), and Part D (prescription drug coverage).
 
-2. **Medicaid**:
+2. **[[Medicaid]]**:
    - Joint federal and state program providing health coverage for low-income individuals and families.
    - Eligibility and benefits vary by state.
    - Covers a broad range of services, including hospital care, doctor visits, long-term care, and preventive services.
 
-3. **Children’s Health Insurance Program (CHIP)**:
+3. **[[Children’s Health Insurance Program (CHIP)]]**:
    - Provides health coverage for low-income children who do not qualify for Medicaid but cannot afford private insurance.
    - Jointly funded by federal and state governments.
 
-4. **Veterans Health Administration (VHA)**:
+4. **[[Veterans Health Administration (VHA)]]**:
    - Provides healthcare services to eligible veterans.
    - Includes a wide range of medical services, prescription drugs, and long-term care.
 

@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "dd3bef5b81164958",
+    "type": "split",
+    "children": [
+      {
+        "id": "07660058b951185f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "687b47c4f66c1243",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d33a76c1cac65c8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6d6177e52c98544",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdaf989d7e5d9396",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "72c9a9234a104524",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:(poseidon)",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "056c6c810356d042",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7654fa45ad9f7901",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bda91a078056abf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8a330a2e781a5e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed7aaf1036b92ca4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5a747ebe4fb628f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0d51958db354db67",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "687b47c4f66c1243",
+  "lastOpenFiles": [
+    "Allies of the Olympians.md",
+    "Aphrodite.md",
+    "Artemis.md",
+    "Athens.md",
+    "Cyclopes.md",
+    "Dionysus.md",
+    "God of the Underworld.md",
+    "Gods and Goddesses.md",
+    "Greek Heroes.md",
+    "Greek Mythical Creatures.md",
+    "Hephaestus.md",
+    "Hera and Heracles.md",
+    "Hesiod.md",
+    "Homer.md",
+    "Hestia.md",
+    "Hecatoncheires/Hecatoncheires.md",
+    "Titanomachy.md",
+    "Hecatoncheires/Gyges.md",
+    "Hecatoncheires/Cottus.md",
+    "Hecatoncheires/Briareus.md",
+    "Hecatoncheires.md",
+    "Hecatoncheires",
+    "Panathenaic Festival.md",
+    "Persephone.md",
+    "Greek Heros/Odysseus.md",
+    "Greek Heros/Theseus.md",
+    "Greek Heros/Perseus.md",
+    "Greek Heros",
+    "Cyclopes",
+    "Greek Mythical Creatures",
+    "The Titans",
+    "The Olympians"
+  ]
+}

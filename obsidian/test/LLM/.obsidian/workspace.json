@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "3fc257d2eddfab58",
+    "type": "split",
+    "children": [
+      {
+        "id": "63908653796488b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcfe88dbe864e2af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLM q, k, and v vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b8b1ea415ce408dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e37c5b0fda73233a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f04d078d9997feb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "37d5fd159302de42",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec1989d88a048816",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e34162a38e51a38",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f01a49026b49b0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ea069978ee0332c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LLM q, k, and v vectors.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2884dde93aad1f06",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LLM q, k, and v vectors.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8dd35927643f0ed2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8d20742c38e36787",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LLM q, k, and v vectors.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dcfe88dbe864e2af",
+  "lastOpenFiles": []
+}

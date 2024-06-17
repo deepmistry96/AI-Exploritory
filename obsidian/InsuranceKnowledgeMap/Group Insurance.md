@@ -1,4 +1,4 @@
-Group health insurance is a type of health insurance plan that covers a group of people, typically employees of a company or members of an organization. It is often provided as part of an employee benefits package, offering healthcare coverage to employees and sometimes their dependents. Here's an in-depth look at group health insurance:
+Group health insurance is a type of [[health insurance]] plan that covers a group of people, typically employees of a company or members of an organization. It is often provided as part of an employee benefits package, offering healthcare coverage to employees and sometimes their dependents. Here's an in-depth look at group health insurance:
 
 ### Key Components of Group Health Insurance
 
@@ -25,10 +25,10 @@ Group health insurance is a type of health insurance plan that covers a group of
    - Coverage for specialist visits and treatments, such as cardiology, oncology, and orthopedics.
 
 ### Coverage Features
-- **Premiums**: The cost of the insurance policy, typically shared between the employer and employees. Employers often cover a significant portion of the premium costs.
-- **Deductibles**: The amount employees must pay out-of-pocket before the insurance plan starts covering expenses.
-- **Co-pays and Co-insurance**: Fixed amounts or percentages that employees pay for medical services, such as doctor visits or prescription drugs.
-- **Out-of-Pocket Maximum**: The maximum amount employees have to pay out-of-pocket in a given year, after which the insurance covers 100% of covered services.
+- **[[Premiums]]**: The cost of the insurance policy, typically shared between the employer and employees. Employers often cover a significant portion of the premium costs.
+- **[[Deductibles]]**: The amount employees must pay out-of-pocket before the insurance plan starts covering expenses.
+- **[[Co-pays and Co-insurance]]**: Fixed amounts or percentages that employees pay for medical services, such as doctor visits or prescription drugs.
+- **[[Out-of-Pocket Maximum]]**: The maximum amount employees have to pay out-of-pocket in a given year, after which the insurance covers 100% of covered services.
 
 ### Advantages of Group Health Insurance
 - **Lower Costs**: Group health insurance plans often have lower premiums and out-of-pocket costs compared to individual health insurance plans, due to the risk being spread over a larger group.

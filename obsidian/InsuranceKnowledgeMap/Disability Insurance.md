@@ -1,13 +1,13 @@
-Disability Insurance, also known as disability income insurance, is designed to provide financial support to individuals who are unable to work due to a disabling illness or injury. It ensures a portion of their income is replaced, helping them manage living expenses and maintain financial stability during periods when they cannot earn a regular salary. Here's an in-depth look at disability insurance:
+Disability [[Insurance]], also known as disability income insurance, is designed to provide financial support to individuals who are unable to work due to a disabling illness or injury. It ensures a portion of their income is replaced, helping them manage living expenses and maintain financial stability during periods when they cannot earn a regular salary. Here's an in-depth look at disability insurance:
 
 ### Key Components of Disability Insurance
 
 #### Types of Disability Insurance
-1. **Short-Term Disability Insurance (STD)**:
+1. **[[Short-Term Disability Insurance (STD)]]**:
    - Provides benefits for a limited period, typically 3 to 6 months.
    - Covers temporary disabilities resulting from injuries, illnesses, or surgeries that prevent the individual from working.
 
-2. **Long-Term Disability Insurance (LTD)**:
+2. **[[Long-Term Disability Insurance (LTD)]]**:
    - Provides benefits for an extended period, often several years or until retirement age.
    - Covers long-term or permanent disabilities that significantly impact the individual’s ability to work.
 
@@ -20,9 +20,9 @@ Disability Insurance, also known as disability income insurance, is designed to 
   - **Any Occupation**: Provides benefits only if the policyholder is unable to perform any job for which they are reasonably qualified by education, training, or experience.
 
 ### Exclusions and Limitations
-- **Pre-Existing Conditions**: Disabilities arising from pre-existing conditions may be excluded or subject to a waiting period before coverage begins.
-- **Specific Conditions**: Some policies exclude coverage for disabilities caused by mental health issues, substance abuse, or self-inflicted injuries.
-- **Partial Disabilities**: Not all policies cover partial disabilities, where the individual can still perform some work but at a reduced capacity.
+- **[[Pre-Existing Conditions]]**: Disabilities arising from pre-existing conditions may be excluded or subject to a waiting period before coverage begins.
+- **[[Specific Conditions]]**: Some policies exclude coverage for disabilities caused by mental health issues, substance abuse, or self-inflicted injuries.
+- **[[Partial Disabilities]]**: Not all policies cover partial disabilities, where the individual can still perform some work but at a reduced capacity.
 
 ### How it Works
 1. **Purchase a Policy**: Individuals can purchase disability insurance through employers, private insurers, or professional associations.

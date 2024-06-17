@@ -1,6 +1,6 @@
 Health insurance regulations and options can vary significantly from state to state in the United States. States have the authority to implement their own health insurance marketplaces, expand Medicaid eligibility, and set additional insurance regulations beyond federal requirements. Here’s a detailed look at health insurance based on state:
 
-### State Health Insurance Marketplaces
+### State [[Health Insurance]] Marketplaces
 Under the Affordable Care Act (ACA), each state has a health insurance marketplace where residents can shop for and purchase health insurance plans. States can choose to run their own marketplace, partner with the federal government, or use the federal marketplace (HealthCare.gov).
 
 1. **State-Based Marketplaces (SBM)**:

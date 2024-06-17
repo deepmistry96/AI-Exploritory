@@ -3,16 +3,16 @@ Health Maintenance Organization (HMO) health insurance is a type of managed care
 ### Key Components of HMO Health Insurance
 
 #### Coverage Features
-1. **Primary Care Physician (PCP)**:
+1. **[[Primary Care Physician (PCP)]]**:
    - Members must select a PCP who acts as the main point of contact for all healthcare services.
    - The PCP coordinates care, provides referrals to specialists, and manages overall health.
 
 2. **Network of Providers**:
    - HMOs have a network of doctors, hospitals, and healthcare providers that members must use to receive coverage.
-   - Out-of-network care is typically not covered, except in emergencies.
+   - [[Out-of-network]] care is typically not covered, except in emergencies.
 
 3. **Referrals for Specialists**:
-   - To see a specialist, members usually need a referral from their PCP.
+   - To see a [[specialist]], members usually need a referral from their PCP.
    - This ensures that care is coordinated and that unnecessary specialist visits are avoided.
 
 4. **Preventive Care Emphasis**:

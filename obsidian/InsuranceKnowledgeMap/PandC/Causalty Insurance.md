@@ -1,24 +1,24 @@
-Casualty [[insurance]] is a broad category of coverage that protects against losses and liabilities not directly tied to the insured's property. It is often associated with liability insurance, which covers legal responsibility for injuries to other people or damage to other people's property. Here's an in-depth look at casualty insurance:
+Casualty [[insurance]] is a broad category of coverage that protects against [[losses]] and [[liabilities]] not directly tied to the [insured]'s property. It is often associated with liability insurance, which covers legal responsibility for injuries to other people or damage to other people's property. Here's an in-depth look at casualty insurance:
 
 ### Key Components of Casualty Insurance
 
 #### Types of Casualty Insurance
-1. **Liability Insurance**:
-   - **General Liability Insurance**: Protects businesses from claims involving bodily injuries and property damage resulting from business operations, products, or injuries that occur on the business premises.
-   - **Professional Liability Insurance**: Also known as Errors and Omissions (E&O) insurance, it covers professionals against claims of negligence or inadequate work.
-   - **Employer’s Liability Insurance**: Provides coverage to employers against claims made by employees for work-related injuries or illnesses not covered by workers' compensation.
+1. **[[Liability Insurance]]**:
+   - **[[General Liability Insurance]]**: Protects businesses from claims involving bodily injuries and property damage resulting from business operations, products, or injuries that occur on the business premises.
+   - **[[Professional Liability Insurance]]**: Also known as Errors and Omissions (E&O) insurance, it covers professionals against claims of negligence or inadequate work.
+   - **[[Employer’s Liability Insurance]]**: Provides coverage to employers against claims made by employees for work-related injuries or illnesses not covered by workers' compensation.
    - **Public Liability Insurance**: Covers claims made by the public for accidents and injuries in public spaces or business premises.
 
-2. **Commercial Auto Insurance**:
+2. **[[Commercial Auto Insurance]]**:
    - Covers vehicles used for business purposes. This includes liability coverage for bodily injuries and property damage caused by business vehicles.
 
-3. **Workers' Compensation Insurance**:
+3. **[[Workers' Compensation Insurance]]**:
    - Provides benefits to employees who suffer job-related injuries or illnesses. This includes medical expenses, lost wages, and rehabilitation costs.
 
-4. **Product Liability Insurance**:
+4. **[[Product Liability Insurance]]**:
    - Protects manufacturers, distributors, and retailers against claims arising from products that cause injury or damage.
 
-5. **Directors and Officers (D&O) Insurance**:
+5. **[[Directors and Officers (D&O) Insurance]]**:
    - Protects company directors and officers from personal losses if they are sued for wrongful acts while managing a company. It can also cover legal fees and other costs incurred in defending against such claims.
 
 #### Coverage Features

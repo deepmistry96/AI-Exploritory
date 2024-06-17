@@ -24,30 +24,20 @@
             "id": "c9b75c10d148cecb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Life/Life Insurance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
             "id": "08c702cadad4123c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PandC/Accident Insurance.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,12 +103,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PandC/Accident Insurance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
-                "searchQuery": "Insurance",
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PandC/Accident Insurance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PandC/Accident Insurance.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -173,36 +159,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08c702cadad4123c",
+  "active": "c9b75c10d148cecb",
   "lastOpenFiles": [
-    "Insurance.md",
-    "PandC/Causalty Insurance.md",
-    "PandC/Accident Insurance.md",
-    "Life/Life Insurance.md",
-    "Life/Premium Finance.md",
-    "Health/HMO vs PPO.md",
     "Health/HMO.md",
-    "Life/Annuities.md",
-    "Health/Health Insurance.md",
-    "Health",
-    "Life",
-    "PandC",
-    "Critical Illness Insurance.md",
-    "PandC/Auto Insurance.md",
-    "create a link.md",
+    "Out-of-network.md",
+    "Optional insurance plans.md",
+    "Public Health Insurance.md",
     "Umbrella Insurance.md",
-    "Vision Insurance.md",
-    "Short Term Health Insurance.md",
-    "Untitled.md",
-    "Health Insurance Subsidies.md",
+    "PandC/Accident Insurance.md",
     "Travel Insurance.md",
-    "Life/Tax on Life Insurance.md",
+    "Short Term Health Insurance.md",
     "Required Insurances in the United States.md",
     "Renters Insurance.md",
     "Property Insurance.md",
     "Property and Casualty.md",
     "Private vs Public plans.md",
-    "Health/PPO.md",
-    "Pet Insurance.md"
+    "Pet Insurance.md",
+    "Long-Term Care Insurance.md",
+    "Long Term Care.md",
+    "Insurance Subsidies.md",
+    "Insurance as a financial vehicle.md",
+    "Insurance.md",
+    "Health Insurance Subsidies.md",
+    "Health Insurance Regulation and Subsidies.md",
+    "Health insurance in the United states.md",
+    "Health Insurance based on state.md",
+    "Group Insurance.md",
+    "Disability Insurance.md",
+    "Critical Illness Insurance.md",
+    "Health",
+    "Life",
+    "PandC"
   ]
 }

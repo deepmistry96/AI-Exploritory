@@ -1,7 +1,7 @@
-In the United States, there are several types of subsidies that many individuals and families might be eligible for, depending on their income level, family size, and other factors. These subsidies are primarily aimed at assisting with healthcare, housing, education, and food. Here's an overview of some of the most common subsidies:
+In the United States, there are several types of [[subsidies]] that many individuals and families might be eligible for, depending on their income level, family size, and other factors. These subsidies are primarily aimed at assisting with healthcare, housing, education, and food. Here's an overview of some of the most common subsidies:
 
 ### 1. Healthcare Subsidies
-- **Premium Tax Credits**: Offered under the Affordable Care Act (ACA), these are available to individuals and families with incomes between 100% and 400% of the federal poverty level (FPL) who purchase health insurance through the ACA exchanges. These tax credits are intended to make health insurance premiums more affordable.
+- **[[Premium Tax Credits]]**: Offered under the Affordable Care Act (ACA), these are available to individuals and families with incomes between 100% and 400% of the federal poverty level (FPL) who purchase health insurance through the ACA exchanges. These tax credits are intended to make health insurance premiums more affordable.
 - **Cost-Sharing Reductions (CSRs)**: Also under the ACA, CSRs lower the amount you have to pay for deductibles, copayments, and coinsurance. These are available to those who choose a Silver plan on the marketplace and have incomes between 100% and 250% of the FPL.
 
 ### 2. Housing Subsidies

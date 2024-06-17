@@ -1,4 +1,4 @@
-Critical Illness [[Insurance]], also known as Critical Illness Cover or Dread Disease Insurance, is designed to provide a lump-sum payment to the insured if they are diagnosed with a specified critical illness. This financial support helps cover the costs associated with the illness, including medical treatments, living expenses, and other financial obligations. Here's an in-depth look at critical illness insurance:
+Critical Illness [[Insurance]], also known as Critical Illness Cover or Dread Disease Insurance, is designed to provide a [[lump-sum]] payment to the insured if they are diagnosed with a specified critical illness. This financial support helps cover the costs associated with the illness, including medical treatments, living expenses, and other financial obligations. Here's an in-depth look at critical illness insurance:
 
 ### Key Components of Critical Illness Insurance
 

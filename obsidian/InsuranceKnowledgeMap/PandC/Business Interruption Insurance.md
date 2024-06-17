@@ -3,15 +3,15 @@ Business Interruption Insurance (BII), also known as Business Income Insurance, 
 ### Key Components of Business Interruption Insurance
 
 #### Coverage Types
-1. **Lost Income**: Reimburses the business for income it would have earned if the interruption had not occurred. This is typically based on past financial records.
-2. **Operating Expenses**: Covers ongoing expenses that continue even when the business operations are halted, such as rent, utilities, and payroll.
-3. **Temporary Relocation**: Pays for the costs associated with moving and operating from a temporary location if the primary location is unusable.
+1. **[[Lost Income Coverage]]**: Reimburses the business for income it would have earned if the interruption had not occurred. This is typically based on past financial records.
+2. **[[Operating Expenses Coverage]]**: Covers ongoing expenses that continue even when the business operations are halted, such as rent, utilities, and payroll.
+3. **[[Temporary Relocation Coverage]]**: Pays for the costs associated with moving and operating from a temporary location if the primary location is unusable.
 4. **Extra Expenses**: Covers additional costs that are necessary to continue operations during the interruption period. This could include renting equipment or hiring temporary workers.
-5. **Contingent Business Interruption**: Provides coverage if the interruption is due to a supplier or customer that experiences a covered peril.
+5. **[[Contingent Business Interruption Coverage]]**: Provides coverage if the interruption is due to a supplier or customer that experiences a covered peril.
 
 ### Typical Coverage Features
-- **Policy Period**: The length of time the insurance covers the interruption, which typically includes a "waiting period" before coverage begins.
-- **Restoration Period**: The time it takes for the business to return to normal operations, which the insurance covers. This period can be capped depending on the policy terms.
+- **[[Policy Period]]**: The length of time the insurance covers the interruption, which typically includes a "waiting period" before coverage begins.
+- **[[Restoration Period]]**: The time it takes for the business to return to normal operations, which the insurance covers. This period can be capped depending on the policy terms.
 - **Perils Covered**: Commonly covers events such as fire, storms, theft, and vandalism. Some policies may include additional perils like earthquakes or floods as add-ons.
 
 ### Exclusions
