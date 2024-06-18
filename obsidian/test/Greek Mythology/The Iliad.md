@@ -1,0 +1,1 @@
+This epic poem is set during the Trojan War and focuses on a few weeks in the final year of the conflict. It follows the Greek hero Achilles' wrath and his conflict with King Agamemnon. The Iliad explores themes of glory, wrath, and fate, and offers a complex portrayal of heroism and the human condition in the context of war.

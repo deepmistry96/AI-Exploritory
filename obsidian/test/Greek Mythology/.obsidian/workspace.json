@@ -1,23 +1,18 @@
 {
   "main": {
-    "id": "f36781d01c9739ef",
+    "id": "dd3bef5b81164958",
     "type": "split",
     "children": [
       {
-        "id": "7082f8856f8e2334",
+        "id": "07660058b951185f",
         "type": "tabs",
         "children": [
           {
-            "id": "a42163a92ba6203c",
+            "id": "687b47c4f66c1243",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "business/LLC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -26,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "cbcdb00da264b7a7",
+    "id": "d33a76c1cac65c8d",
     "type": "split",
     "children": [
       {
-        "id": "40fdab1f6e646adf",
+        "id": "a6d6177e52c98544",
         "type": "tabs",
         "children": [
           {
-            "id": "34f549f3c84ad291",
+            "id": "cdaf989d7e5d9396",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,22 +39,22 @@
             }
           },
           {
-            "id": "ed1cdc32c0a45c32",
+            "id": "72c9a9234a104524",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "line:(poseidon)",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "3ab35dafe285ca24",
+            "id": "056c6c810356d042",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,44 +68,42 @@
     "width": 300
   },
   "right": {
-    "id": "7441c3aaf8cfb9b8",
+    "id": "7654fa45ad9f7901",
     "type": "split",
     "children": [
       {
-        "id": "d941514e28ba20e8",
+        "id": "4bda91a078056abf",
         "type": "tabs",
         "children": [
           {
-            "id": "3377d816b3f51925",
+            "id": "e8a330a2e781a5e7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "business/LLC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "tax",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "39ba221af37c46db",
+            "id": "ed7aaf1036b92ca4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "business/LLC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "e1df971bbd2eb6d6",
+            "id": "e5a747ebe4fb628f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,20 +114,19 @@
             }
           },
           {
-            "id": "d9738318dd2629d1",
+            "id": "0d51958db354db67",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "business/LLC.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,49 +138,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a42163a92ba6203c",
+  "active": "687b47c4f66c1243",
   "lastOpenFiles": [
-    "Greek Mythology/Overview of Greek Mythology.md",
-    "religious practices of the ancient Greeks.md",
-    "myths.md",
-    "business/LLC.md",
-    "Greek Mythology",
-    "LLM/LLM.md",
-    "LLM/GLUs.md",
-    "Development/cmake dependency managment.md",
-    "LLM/Law datasets for RAG LLM demo.md",
-    "LLM/gemma LLM model.md",
-    "Development/c++.md",
-    "Thermal Imaging.md",
-    "business/LLC vs S-corp.md",
-    "business",
-    "ML/Modeling stock ticker data.md",
-    "SAR/infiray p2 pro.md",
-    "Transformations.md",
-    "Tensors.md",
-    "business/tax.md",
-    "business/S-Corp.md",
-    "Question about US tax system..md",
-    "Development/dependency managment.md",
-    "Development/CMake.md",
-    "LLM/embeddings.md",
-    "LLM/Embedding.md",
-    "LLM/Attention.md",
-    "LLM/FFN.md",
-    "LLM/RAG.md",
-    "Untitled.canvas",
-    "LLM",
-    "Untitled 8.canvas",
-    "Untitled 7.canvas",
-    "Untitled 6.canvas",
-    "Untitled 5.canvas",
-    "Untitled 4.canvas",
-    "Untitled 3.canvas",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Development",
-    "ML",
-    "SAR",
-    "Cars"
+    "Allies of the Olympians.md",
+    "Aphrodite.md",
+    "Artemis.md",
+    "Athens.md",
+    "Cyclopes.md",
+    "Dionysus.md",
+    "God of the Underworld.md",
+    "Gods and Goddesses.md",
+    "Greek Heroes.md",
+    "Greek Mythical Creatures.md",
+    "Hephaestus.md",
+    "Hera and Heracles.md",
+    "Hesiod.md",
+    "Homer.md",
+    "Hestia.md",
+    "Hecatoncheires/Hecatoncheires.md",
+    "Titanomachy.md",
+    "Hecatoncheires/Gyges.md",
+    "Hecatoncheires/Cottus.md",
+    "Hecatoncheires/Briareus.md",
+    "Hecatoncheires.md",
+    "Hecatoncheires",
+    "Panathenaic Festival.md",
+    "Persephone.md",
+    "Greek Heros/Odysseus.md",
+    "Greek Heros/Theseus.md",
+    "Greek Heros/Perseus.md",
+    "Greek Heros",
+    "Cyclopes",
+    "Greek Mythical Creatures",
+    "The Titans",
+    "The Olympians"
   ]
 }
