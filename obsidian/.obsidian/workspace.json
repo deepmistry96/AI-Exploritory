@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "ebecda841a8d2ce1",
+    "type": "split",
+    "children": [
+      {
+        "id": "861e8e87090c398b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d06b84fafd8f772",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0414e397fb99274d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8afdaf2492804ebf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a14d1649fdf9d746",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6c2a429d58c45ed5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "insurance",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0e2846b3230fecac",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "548385b62db4632a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b74dde1d6bc953ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd845417e6f7ff6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f04d34e8dcbb6505",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9956e87dadaec0e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ffa9c0248f69649d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7d06b84fafd8f772",
+  "lastOpenFiles": [
+    "InsuranceKnowledgeMap/Out-of-network.md",
+    "InsuranceKnowledgeMap/Public Health Insurance.md",
+    "test/Greek Mythology/Hecatoncheires/Gyges.md",
+    "test/Greek Mythology/Hecatoncheires/Cottus.md",
+    "test/Greek Mythology/Hecatoncheires/Briareus.md",
+    "test/Greek Mythology/Hecatoncheires/Hecatoncheires.md",
+    "test/Greek Mythology/Hecatoncheires",
+    "test/Greek Mythology/Untitled",
+    "test/Greek Mythology/Greek Heros/Odysseus.md",
+    "test/Greek Mythology/Greek Heros/Theseus.md",
+    "test/Greek Mythology/Greek Heros/Perseus.md",
+    "test/Greek Mythology/Greek Heros/Achilles.md",
+    "test/Greek Mythology/Greek Heros",
+    "test/Greek Mythology/Cyclopes",
+    "test/Greek Mythology/Greek Mythical Creatures/Medusa.md",
+    "test/Greek Mythology/Greek Mythical Creatures/Chimera.md",
+    "test/Greek Mythology/Greek Mythical Creatures/Pegasus.md",
+    "test/Greek Mythology/Greek Mythical Creatures/Cerberus.md",
+    "test/Greek Mythology/Greek Mythical Creatures/Heracles.md",
+    "test/Greek Mythology/Greek Mythical Creatures/Minotaur.md",
+    "test/Greek Mythology/Greek Mythical Creatures",
+    "test/Greek Mythology/The Olympians/Hermes.md",
+    "test/Greek Mythology/The Olympians/Ares.md",
+    "test/Greek Mythology/The Titans/Tethys.md",
+    "test/Greek Mythology/The Titans/Rhea.md",
+    "test/Greek Mythology/The Titans/Phoebe.md",
+    "test/Greek Mythology/The Titans/Iapetus.md",
+    "test/Greek Mythology/The Titans/Hyperion.md",
+    "test/Greek Mythology/The Titans/Mnemosyne.md",
+    "test/Greek Mythology/The Titans/Themis.md",
+    "test/Greek Mythology/The Titans/Oceanus.md",
+    "test/Greek Mythology",
+    "test/Untitled"
+  ]
+}
