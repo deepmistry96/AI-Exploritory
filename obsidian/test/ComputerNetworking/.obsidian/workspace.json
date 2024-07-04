@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "126c18f1cd3aa048",
+    "type": "split",
+    "children": [
+      {
+        "id": "804e68355388563d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf74526d8c630ad4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4663b9404fb5c0d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "b91dacdfc176c819",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7cda63cda49a59d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e06887fa4663bb45",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "90a6a644852c6a8f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2b840e4ab8bf2260",
+    "type": "split",
+    "children": [
+      {
+        "id": "199d85a021e99d71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03d751ffbebc7274",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4a3c086e46c17dec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d3d9bdb7d9a533b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f822de0555a6dfe0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cf74526d8c630ad4",
+  "lastOpenFiles": [
+    "Highlevel_overview_of_objectives.md",
+    "PublicvsPrivateNetworks.md",
+    "Overview.md",
+    "Our_initial_approach.md",
+    "Firewalls.md"
+  ]
+}

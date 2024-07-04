@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "8578126b411c9b62",
+    "type": "split",
+    "children": [
+      {
+        "id": "db3a9a1075c69f7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2aff63fbbc2964c1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "94f2202a1ff00933",
+    "type": "split",
+    "children": [
+      {
+        "id": "722604ea28d01e97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f797f0f3bd76ec15",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46618c0ca559f056",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c43cf557e0a29ed1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b2751492f70d61a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f5edafbb6b33969",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9c332ce1cc1e630",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "74c056e2b1d84b57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e7b721e6f2cf2a19",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b3d91639912f7d46",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2aff63fbbc2964c1",
+  "lastOpenFiles": [
+    "C++/CMake.md",
+    "C++/cmake dependency managment.md",
+    "nvidia/cuda_compilation_process.PNG",
+    "nvidia/cuda_linking_process.PNG",
+    "nvidia/nvcc.md",
+    "nvidia/nvidia-tool-kit.md",
+    "dependency manegment.md",
+    "Python/Virtual Environments in VSCode.md",
+    "dependency management.md",
+    "Python/python.md",
+    "Building llama.cpp on google colab.md"
+  ]
+}
