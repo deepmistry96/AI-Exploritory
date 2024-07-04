@@ -1,10 +1,10 @@
 ChatGPT
 
-Yes, you can definitely break down a [[JPEG]] or JPG image into its primitive values using OpenCV (also known as cv2 in [[python]]). This involves reading the image file, which will allow you to access its pixel values. Here's a step-by-step guide on how to do it:
+Yes, you can definitely break down a [[JPEG]] or JPG image into its primitive values using OpenCV (also known as [[cv2]] in [[python]]). This involves reading the image file, which will allow you to access its pixel values. Here's a step-by-step guide on how to do it:
 
     Install OpenCV: If you haven't already installed OpenCV, you can do so using pip:
 
-**Read the Image**: Use OpenCV to read the image. This will load the image into a NumPy array.
+**Read the Image**: Use OpenCV to read the image. This will load the image into a [[NumPy]] array.
 
 **Access Pixel Values**: The image is now stored as a NumPy array. Each pixel's value can be accessed using array indexing. In a colored image, each pixel is typically represented by three values (Red, Green, Blue).
 

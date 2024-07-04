@@ -192,6 +192,7 @@ Here’s an outline of the specific layers found in the Gemma 2B model file:
 ### Sample Python Code for Loading Gemma Model
 
 Here's how you might load the Gemma 2B model layers using Hugging Face's `transformers` library:
+[[python]]
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer

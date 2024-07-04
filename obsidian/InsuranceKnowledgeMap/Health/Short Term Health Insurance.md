@@ -3,7 +3,7 @@ Short-term health insurance, also known as temporary health insurance, provides 
 ### Key Components of Short-Term Health Insurance
 
 #### Coverage Types
-1. **[[Basic Medical Care]]**:
+1. **[[Basic Medical Care Insurance]]**:
    - Doctor visits for illnesses or minor injuries.
    - Emergency room visits and hospital stays.
    - Surgeries and certain medical procedures.

@@ -27,7 +27,7 @@ Private health insurance is coverage provided by private entities, such as insur
    - Similar to HMOs but without the requirement for referrals.
    - Limited to a network of providers except in emergencies.
 
-6. **[[Point of Service (POS)*]]*:
+6. **[[Point of Service (POS)]]**:
    - Combines features of HMOs and PPOs.
    - Requires a PCP and referrals for specialists, but allows out-of-network care at a higher cost.
 

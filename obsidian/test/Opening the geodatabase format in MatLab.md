@@ -43,7 +43,7 @@ Here are a few key points about `readgeotable`:
 
 4. **No Database Toolbox Required**: Since `readgeotable` is a part of the Mapping Toolbox, you do not need the Database Toolbox to use this function.
 
-If your data is in a geodatabase (.gdb) format, using `readgeotable` directly might not be possible because it typically supports direct file access rather than database-style file structures like those in a .gdb. For geodatabase files, you would generally need to connect to the geodatabase using appropriate database or GIS tools, potentially with the support of the Database Toolbox if your approach involves SQL queries or database connections.
+If your data is in a [[geodatabase]] (.gdb) format, using `readgeotable` directly might not be possible because it typically supports direct file access rather than database-style file structures like those in a .gdb. For geodatabase files, you would generally need to connect to the geodatabase using appropriate database or GIS tools, potentially with the support of the Database Toolbox if your approach involves SQL queries or database connections.
 
 For straightforward file types like shapefiles or GeoJSON, `readgeotable` would be ideal. If you are specifically looking to work with a .gdb file, you might consider converting the geodatabase data into a format that is directly readable by `readgeotable`, or use other GIS software tools to handle the .gdb file and export the data to a compatible format for use in MATLAB.
 
