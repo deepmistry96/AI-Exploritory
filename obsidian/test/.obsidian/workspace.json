@@ -4,18 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "7082f8856f8e2334",
+        "id": "5032f472df21805c",
         "type": "tabs",
         "children": [
           {
-            "id": "a42163a92ba6203c",
+            "id": "ace053c6b28d1bb1",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "6799352a183a5928",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,11 +93,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "tax",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,7 +149,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a42163a92ba6203c",
+  "active": "6799352a183a5928",
   "lastOpenFiles": [
     "2024-06-15.md",
     "Development/Python",
@@ -176,6 +187,32 @@
     "Greek Mythology/The Olympians",
     "Greek Mythology/The Odyssey.md",
     "Greek Mythology/Hecatoncheires",
+    "ML/Indicators for analyzing stock tickers.md",
+    "ML/Activation function.md",
+    "Drone/Drone frame.md",
+    "Drone/FFMPeg.md",
+    "Drone/mediaMTX.md",
+    "Drone/modprobe.md",
+    "Drone/NumPy.md",
+    "Drone/pyfakewebcam.md",
+    "Drone/pythermal camera repository.md",
+    "SAR/image manipulation using python.md",
+    "Development/cmake dependency managment.md",
+    "Development/python.md",
+    "SAR/streaming data.md",
+    "Greek Mythology/Overview of Greek Mythology.md",
+    "Greek Mythology/Hephaestus.md",
+    "Greek Mythology/The Labors of Hercules.md",
+    "myths.md",
+    "Greek Mythology/The Olympians/Ares.md",
+    "Greek Mythology/Aphrodite.md",
+    "LLM/Token.md",
+    "LLM/RAG.md",
+    "JPEG.md",
+    "Development/OpenCV.md",
+    "query vector.md",
+    "Development/firewall.md",
+    "Drone/V4l2loopback.md",
     "Greek Mythology",
     "business",
     "Untitled.canvas",

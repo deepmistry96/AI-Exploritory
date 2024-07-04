@@ -77,3 +77,4 @@ Consider a content moderation system:
 By integrating antiprompts into both training and inference processes, developers can create more robust, safe, and reliable AI systems that are better equipped to handle a wide range of real-world scenarios.
 
 
+The antiprompt consists of [[tokens]] 

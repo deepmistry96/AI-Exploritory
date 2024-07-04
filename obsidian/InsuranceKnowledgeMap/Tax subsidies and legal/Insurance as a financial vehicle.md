@@ -1,7 +1,7 @@
 
 Health insurance can be considered a [[financial vehicle]] because it manages both routine and unexpected health-related expenses in a way that stabilizes an individual's financial health. Here’s how health insurance functions as a financial vehicle:
 
-1. **Risk Management**: Health insurance reduces the financial risk associated with high medical costs. By paying a regular premium, an individual transfers the risk of incurring large medical expenses to the insurance provider. This is similar to other financial instruments that mitigate risk, such as hedging investments in financial markets.
+1. **Risk Management**: Health insurance reduces the [[financial]] risk associated with high medical costs. By paying a regular premium, an individual transfers the risk of incurring large medical expenses to the insurance provider. This is similar to other financial instruments that mitigate risk, such as hedging investments in financial markets.
 
 2. **Financial Planning and Stability**: Regular premium payments allow individuals to plan their finances without needing to reserve large amounts of cash for potential medical emergencies. This can free up personal cash flow for other financial goals like investing, saving for retirement, or education.
 

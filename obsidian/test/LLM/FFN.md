@@ -1,6 +1,6 @@
-Feed-forward networks (FFNs) are a fundamental component of large language models, particularly those based on the Transformer architecture. These networks play a crucial role in processing and transforming the input data at various stages of the model. Here's a detailed explanation of feed-forward networks in this context:
+[[Feed-forward networks]] (FFNs) are a fundamental component of large language models, particularly those based on the Transformer architecture. These networks play a crucial role in processing and transforming the input data at various stages of the model. Here's a detailed explanation of feed-forward networks in this context:
 
-### Feed-Forward Networks in Large Language Models
+### [[Feed-Forward Networks]] in Large Language Models
 
 #### Overview
 

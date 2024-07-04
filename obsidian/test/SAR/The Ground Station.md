@@ -1,0 +1,6 @@
+The ground station fills an important purpose with our set up. We don't want to be doing compute all the time in the air. This may not be the smartest approach right now, but I think the benefits are that a lot of the challenges of doing intensive Computations in the air is going to be very detrimental to the length that the drone can fly in the air.
+
+
+Part of the reason is that being able to compute more means that you need to have more hardware, which means more weight, which means more battery which means more everything. If we can stream the state down reliably, then there's no point of us doing it in the air we may be able to stream it down faster calculate it and then send it back up faster than the airbourne machine can do it all on board.
+
+One thing that we've noticed is that if we do need to have calculations done in the air, then we can use the Mac mini Apple metal platform to be a really good alternative for the Jetson. The jetson actually doesn't do very well ages, we can really see where there's performance that can be had From the Apple platform. The apple metal silicon is much more subsidized than the Jetson nano's 
