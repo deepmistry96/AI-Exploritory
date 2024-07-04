@@ -20,7 +20,7 @@ The structure of [[health insurance]] in the United States is complex, involving
 - **[[Health Maintenance Organizations (HMOs)]]**: Require members to obtain health care services from an in-network provider. Typically emphasizes preventive care.
 - **[[Preferred Provider Organizations (PPOs)]]**: Provide more flexibility when selecting a doctor or hospital. They also offer out-of-network service coverage, but at a higher out-of-pocket cost.
 - **[[Exclusive Provider Organizations (EPOs)]]**: A managed care plan where services are covered only if you use doctors, specialists, or hospitals in the plan’s network (except in an emergency).
-- **[[Point of Service (POS)]]**: Combines elements of both HMOs and PPOs. Typically, you need a [[primary care doctor]] and need referrals to see [[specialists]], but you may also use [[out-of-network]] [[providers]] at a higher cost.
+- **[[Point of Service (POS)]]**: Combines elements of both HMOs and PPOs. Typically, you need a [[primary care doctor]] and need referrals to see [[specialists]], but you may also use [[Out-of-network]] [[providers]] at a higher cost.
 
 ### 4. Financing and Payment Models
 

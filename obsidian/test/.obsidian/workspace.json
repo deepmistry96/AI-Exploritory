@@ -4,23 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "7082f8856f8e2334",
+        "id": "5032f472df21805c",
         "type": "tabs",
         "children": [
           {
-            "id": "a42163a92ba6203c",
+            "id": "ace053c6b28d1bb1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "6799352a183a5928",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
               "state": {
-                "file": "business/LLC.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "currentVersion": "1.6.5"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,12 +92,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "business/LLC.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
-                "searchQuery": "tax",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -103,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "business/LLC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +129,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "business/LLC.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,36 +148,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a42163a92ba6203c",
+  "active": "6799352a183a5928",
   "lastOpenFiles": [
-    "Greek Mythology/Overview of Greek Mythology.md",
-    "religious practices of the ancient Greeks.md",
-    "myths.md",
-    "business/LLC.md",
-    "Greek Mythology",
-    "LLM/LLM.md",
-    "LLM/GLUs.md",
+    "ML/Indicators for analyzing stock tickers.md",
+    "ML/Activation function.md",
+    "Drone/Drone frame.md",
+    "Drone/FFMPeg.md",
+    "Drone/mediaMTX.md",
+    "Drone/modprobe.md",
+    "Drone/NumPy.md",
+    "Drone/pyfakewebcam.md",
+    "Drone/pythermal camera repository.md",
+    "SAR/image manipulation using python.md",
     "Development/cmake dependency managment.md",
-    "LLM/Law datasets for RAG LLM demo.md",
-    "LLM/gemma LLM model.md",
-    "Development/c++.md",
-    "Thermal Imaging.md",
-    "business/LLC vs S-corp.md",
-    "business",
-    "ML/Modeling stock ticker data.md",
-    "SAR/infiray p2 pro.md",
-    "Transformations.md",
-    "Tensors.md",
-    "business/tax.md",
-    "business/S-Corp.md",
-    "Question about US tax system..md",
-    "Development/dependency managment.md",
-    "Development/CMake.md",
-    "LLM/embeddings.md",
-    "LLM/Embedding.md",
-    "LLM/Attention.md",
-    "LLM/FFN.md",
+    "Development/python.md",
+    "SAR/streaming data.md",
+    "Greek Mythology/Overview of Greek Mythology.md",
+    "Greek Mythology/Hephaestus.md",
+    "Greek Mythology/The Labors of Hercules.md",
+    "myths.md",
+    "Greek Mythology/The Olympians/Ares.md",
+    "Greek Mythology/Aphrodite.md",
+    "LLM/Token.md",
     "LLM/RAG.md",
+    "JPEG.md",
+    "Development/OpenCV.md",
+    "query vector.md",
+    "Development/firewall.md",
+    "Drone/V4l2loopback.md",
+    "Greek Mythology",
+    "business",
     "Untitled.canvas",
     "LLM",
     "Untitled 8.canvas",

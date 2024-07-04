@@ -11,32 +11,60 @@
       "query": "path:PandC  ",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 16384000
       }
     },
     {
       "query": "path:Life  ",
       "color": {
         "a": 1,
-        "rgb": 14069084
+        "rgb": 16098048
       }
     },
     {
       "query": "path:Health  ",
       "color": {
         "a": 1,
-        "rgb": 11392604
+        "rgb": 11206400
+      }
+    },
+    {
+      "query": "path:Employer  ",
+      "color": {
+        "a": 1,
+        "rgb": 7935
+      }
+    },
+    {
+      "query": "path:\"Tax subsidies and legal\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 65450
+      }
+    },
+    {
+      "query": "path:Uninsured  ",
+      "color": {
+        "a": 1,
+        "rgb": 43775
+      }
+    },
+    {
+      "query": "line:(\"car\")",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
       }
     },
     {
       "query": "",
       "color": {
         "a": 1,
-        "rgb": 6084188
+        "rgb": 11361494
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
@@ -46,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0199056353346965,
-  "close": true
+  "scale": 0.9215887792934893,
+  "close": false
 }

@@ -41,18 +41,32 @@
         "a": 1,
         "rgb": 11403519
       }
+    },
+    {
+      "query": "path:Drone  ",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "path:\"Greek Mythology\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
+  "collapse-forces": false,
+  "centerStrength": 0.385986328125,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 296,
-  "scale": 0.6850576156385341,
-  "close": true
+  "scale": 0.473999123220752,
+  "close": false
 }
