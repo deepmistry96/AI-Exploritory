@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#resume_skill",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -72,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,6 +151,42 @@
   },
   "active": "6799352a183a5928",
   "lastOpenFiles": [
+    "2024-06-15.md",
+    "Development/Python",
+    "Development/C++",
+    "Development/nvidia/nvidia-tool-kit.md",
+    "Development/Building llama.cpp on google colab.md",
+    "Development/nvidia/nvcc.md",
+    "Development/nvidia/cuda_linking_process.PNG",
+    "SAR/Telemetry Wiring for Drone.md",
+    "Development/nvidia/cuda_compilation_process.PNG",
+    "Development/nvidia",
+    "Development/New folder",
+    "Greek Mythology/Greek Mythical Creatures/Pegasus.md",
+    "Greek Mythology/Greek Mythical Creatures/Minotaur.md",
+    "Greek Mythology/Greek Mythical Creatures/Heracles.md",
+    "Greek Mythology/Greek Mythical Creatures/Medusa.md",
+    "Greek Mythology/Greek Mythical Creatures/Chimera.md",
+    "Greek Mythology/Greek Mythical Creatures/Cerberus.md",
+    "Greek Mythology/Greek Mythical Creatures",
+    "Greek Mythology/Greek Heros/Theseus.md",
+    "Greek Mythology/Greek Heros/Perseus.md",
+    "Greek Mythology/Greek Heros/Odysseus.md",
+    "Greek Mythology/Greek Heros/Achilles.md",
+    "Greek Mythology/Greek Heros",
+    "Greek Mythology/The Olympians/Zeus.md",
+    "Greek Mythology/The Olympians/Poseidon.md",
+    "Greek Mythology/The Olympians/Olympians.md",
+    "Greek Mythology/The Olympians/Hermes.md",
+    "Greek Mythology/The Olympians/Hera.md",
+    "Greek Mythology/The Olympians/Hades.md",
+    "Greek Mythology/The Olympians/Demeter.md",
+    "Greek Mythology/The Olympians/Athena.md",
+    "Greek Mythology/The Olympians/Ares.md",
+    "Greek Mythology/The Olympians/Apollo.md",
+    "Greek Mythology/The Olympians",
+    "Greek Mythology/The Odyssey.md",
+    "Greek Mythology/Hecatoncheires",
     "ML/Indicators for analyzing stock tickers.md",
     "ML/Activation function.md",
     "Drone/Drone frame.md",
@@ -179,7 +216,6 @@
     "Greek Mythology",
     "business",
     "Untitled.canvas",
-    "LLM",
     "Untitled 8.canvas",
     "Untitled 7.canvas",
     "Untitled 6.canvas",
@@ -187,10 +223,6 @@
     "Untitled 4.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Development",
-    "ML",
-    "SAR",
-    "Cars"
+    "Untitled 1.canvas"
   ]
 }

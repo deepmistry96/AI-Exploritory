@@ -1,6 +1,6 @@
 Can you show me how to run a virtual environment in visual studio code?
 
-Running a virtual environment in Visual Studio Code for [[python]] development is straightforward and improves project dependency management. Here's a step-by-step guide:
+Running a virtual environment in Visual Studio Code for [[python]] development is straightforward and improves project [[dependency management]]. Here's a step-by-step guide:
 
 ### 1. Install Python and Visual Studio Code
 Ensure you have Python and Visual Studio Code installed on your system. Python can be downloaded from the official website, and Visual Studio Code can be found at its respective site. Make sure to also install the Python extension for Visual Studio Code, available from the marketplace within the editor.

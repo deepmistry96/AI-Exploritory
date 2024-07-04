@@ -1,4 +1,4 @@
-I am having some issues with a [[dependency managment]] when I try to run [[CMake]]. Can you help with with this please.
+I am having some issues with a [[dependency management]] when I try to run [[CMake]]. Can you help with with this please.
 
 Certainly, I'd be happy to help with your CMake issue. Could you please provide more details about the problem? Specifically, it would be helpful to know:
 
